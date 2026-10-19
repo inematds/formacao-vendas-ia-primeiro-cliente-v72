@@ -1,0 +1,264 @@
+{
+  "slug": "piramide",
+  "num": 1,
+  "menu": "Pyramid",
+  "titulo": "What loses value and what stays",
+  "titulo_curto": "What loses value",
+  "minutos": 16,
+  "lead": "Selling AI is not one single thing. It comes in layers: some become more valuable over time, others turn into a commodity and the price collapses. Building a website, a store or a bot has become easy, and anyone who sells only that ends up competing on price. This lesson separates the layers and builds your portfolio on the base that lasts.",
+  "objetivo": "separate the build offers, which lose value, from the trust offers, which accumulate, and put together your portfolio of 4 offers.",
+  "competencias": [
+    "separar-oferta-que-comoditiza",
+    "montar-portfolio-de-ofertas",
+    "calcular-margem-por-projeto"
+  ],
+  "aprende": [
+    {
+      "t": "Read the AI money pyramid: high ticket × useful life"
+    },
+    {
+      "t": "Choose the right way in when you are starting from zero"
+    },
+    {
+      "t": "Look at margin, not revenue"
+    },
+    {
+      "t": "Build a portfolio of 4 offers where building is part of a service"
+    }
+  ],
+  "hero_alt": "Pyramid of stone blocks on a table: a wide, solid base, with the block at the top cracked.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The AI money pyramid",
+      "sub": "From top to base: the ticket goes down, the useful life goes up. Click on each layer.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "robo",
+          "titulo": "One-off build",
+          "sub": "website, store, bot, simple automation",
+          "detalhe": "It sells well today, but anyone can learn to put one together in an afternoon, and the tools themselves already generate the flow from a single sentence. This is the layer that loses the most value. Sell it if it pays the bills; don't build your identity on it."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Review",
+          "sub": "check what was built",
+          "detalhe": "The company already has a bot, agent or app made by AI and doesn't know if it can be trusted. Reviewing permissions, data and what the agent does when it doesn't know is a service that grows along with the amount of things being built."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Monthly advisory",
+          "sub": "adjust when it breaks",
+          "detalhe": "Whoever already has something running wants someone nearby to adjust it. The advisory grows out of the delivery and is what keeps you from starting over from zero every month."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Diagnosis and teaching",
+          "sub": "the base that compounds",
+          "forte": true,
+          "detalhe": "Every company you diagnose improves the questions for the next one. The material from one training gets reused in the next. And whoever trusts you buys again without getting quotes from competitors. It is the only layer that becomes more valuable the longer you stay in it."
+        }
+      ],
+      "legenda": "Your identity stays at the base: \"I help companies trust what AI does,\" not \"I build voice agents.\"",
+      "dica": "In Professional 2030 the base has a name: diagnose, review, follow up and teach."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The four ways in",
+      "sub": "Four reasons a company pays someone to run AI. They are not equally good.",
+      "passos": [
+        {
+          "titulo": "Lack of knowledge",
+          "sub": "the window that closes",
+          "texto": [
+            "The client pays a lot because they don't know how simple it is.",
+            "It disappears as soon as the topic becomes a popular tutorial. Use it as cash flow, never as a plan."
+          ]
+        },
+        {
+          "titulo": "Free sample",
+          "sub": "the door that opens the next one",
+          "texto": [
+            "You teach or diagnose something small for free, the person sees real value and accepts a trial project.",
+            "It is the most reliable route for someone starting from zero."
+          ],
+          "exemplo": {
+            "rot": "Starting from zero",
+            "texto": "A well-done free diagnosis opens a door that no email ever will."
+          }
+        },
+        {
+          "titulo": "Unfair advantage",
+          "sub": "the industry where you already lived",
+          "texto": [
+            "Did you work for years in logistics, accounting or insurance? Sell there.",
+            "You already speak the language, know the rules and know where it hurts."
+          ]
+        },
+        {
+          "titulo": "Appearance pressure",
+          "sub": "the company that needs to show action",
+          "texto": [
+            "Large companies get asked internally: \"what are we doing about AI?\"",
+            "That's where training and consulting reach the highest fees, but a beginner rarely gets there in the first year."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Revenue is not profit",
+      "sub": "The number that shows up in screenshots is always revenue. On its own, it tells you nothing.",
+      "passos": [
+        {
+          "titulo": "Margin per project",
+          "sub": "the number that matters",
+          "texto": [
+            "One big contract that pays a team can leave almost nothing. A smaller project done by you can leave much more.",
+            "A healthy benchmark for an operation with subcontractors: net margin between 35% and 45%."
+          ]
+        },
+        {
+          "titulo": "Real hours",
+          "sub": "including the ones that came to nothing",
+          "texto": [
+            "Count the hours spent on proposals and meetings that didn't close.",
+            "A project that's approved but not paid is a loss with a deadline."
+          ]
+        },
+        {
+          "titulo": "Pieces that pull each other",
+          "sub": "a month is a sum",
+          "texto": [
+            "The audit uncovers the problem; fixing that problem is the next sale.",
+            "People who have learned to use it ask for training; people who have something running ask for ongoing support."
+          ],
+          "exemplo": {
+            "rot": "Careful",
+            "texto": "Monthly advisory usually lasts two to three months. The antidote is in lesson 8: show the month 5 map in month 2."
+          }
+        },
+        {
+          "titulo": "The mistakes that sink you",
+          "sub": "it's not the technology",
+          "texto": [
+            "Over-engineering, building on rotten data, promising a deadline that depends on third parties, picking a niche without data, and charging while apologizing.",
+            "Speak more simply than seems necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The one-line calculation before you accept any project, and the portfolio prompt.",
+      "blocos": [
+        {
+          "rot": "The one-line calculation",
+          "icone": "lista",
+          "conteudo": "PROJETO: <nome>\nPreço: <valor>  ·  Horas estimadas: <h>  ·  Custo de terceiros: <valor>\nMargem = (preço − custo de terceiros − horas × <sua hora>) ÷ preço = <%>\n\nSe a margem não fecha em pelo menos um terço:\n[ ] o preço sobe   [ ] o escopo encolhe   [ ] eu recuso"
+        },
+        {
+          "rot": "Prompt · 90-day portfolio",
+          "icone": "chat",
+          "conteudo": "You are my offer strategist. I'm going to build an AI services business\nfor the next 90 days, selling trust: diagnosing,\nreviewing, supporting and teaching. Building only comes in as part of one\nof those services.\n\nMy context:\n- Industry where I already have real experience: <setor, ou \"nenhum\">\n- What I already know how to build today: <liste, mesmo que pouco>\n- Hours per week available: <número>\n- How much I need to bill per month for this to be worth it: <valor>\n\nBuild for me:\n1. FOUR offers, from the easiest to sell to the hardest. For each\n   one: name, what's included, what's left out, delivery time,\n   price range and why a client would buy THIS one.\n2. The SEQUENCE: which offer opens the door to which, and the sentence I use\n   to propose the next one after delivering the previous one.\n3. The MATH: how many sales of each offer I need per month, with the hours\n   I have. If it doesn't add up, say so plainly and propose what to cut.\n4. Mark which offers will probably be commoditized in 12 months.\n\nDon't invent demand. If information is missing, ask before guessing."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Save your answers in a file with today's date. Read them again in 90 days.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your portfolio of 4 offers",
+          "min": "30 min",
+          "texto": "Run the portfolio prompt with your context. Rewrite the result until every offer is a diagnosis, review, ongoing support or teaching; if there is building, it shows up inside one of those services.",
+          "pronto": "the file has 4 offers with what's left out of each one, the sequence between them and the math closed in numbers; no offer is just \"I build.\""
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The one-line calculation",
+          "min": "10 min",
+          "texto": "Take your entry offer and fill in the one-line calculation with price, hours and third-party cost.",
+          "pronto": "the margin is calculated in % and, if it came out below one third, you marked what changes: price, scope or decline."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which layer of the pyramid becomes more valuable the longer you stay in it?",
+          "opcoes": [
+            "Voice agents, because the ticket is high",
+            "Diagnosis and teaching, because knowledge and material accumulate",
+            "Simple automation, because everyone needs it"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Each diagnosis improves the next one, and the training material gets reused. High ticket and long life point in opposite directions: the voice agent pays well today and disappears."
+        },
+        {
+          "p": "You're starting from zero, with no background in any industry. Which door do you go in through?",
+          "opcoes": [
+            "Pressure to look the part, aiming at big companies",
+            "Free sample: a small, well-done diagnostic",
+            "Unfamiliarity, charging a lot while you give it away"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "With no reputation, the free sample and the unfair advantage are what's left. Pressure to look the part demands a track record; unfamiliarity is a window that closes."
+        },
+        {
+          "p": "A big monthly advisory contract and a small project you did alone. Which number decides which one is better?",
+          "opcoes": [
+            "Each one's revenue",
+            "The net margin left at the end",
+            "The number of clients"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Revenue alone is misleading. The big contract can leave almost nothing after you pay the team. Look at the margin: a healthy range is between 35% and 45%."
+        },
+        {
+          "p": "Which offer in this portfolio is most likely to lose value within 12 months?",
+          "opcoes": [
+            "A diagnostic of how the company uses AI",
+            "Building a chatbot for the website",
+            "Training the team to use what was delivered"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Standalone building is the layer that commoditizes the most. The bot can keep existing, but as part of a diagnostic, review or monthly advisory service."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The top commoditizes, the base compounds",
+          "texto": "Sell the upper layers if they pay the bills; your identity stays in the base."
+        },
+        {
+          "t": "Four doors",
+          "texto": "Starting from zero, go in through a free sample or through the industry where you've already lived."
+        },
+        {
+          "t": "Margin, not revenue",
+          "texto": "A one-line calculation before you accept: below a third, something has to change."
+        },
+        {
+          "t": "Pieces that pull each other",
+          "texto": "An audit pulls in fixes, which pull in training, which pulls in monthly advisory."
+        }
+      ]
+    }
+  ]
+}

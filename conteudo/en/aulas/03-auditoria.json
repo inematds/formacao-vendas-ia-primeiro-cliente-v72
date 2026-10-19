@@ -1,0 +1,307 @@
+{
+  "slug": "auditoria",
+  "num": 3,
+  "menu": "Audit",
+  "titulo": "The AI audit in 4 steps",
+  "titulo_curto": "AI audit",
+  "minutos": 22,
+  "lead": "The AI audit is the most effective service for getting into a company that has never heard of you. The client walks away with a document they keep, show to their partner, and use to decide: what AI the company already uses, what risks that brings, and what to do in the next 30 days. And it starts before the first question, with written authorization.",
+  "objetivo": "conduct an AI audit with written authorization, an inventory of apps and agents, risks, and a report with a 30-day plan.",
+  "competencias": [
+    "pedir-autorizacao-por-escrito",
+    "inventariar-apps-e-agentes",
+    "triar-riscos-de-dados-permissoes-chaves",
+    "escrever-relatorio-com-plano-de-30-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Agree on scope and written authorization before looking at anything"
+    },
+    {
+      "t": "Research the company and show up with hypotheses ready"
+    },
+    {
+      "t": "Build the inventory of apps and agents, including the AI that IT doesn't know about"
+    },
+    {
+      "t": "Deliver the 7-part report with a 30-day plan"
+    }
+  ],
+  "hero_alt": "An auditor and a distributor's IT manager check an inventory spreadsheet on a laptop.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The audit path",
+      "sub": "One agreement and four steps, always in this order. Click each one.",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Authorization",
+          "sub": "written scope",
+          "forte": true,
+          "detalhe": "Before opening any system: who authorizes, what you will look at, what you will not look at, and for how long. Said out loud and signed: \"this is an AI risk assessment and triage; it is not a pentest, nor incident response, nor legal advice\"."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "1 · Research",
+          "sub": "before the meeting",
+          "detalhe": "With the website and the contact's email, you can already put together a picture of the business, hypotheses about pain points, and signs of where the company already uses AI. Anything inferred without a source gets marked as an assumption."
+        },
+        {
+          "icone": "lista",
+          "titulo": "2 · Inventory",
+          "sub": "apps, agents, and shadow AI",
+          "detalhe": "The list of what exists: systems, robots, agents, integrations, and the tools employees installed on their own. For each item: what it's for, who uses it, what data it accesses, and who owns it."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "3 · Risks and solutions",
+          "sub": "data, permissions, keys",
+          "detalhe": "For each item in the inventory, three questions: what data leaves here, and where does it go? What can it do on its own? Where are the keys and passwords kept? And you show up with the fixes already drafted, each one saying what stays manual."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "4 · Report",
+          "sub": "7 parts and a 30-day plan",
+          "detalhe": "The document that stays: inventory, risks with evidence, prioritized fixes, and a 30-day plan with the quick win for the first month. A short recording explaining the report is worth more than ten extra pages."
+        }
+      ],
+      "legenda": "The audit doesn't end with itself: it generates the sales that follow, the fix, and the training.",
+      "dica": "It is the front door of this program and the bridge to the Auditor program of Professional 2030."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The four steps, up close",
+      "sub": "What to do and the common mistake in each one.",
+      "passos": [
+        {
+          "titulo": "Research",
+          "sub": "hypotheses, not guesses",
+          "texto": [
+            "Run the research prompt with the company name in a variable: change one line and reuse the text dozens of times.",
+            "Look for the assumption markers. If there are none, the model is presenting a guess as fact."
+          ]
+        },
+        {
+          "titulo": "Inventory",
+          "sub": "the official list isn't enough",
+          "texto": [
+            "IT lists what it bought. Employees use extensions, chatbots on personal accounts, and recording apps that nobody approved: that's shadow AI.",
+            "A short internal survey (\"how do you use technology at work?\") reveals what the official list hides."
+          ],
+          "exemplo": {
+            "rot": "Form",
+            "texto": "Use a form only when the client came to you. If you were the one who reached out, asking for homework before proving value kills the conversation."
+          }
+        },
+        {
+          "titulo": "Risks and solutions",
+          "sub": "with what stays manual",
+          "texto": [
+            "Data: customer records in an open spreadsheet or going to a vendor with no contract. Permissions: an agent that sends, deletes, or gives discounts without approval. Keys: a password or access key visible in the code or shared around.",
+            "Each drafted fix says what would stay manual. \"Nothing, everything automated\" is a fantasy."
+          ]
+        },
+        {
+          "titulo": "Report",
+          "sub": "fixed structure",
+          "texto": [
+            "With the 7-part structure, you can answer the \"and what do I get at the end?\" question by email.",
+            "Write by dictating: say what you concluded, transcribe it, and ask the assistant to structure it. Your real opinion stays in the text."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The form comes first. You run the prompt before the meeting. You fill in the inventory and the report during and after.",
+      "blocos": [
+        {
+          "rot": "Scope and authorization form",
+          "icone": "cadeado",
+          "conteudo": "SCOPE AND AUTHORIZATION FORM · AI AUDIT\nCompany: <legal name>          Date: <mm/dd/yyyy>\nAuthorized by: <name, title>     Auditor: <your name>\n\nWHAT IT IS: assessment and triage of AI risks.\nWHAT IT IS NOT: it is not a pentest, nor incident response, nor legal advice.\n\nWHAT I WILL LOOK AT\n- Inventory of AI apps, agents, integrations, and tools in use\n- What data each one accesses and where it sends it\n- Permissions: what each one can do on its own\n- Where access keys and passwords are kept (without copying them)\n\nWHAT I WILL NOT DO\n- Try to break in, test attacks, or take down any system\n- Copy, store, or take away customer or employee data\n- Change any configuration without a written request\n\nACCESS: <screens, documents, people I will interview>\nPERIOD: from <date> to <date>\nDELIVERABLE: report with inventory, risks, and a 30-day plan\n\nSignature of the person authorizing: ______________________"
+        },
+        {
+          "rot": "Prompt · research before the meeting",
+          "icone": "chat",
+          "conteudo": "You are an AI auditor preparing the first meeting with a company.\nEMPRESA = <company name>\nSITE = <website address>\nSETOR = <industry, if you know it>\n\nSearch the web and return, in this order:\n1. PROFILE: what the EMPRESA sells, to whom, apparent size, how it wins customers.\n2. WHERE AI OR AUTOMATION IS ALREADY VISIBLE: bot on the website or on WhatsApp,\n   forms, order app, customer area. Say where you saw it.\n3. PAIN HYPOTHESES: 6 processes that companies like this do by hand.\n4. RISK HYPOTHESES: for each item in step 2, what data it\n   probably accesses and what it could do on its own.\n5. QUESTIONS FOR THE MEETING: the 10 that only the owner can answer\n   and that would change your conclusions.\n\nMark with [ASSUMPTION] everything you inferred without a source. Do not invent numbers.\nDo not try to access restricted areas: only what is public."
+        },
+        {
+          "rot": "Inventory of apps and agents",
+          "icone": "lista",
+          "conteudo": "AI INVENTORY · <company> · <date>\n\n| item | purpose | who uses it | data it accesses | can do on its own | where the key is kept | owner | official? |\n|------|----------|----------|------------------|--------------------|-------------------|------|----------|\n| <e.g., WhatsApp agent> | <sales> | <customer service> | <conversations, customer records> | <create order, discount> | <vendor dashboard> | <name> | yes |\n| <e.g., email summary extension> | | | | | | | no (shadow) |\n\nRISKS (one per line, with evidence)\n- DATA: <what leaves, where it goes, where you saw it>\n- PERMISSIONS: <what acts without approval, where you saw it>\n- KEYS: <where they are exposed or shared, where you saw it>"
+        },
+        {
+          "rot": "7-part report",
+          "icone": "arquivo",
+          "conteudo": "AI AUDIT REPORT · <company> · <date>\n\n1. GOALS AND SCOPE\n   What the company considers a priority, in its own words.\n   Assessment and triage of AI risks; it is not a pentest, nor incident\n   response, nor legal advice.\n2. INVENTORY: apps, agents, integrations, and shadow AI, with an owner.\n3. SYSTEMS AND DATA: what has an integration point, what doesn't,\n   where the data is messy.\n4. RISKS WITH EVIDENCE: data, permissions, and keys, from the most severe\n   to the least severe.\n5. TEAM READINESS: how open the team is to change.\n6. PRIORITIZED FIXES AND OPPORTUNITIES: return on effort,\n   with the math shown and what stays manual.\n7. 30-DAY PLAN AND NEXT STEPS\n   Week 1: <quick win>   Week 2: <...>\n   Week 3: <...>              Week 4: <...>\n   Later (60 and 90 days): <what comes next>\n   30-minute follow-up session: <date>"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "When to decline, and free or paid",
+      "sub": "The audit is also your filter. And honesty is what closes the deal.",
+      "passos": [
+        {
+          "titulo": "Rotten data",
+          "sub": "sell the cleanup first",
+          "texto": [
+            "The same information written five different ways, duplicate records, a field nobody can explain.",
+            "Sell the data-organizing service first: less glamorous, more of a sure thing."
+          ]
+        },
+        {
+          "titulo": "System with no integration",
+          "sub": "state the real price",
+          "texto": [
+            "Say how much the workaround costs. If the client won't accept it, decline: blocked access eats up weeks through no fault of yours."
+          ]
+        },
+        {
+          "titulo": "Resistant team",
+          "sub": "training first",
+          "texto": [
+            "The team avoids detailing how they work, afraid of being replaced, or nobody below the owner was told.",
+            "Propose training before automation: people who have learned to use it stop sabotaging it."
+          ]
+        },
+        {
+          "titulo": "Free or paid?",
+          "sub": "it depends on one thing",
+          "texto": [
+            "Can't yet generate meetings on your own? The free audit is your way in and your practice. Already have a repeatable process and the client came to you? Charge.",
+            "At the end, educate without locking in: say where this kind of project usually goes wrong, even if they carry it out with someone else."
+          ],
+          "exemplo": {
+            "rot": "Phrase",
+            "texto": "If you carry out this plan with another company, that's fine. Pay attention to these five points: that's where this kind of project usually goes wrong."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice at Horizonte Distribuidora",
+      "sub": "Horizonte is a fictional company of 40 people, with study AI pieces. Everything there is fake, and on purpose.",
+      "fonte": "Lab: <a href=\"https://inematds.github.io/prof2030-lab/\">Horizonte Distribuidora</a> · <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT Inventory</a>",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The authorization form",
+          "min": "15 min",
+          "texto": "Fill out the scope and authorization form for Horizonte, with the owner (Carlos Mendes) as the person who authorizes. Then read aloud the sentence about what the audit is not.",
+          "pronto": "the form has who authorizes, what you will look at, what you will not do, period and deliverable, and the sentence \"it is not a pentest, nor incident response, nor legal advice\" is written down and was said out loud."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Inventory and one-page report",
+          "min": "45 min",
+          "texto": "Open the IT inventory and the lab pieces. Build the inventory with the template, including the tools that show up only in the internal survey. Name one data risk, one permissions risk and one keys risk, each with where you saw it. Close with the 30-day plan.",
+          "pronto": "the inventory has every piece with an owner and the official/shadow mark; there are 3 risks (data, permissions, keys) with evidence; and the 30-day plan has one task per week. Finding all the planted flaws is left for the Auditor program."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The company owner says \"you can look at everything, make yourself at home\" over the phone. What do you do before opening any system?",
+          "opcoes": [
+            "Start right away, to take advantage of the goodwill",
+            "Send the scope and authorization form and wait for the signature",
+            "Ask for the administrator password for all systems"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "A verbal authorization protects neither of you. The form says what you will look at, what you will not do and for how long, and makes clear that it is not a pentest, nor incident response, nor legal advice."
+        },
+        {
+          "p": "IT's official list has 8 tools. Why does the inventory not stop there?",
+          "opcoes": [
+            "Because IT always lies",
+            "Because employees use AI on their own (extensions, a chatbot on a personal account), the shadow AI",
+            "Because the inventory needs to have at least 20 items"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The official list shows what was bought. What exposes data the most is usually what someone installed to save time, without anyone approving it."
+        },
+        {
+          "p": "An agent creates orders and grants discounts without anyone approving. Which of the three risks does this fall under first?",
+          "opcoes": [
+            "Keys",
+            "Permissions",
+            "None: it's just configuration"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Permission is what the item can do on its own. Acting with the customer's money without human approval is the typical case. Data and keys are the other two questions."
+        },
+        {
+          "p": "In the audit meeting, what sets you apart the most?",
+          "opcoes": [
+            "Asking lots of exploratory questions on the spot",
+            "Arriving with hypotheses and fixes already drafted, each one saying what stays manual",
+            "Sending a long form beforehand"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Arriving with the work already advanced creates the \"this person understood my business\" effect. And an honest \"what stays manual\" protects your credibility on the first follow-up."
+        },
+        {
+          "p": "The client's data is in five spreadsheets with the same field written in different ways. What comes first in the 30-day plan?",
+          "opcoes": [
+            "The agent, which will organize the data on its own",
+            "Fix the data, before any automation",
+            "Turn the client down"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "With bad data, garbage in, garbage out, and with AI the error multiplies. Fixing the data is the surest sale; turning the client down is for a stuck system where the workaround is not accepted."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Authorization first",
+          "texto": "Written scope: it is not a pentest, nor incident response, nor legal advice."
+        },
+        {
+          "t": "Inventory with an owner",
+          "texto": "Apps, agents, integrations and shadow AI."
+        },
+        {
+          "t": "Three risks",
+          "texto": "Data, permissions and keys, each with evidence."
+        },
+        {
+          "t": "A report that stays",
+          "texto": "7 parts and a 30-day plan; the audit generates the sales that follow."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Lab: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Professional 2030: the AI Auditor program",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "reuniao",
+  "num": 7,
+  "menu": "Reunião",
+  "titulo": "Da reunião marcada à fechada",
+  "titulo_curto": "A reunião",
+  "minutos": 18,
+  "lead": "A reunião marcada ainda não é cliente. Ela se perde no não comparecimento, na tela bagunçada, no jargão e na pressa de vender. Esta aula prepara os quinze minutos: confirmar por escrito, chegar com uma prévia do diagnóstico feita com dados públicos, calibrar o nível da conversa e ouvir mais do que falar.",
+  "objetivo": "preparar a prévia do diagnóstico com dados públicos e conduzir 15 minutos de reunião ouvindo mais do que falando.",
+  "competencias": ["confirmar-reuniao-por-escrito", "preparar-previa-de-diagnostico", "conduzir-reuniao-consultiva"],
+  "aprende": [
+    {"t": "Confirmar com convite e um sim escrito"},
+    {"t": "Montar a prévia do diagnóstico antes de receber"},
+    {"t": "Calibrar o nível da conversa com a primeira pergunta"},
+    {"t": "Apresentar a oferta de entrada com calma"}
+  ],
+  "hero_alt": "Consultora numa videochamada ouve com atenção o dono de uma pequena empresa, com o caderno aberto.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Os quinze minutos",
+      "sub": "Da confirmação ao próximo passo. Clique em cada etapa.",
+      "nos": [
+        {"icone": "check", "titulo": "Confirmar", "sub": "convite + sim escrito",
+         "detalhe": "Convite no calendário e uma mensagem separada pedindo um \"ok\". Quem responde comparece; quem não responde estava só sendo educado ao telefone. Sem resposta até algumas horas antes, um lembrete curto."},
+        {"icone": "lupa", "titulo": "Prévia do diagnóstico", "sub": "feita antes de receber", "forte": true,
+         "detalhe": "Com o que é público (site, canais de atendimento, avaliações, o que a empresa diz que usa), você chega com três achados e uma hipótese de risco. Diga o que é: \"montei isso com as informações públicas de vocês ontem\". O esforço concreto é o argumento."},
+        {"icone": "camadas", "titulo": "Quatro abas", "sub": "e nada mais",
+         "detalhe": "O site dele, a prévia do diagnóstico, a conta dos números e a sua agenda. Caixa de mensagens fechada, nada de outro cliente aberto, slides só no fim, se houver."},
+        {"icone": "chat", "titulo": "Calibrar e ouvir", "sub": "fale menos que ele",
+         "detalhe": "A primeira pergunta descobre o nível: \"o quanto você já mexeu com IA na empresa?\". Depois, perguntas abertas. Você é um consultor que por acaso tem um serviço, não um vendedor que por acaso faz perguntas."},
+        {"icone": "calendario", "titulo": "Oferta e próximo passo", "sub": "na agenda aberta",
+         "detalhe": "A oferta de entrada em até três frases, e o próximo passo marcado ali, sem \"depois eu te mando\"."}
+      ],
+      "legenda": "Uma hora de preparação antes vale mais do que qualquer técnica aplicada durante a reunião."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Por dentro da reunião",
+      "sub": "A ordem da conversa, sem roteiro fixo.",
+      "passos": [
+        {"titulo": "Diga o escopo logo", "sub": "o que é e o que não é",
+         "texto": ["Antes de mostrar a prévia: \"o que eu faço é avaliar e fazer a triagem dos riscos de IA. Não é pentest, nem resposta a incidente, nem parecer jurídico.\"", "Dizer o que você não faz é o que faz o resto parecer confiável."]},
+        {"titulo": "Calibre o nível", "sub": "a primeira pergunta",
+         "texto": ["\"Sou desenvolvedor\": suba o nível. \"Só usei aqueles chats\": desça e não use mais nenhuma palavra técnica.", "O erro grave não é falar simples demais: é fazer a pessoa se sentir burra."]},
+        {"titulo": "Pergunte e puxe o fio", "sub": "perguntas abertas",
+         "texto": ["\"Que ferramentas de IA a equipe usa hoje, inclusive por conta própria?\" \"O que acontece quando o robô não sabe responder?\" \"Se um problema sumisse amanhã, qual seria?\"", "Ajude com algo que você não vende: uma dica útil fora do escopo compra mais confiança que qualquer argumento."]},
+        {"titulo": "Mostre, não conte", "sub": "a prévia na tela",
+         "texto": ["Compartilhe a tela e mostre os três achados com onde você os viu. Termine em pergunta, nunca em acusação.", "\"Vocês estão expostos\" gera defesa. \"É possível que ninguém tenha conferido para onde vão essas conversas?\" faz ele chegar sozinho à conclusão."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "A calma de quem não precisa daquela venda",
+      "sub": "A oferta de entrada é pequena por um motivo prático: preço pequeno deixa você relaxado, e calma é lida como competência.",
+      "passos": [
+        {"titulo": "A oferta de entrada", "sub": "simples e curta",
+         "texto": ["Por exemplo: uma auditoria de IA de escopo fechado, com inventário, riscos e plano de 30 dias, por um preço que o dono aprova sozinho.", "Mencione de passagem o que mais você faz (correção, treinamento, acompanhamento), sem empurrar."]},
+        {"titulo": "\"Vou pensar\"", "sub": "não insista",
+         "texto": ["Numa oferta pequena, quase sempre significa \"não vi valor\". Pergunte com honestidade o que ficou faltando: a resposta melhora a próxima reunião.", "Objeções em profundidade ficam nos cursos 3 e 5 da formação."]},
+        {"titulo": "Quando o encaixe não existe", "sub": "encerre com elegância",
+         "texto": ["A empresa não usa nada que valha auditar, a pessoa responde por monossílabos, ou a dor real está onde você não resolve.", "Diga isso, e ganhe um contato que te indica depois."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A mensagem sai logo depois da ligação. A abertura e o roteiro você usa na reunião.",
+      "blocos": [
+        {"rot": "Mensagem de confirmação", "icone": "enviar",
+         "conteudo": "Oi <nome>, aqui é o <seu nome>, falamos agora há pouco.\nAcabei de te mandar o convite pra <dia> às <hora>, são 15 minutos.\nVou preparar uma prévia com as informações públicas da <empresa>\nespecificamente, então quero garantir que você vai poder estar.\nMe confirma com um \"ok\" que eu já começo a preparar?"},
+        {"rot": "Abertura da reunião", "icone": "chat",
+         "conteudo": "— <Nome>, obrigado pelo tempo. Antes de começar, uma frase sobre o que\n  eu faço: avalio e faço a triagem dos riscos de IA da empresa. Não é\n  pentest, nem resposta a incidente, nem parecer jurídico.\n— E uma pergunta rápida, pra eu não te fazer perder tempo com coisa que\n  você já sabe: o quanto você e a equipe já usam IA no dia a dia?"},
+        {"rot": "Prompt · prévia do diagnóstico", "icone": "lupa",
+         "conteudo": "Você é um auditor de IA preparando uma prévia de 3 minutos para mostrar\nna primeira reunião. Use SÓ informação pública.\nEMPRESA = <nome>\nSITE = <endereço>\nO QUE EU JÁ DESCOBRI = <cole a pesquisa da aula 3>\n\nEntregue:\n1. TRÊS ACHADOS, cada um com: o que eu vi, onde vi (link ou tela)\n   e por que importa para o dono, em linguagem de dono.\n2. UMA HIPÓTESE DE RISCO (dados, permissões ou chaves), escrita como\n   pergunta, nunca como acusação.\n3. O QUE EU NÃO SEI e só descubro com autorização por escrito.\n4. A frase de transição para a oferta de entrada.\nNão tente acessar áreas restritas. Marque [SUPOSIÇÃO] o que for inferido."},
+        {"rot": "Prompt · roteiro de 15 minutos", "icone": "relogio",
+         "conteudo": "Você é meu treinador de reuniões consultivas. Monte meu roteiro.\nMEU NICHO = <setor>\nMINHA OFERTA DE ENTRADA = <o que é e quanto custa>\nO QUE EU MOSTRO NA TELA = <prévia do diagnóstico com dados públicos>\n\nBlocos com tempo marcado:\n0-1 min   ABERTURA: escopo em uma frase + a pergunta que calibra o nível.\n1-5 min   DIAGNÓSTICO: 6 perguntas ABERTAS deste setor, com o que escutar.\n5-9 min   A PRÉVIA: os 3 achados, terminando sempre em pergunta.\n9-12 min  O QUE A AUDITORIA COMPLETA TRAZ: inventário, riscos, plano de 30 dias.\n12-14 min OFERTA: o preço em no máximo 3 frases.\n14-15 min PRÓXIMO PASSO: marcar ali mesmo e enviar o termo de autorização.\nAlém disso: 4 sinais de que NÃO há encaixe, e o que eu NUNCA digo.\nLinguagem falada, zero jargão."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Depois de cada reunião, duas linhas: o que ele falou e onde você travou.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Confirmação e prévia", "min": "40 min",
+         "texto": "Adapte a mensagem de confirmação. Depois rode o prompt da prévia para uma empresa real da sua lista (ou para a Horizonte Distribuidora do laboratório).",
+         "pronto": "a mensagem pede uma resposta de uma palavra, e a prévia tem 3 achados com onde você os viu e uma hipótese de risco escrita como pergunta."},
+        {"id": "e2", "titulo": "2 · Roteiro de 15 minutos", "min": "30 min",
+         "texto": "Rode o prompt do roteiro e some o tempo dos blocos em que você fala. Converta explicação em pergunta até caber.",
+         "pronto": "a sua fala soma até 7 dos 15 minutos, a frase do escopo está na abertura e o roteiro termina com o termo de autorização marcado para envio."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Qual é a preparação de maior impacto antes da reunião?",
+         "opcoes": ["Uma apresentação de slides bem desenhada", "A prévia do diagnóstico feita com os dados públicos daquela empresa", "Decorar técnicas de fechamento"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Chegar com o trabalho dele já começado faz a reunião virar demonstração, não promessa. E diga o que é: \"montei isso com as informações públicas de vocês\"."},
+        {"p": "Por que pedir um \"ok\" escrito na mensagem de confirmação?",
+         "opcoes": ["Para ter prova jurídica do agendamento", "Porque quem responde comparece, e o silêncio avisa antes que a reunião vai cair", "Para mostrar profissionalismo"],
+         "certa": 1, "ref": "codigo",
+         "explica": "Sem pedido de resposta você não tem sinal nenhum sobre comparecimento. O não comparecimento é o maior desperdício da agenda de quem começa."},
+        {"p": "Você achou na prévia que o atendimento automático parece enviar conversas para um serviço externo. Como apresentar?",
+         "opcoes": ["\"Vocês estão vazando dados de cliente\"", "\"É possível que ninguém tenha conferido para onde vão essas conversas?\"", "Não mencionar, para não assustar"],
+         "certa": 1, "ref": "passos",
+         "explica": "A conclusão em forma de pergunta faz ele chegar sozinho ao risco, e conclusão própria não se discute. Afirmação vira defesa; e você ainda não tem autorização para confirmar."},
+        {"p": "O cliente diz \"vou pensar\" sobre uma oferta de entrada pequena. O que fazer?",
+         "opcoes": ["Insistir com um desconto", "Perguntar com honestidade o que ficou faltando", "Mandar três lembretes na semana"],
+         "certa": 1, "ref": "passos",
+         "explica": "Numa oferta pequena, \"vou pensar\" quase sempre é \"não vi valor\". A resposta honesta é o presente que melhora a próxima reunião."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Convite + sim escrito", "texto": "É o que derruba o não comparecimento."},
+        {"t": "Prévia antes de receber", "texto": "Três achados públicos, com onde você os viu."},
+        {"t": "Escopo e calibragem", "texto": "Diga o que não é, e fale no nível da pessoa."},
+        {"t": "Oferta pequena, calma grande", "texto": "E o próximo passo marcado na agenda aberta."}
+      ]
+    }
+  ]
+}

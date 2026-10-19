@@ -1,0 +1,391 @@
+{
+  "slug": "ligacao",
+  "num": 6,
+  "menu": "Call",
+  "titulo": "Cold call with permission",
+  "titulo_curto": "Cold call",
+  "minutos": 20,
+  "lead": "The most expensive mistake in phone prospecting is trying to sell the service on the call. You are interrupting someone in the middle of their workday, and nobody buys anything that way. The call has only one goal: to book the meeting. This lesson teaches you to ask for permission, talk about results, hold back the details, and leave with a time booked.",
+  "objetivo": "call by asking for permission, talk about results, and book the meeting without explaining the service over the phone.",
+  "competencias": [
+    "abrir-ligacao-com-permissao",
+    "fazer-pitch-de-uma-frase",
+    "marcar-reuniao-com-dois-horarios"
+  ],
+  "aprende": [
+    {
+      "t": "The first 15 seconds: honesty and permission"
+    },
+    {
+      "t": "The one-sentence pitch: result + deny the wrong assumption"
+    },
+    {
+      "t": "Hold back the details and turn to the meeting"
+    },
+    {
+      "t": "Practice on a simulated call with a scorecard"
+    }
+  ],
+  "hero_alt": "A man talks on his cell phone calmly, with a script and a printed spreadsheet on the table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The anatomy of the call",
+      "sub": "Five moves, always in this order. Tap each one.",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Permission",
+          "sub": "15 seconds",
+          "forte": true,
+          "detalhe": "Be honest about what the call is and hand back control: \"this is a cold call, can you give me fifteen seconds, or would you rather I hang up now?\". Someone who grants you the fifteen seconds starts to really listen. Without permission, everything you say is noise."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Pitch",
+          "sub": "one sentence",
+          "detalhe": "Promise a result and knock down the assumption the person has already made about you. If they think you sell a new system, rule out a system swap. It works when the answer becomes \"what do you mean?\"."
+        },
+        {
+          "icone": "x",
+          "titulo": "Hold back",
+          "sub": "don't explain",
+          "detalhe": "Explaining over the phone burns the curiosity and turns into a rushed decision by someone who is distracted. Say it is better to see it, and ask if it is worth booking fifteen minutes. \"Does that make sense?\" is your anchor."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Two time slots",
+          "sub": "as soon as possible",
+          "detalhe": "\"Today at 4 p.m. or tomorrow at 10 a.m.?\" turns a hard decision into an easy choice. \"When can you do it?\" hands the decision back to a busy person, and the answer becomes \"send me a message\"."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Invite",
+          "sub": "before the next number",
+          "detalhe": "Confirm the channel, say you will send the invite, and hang up: once it is booked, every extra sentence only creates risk. Send the invite before you dial the next number."
+        }
+      ],
+      "legenda": "You don't sell the service, you sell the meeting. The service gets sold there, with a shared screen and their full attention."
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulated call: the distributor",
+      "sub": "Simulated conversation for practice; the lines are fiction. Pick the answer you would give; the comment shows up right after.",
+      "personagem": {
+        "nome": "Carlos, owner of a distributor",
+        "papel": "40 employees · answers his cell phone in the middle of the workday"
+      },
+      "inicio": "recepcao",
+      "falas": {
+        "recepcao": {
+          "cliente": "(Reception) Distributor, good morning. Who would you like to speak with?",
+          "opcoes": [
+            {
+              "t": "I want to speak with the person in charge of the company.",
+              "vai": "fim-barrado",
+              "nota": 0,
+              "comenta": "It's the sentence reception hears most and blocks most. Without a name, you sound like a random salesperson."
+            },
+            {
+              "t": "Is Carlos in?",
+              "vai": "sobre",
+              "nota": 2,
+              "comenta": "Asking for a name shows you did your research and greatly raises the chance of reaching the decision-maker."
+            }
+          ]
+        },
+        "sobre": {
+          "cliente": "(Reception) He is. Is he expecting your call? What is it about?",
+          "opcoes": [
+            {
+              "t": "I'll be upfront: it's a cold call. We help distributors use the AI they already have without exposing customer data, and I wanted to know if that's a priority for him.",
+              "vai": "abre",
+              "nota": 2,
+              "comenta": "Honesty with whoever screens the calls works better than a disguise. One sentence, without trying to convince reception."
+            },
+            {
+              "t": "It's a personal matter, he knows.",
+              "vai": "fim-barrado",
+              "nota": 0,
+              "comenta": "Lying to reception burns the number: on the next call nobody helps you, and the owner starts the conversation suspicious."
+            },
+            {
+              "t": "It's about artificial intelligence. Let me explain how our audit works…",
+              "vai": "abre",
+              "nota": 1,
+              "comenta": "You got through, but you spent energy selling to someone who can't say yes. Reception only needs one sentence."
+            }
+          ]
+        },
+        "abre": {
+          "cliente": "Hello, this is Carlos.",
+          "opcoes": [
+            {
+              "t": "Carlos, this is Pedro. I'll be upfront: it's a cold call, I want to sell you something. Can you give me fifteen seconds to say what it is, or would you rather I hang up now?",
+              "vai": "permissao",
+              "nota": 2,
+              "comenta": "You owned the discomfort before he pointed it out and handed back control with an explicit way out. That's what disarms."
+            },
+            {
+              "t": "Hi, Carlos, how are you? Do you have a minute?",
+              "vai": "permissao",
+              "nota": 1,
+              "comenta": "It asks for time but hides what it is. He realizes within seconds that it's a sale, and trust drops."
+            },
+            {
+              "t": "Carlos, we are a consultancy specialized in artificial intelligence for companies, with our own methodology for…",
+              "vai": "fim-desliga",
+              "nota": 0,
+              "comenta": "Without permission, the company introduction is noise. He was expecting a customer, not a salesperson."
+            }
+          ]
+        },
+        "permissao": {
+          "cliente": "Okay, go ahead. Fifteen seconds.",
+          "opcoes": [
+            {
+              "t": "We help distributors use the AI they already have, on WhatsApp and in orders, without exposing customer data and without switching systems.",
+              "vai": "curioso",
+              "nota": 2,
+              "comenta": "A result in owner's language, and the wrong assumption (\"you're going to sell me a new system\") knocked down in the same sentence."
+            },
+            {
+              "t": "We do AI audits with an inventory of agents, a risk matrix, and an analysis of integration permissions.",
+              "vai": "fim-desliga",
+              "nota": 0,
+              "comenta": "Jargon kills the call. Inventory, matrix, integration: none of that is the language of someone answering the phone in the middle of the workday."
+            },
+            {
+              "t": "We work with AI for companies.",
+              "vai": "curioso",
+              "nota": 1,
+              "comenta": "It doesn't scare them, but it doesn't promise a result or deny the assumption either. Curiosity stays weak."
+            }
+          ]
+        },
+        "curioso": {
+          "cliente": "What do you mean? What exactly do you do?",
+          "opcoes": [
+            {
+              "t": "Look, I called you out of the blue, so I'll be direct: the best way to understand it is to see it. I'll prepare a preview with what's public about your company and show it to you in fifteen minutes. Does that make sense?",
+              "vai": "horario",
+              "nota": 2,
+              "comenta": "You answered without explaining, kept the tone honest, and ended on a closed question about the time, not about the service."
+            },
+            {
+              "t": "First we map all the systems, then we rank the risks, then we build the report with…",
+              "vai": "fim-email",
+              "nota": 0,
+              "comenta": "Explaining over the phone uses up the curiosity you just created. They decide in a hurry, distracted, and the answer is \"send it by email.\""
+            },
+            {
+              "t": "Can I send you some material by email so you can look at it calmly?",
+              "vai": "fim-email",
+              "nota": 1,
+              "comenta": "Polite, but you handed the decision off to later. Material without a conversation is rarely read."
+            }
+          ]
+        },
+        "horario": {
+          "cliente": "Makes sense. Call me next week and we'll see.",
+          "opcoes": [
+            {
+              "t": "Deal. Whenever is best for you, let me know.",
+              "vai": "fim-email",
+              "nota": 0,
+              "comenta": "\"When can you?\" hands the decision back to someone busy. In practice, it's a polite no."
+            },
+            {
+              "t": "So we don't forget: today at 4 p.m. or tomorrow at 10 a.m., which works better?",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Two concrete options, as soon as possible. Nobody remembers a thirty-second conversation a week later."
+            },
+            {
+              "t": "How about next Tuesday at 10 a.m.?",
+              "vai": "fim-longe",
+              "nota": 1,
+              "comenta": "A concrete time is better than none, but a week later the chance of them not showing up shoots up."
+            }
+          ]
+        },
+        "fim-barrado": {
+          "fim": true,
+          "titulo": "Stopped at the front desk",
+          "texto": "The call died before reaching the decision-maker. Without the owner's name and without being honest with whoever answers, the front desk does exactly its job. Go back to lesson 5: the name comes before the call."
+        },
+        "fim-desliga": {
+          "fim": true,
+          "titulo": "Hung up",
+          "texto": "Without permission, or with jargon, everything you said was noise. Mark it yellow in the spreadsheet, rewrite the opening, and practice until \"would you rather hang up now?\" comes out naturally."
+        },
+        "fim-email": {
+          "fim": true,
+          "titulo": "\"Send it by email\"",
+          "texto": "It's almost always a no. Next time, answer: \"I'll send it, and so the email makes sense, would you rather I show you tomorrow morning or the day after tomorrow in the afternoon?\" If they insist, send it, mark it blue, and come back in a week."
+        },
+        "fim-longe": {
+          "fim": true,
+          "titulo": "Booked, but far out",
+          "texto": "You have a time, but a week is too long for a thirty-second conversation. Send the invitation and the message asking for a written yes right now (lesson 7), and next time offer today or tomorrow."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Meeting booked",
+          "texto": "Green in the spreadsheet. You confirm the email, hang up, and send the invitation before dialing the next number. The diagnostic preview and the fifteen-minute meeting are lesson 7."
+        }
+      },
+      "licao": "The call sells the meeting, not the service: permission, one sentence about the result, no explanation, and two times."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The scripts stay open on your desk. You run the two prompts before burning real numbers.",
+      "blocos": [
+        {
+          "rot": "Opening, pitch, and pivot",
+          "icone": "chat",
+          "conteudo": "OPENING (up to 15 s)\n— Hi, this is <your name>. Am I speaking with <owner's name>?\n— <Name>, I'll be honest: this is a cold call, I want to sell you\n  something. Will you give me fifteen seconds to tell you what it is, or would you\n  rather hang up now?\n\nPITCH (1 sentence: result + deny the wrong assumption)\n— We help <type of company> <result in owner's language>,\n  without <the wrong assumption: switching systems / spending on ads>.\n\nPIVOT (\"how does it work?\")\n— Look, I called you out of the blue, so I'll be direct: the best way to\n  understand it is to see it. My goal was just to find out if it's worth setting up fifteen\n  minutes for me to show you. Does that make sense to you?\n\nCLOSE\n— Today at <4 p.m.> or tomorrow at <10 a.m.>?\n— What's the best email? I'll send you the invitation right now."
+        },
+        {
+          "rot": "Front desk: the three situations",
+          "icone": "usuario",
+          "conteudo": "[\"is he expecting your call?\" / \"what is it about?\"]\n— I'll be honest: it's a cold call. We help <type of company>\n  <result>, and I wanted to know if that's a priority for you all right now.\n\n[\"he's not available\"]\n— No problem. Is there a better time for me to call back? First thing in the morning,\n  when he arrives, would that work?\n\n[\"want to leave a message?\"]\n— Yes. Just say it's about <result>, and that I'll call back\n  <day and time>.\n\nWrite down the name of whoever answered. Next time: \"hi, <name>, it's <your name>\nagain, has <owner> arrived yet?\""
+        },
+        {
+          "rot": "Prompt · script for your niche",
+          "icone": "lista",
+          "conteudo": "You are my phone prospecting coach. Write my cold call script\nto book a 15-minute meeting.\nMY NICHE = <industry>\nWHAT I SELL = <e.g.: AI audit: what the company already uses, risks and a 30-day plan>\nTHE RESULT FOR THE CLIENT = <in owner's language>\nTHE WRONG ASSUMPTION this industry makes = <e.g.: \"he's going to sell me a new system\">\n\nStructure, with the lines ready:\n1. OPENING (max. 15 s): who I am + cold call + permission + explicit way out.\n2. PITCH (1 sentence): result + denial of the wrong assumption.\n3. ANSWER TO \"how does it work?\": without explaining, pivoting to the meeting.\n   End with \"does that make sense?\".\n4. CLOSE: two time options, same day or next day.\n5. FRONT DESK: \"what is it about?\", \"he's not in\", \"want to leave a message?\".\n6. OBJECTIONS: the 6 most common in this industry, each answer in at most\n   two sentences, going back to booking.\n7. WHAT TO NEVER SAY: forbidden words and topics.\nSpoken language, short sentences, zero jargon. Fits on one page."
+        },
+        {
+          "rot": "Prompt · call simulator",
+          "icone": "robo",
+          "conteudo": "Let's practice a cold call. You are the owner of <type of company in my\nniche>, busy, in the middle of the workday, and you just picked up the phone\nwithout expecting this call.\nRules:\n- ALWAYS answer in one or two sentences, like a person in a hurry.\n- 6 out of 10 times, resist or try to end the call.\n- If I use jargon, react with confusion.\n- If I explain too much, cut me off with \"look, I don't have time right now\".\n- Do not break character until I write FIM.\nWhen I write FIM, rate me on five points:\n(1) did I ask permission in the first 15 s? (2) did I talk about results or\ntechnology? (3) did I hold back information? (4) did I offer two times?\n(5) what was my weakest sentence, and how do I rewrite it?\nStart by saying only \"Hello?\"."
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Words and breathing",
+      "sub": "Objections and closing in depth are in courses 3 and 5 of the program. Here, the minimum for the call.",
+      "passos": [
+        {
+          "titulo": "Words that work",
+          "sub": "owner's language",
+          "texto": [
+            "\"less risk\", \"without switching your system\", \"fifteen minutes\", \"I'll show you\", \"does that make sense?\"."
+          ]
+        },
+        {
+          "titulo": "Words that kill",
+          "sub": "jargon and adjectives",
+          "texto": [
+            "\"synergy\", \"digital transformation\", \"revolutionary\", \"disruptive\" and technical names that the person answering doesn't use."
+          ]
+        },
+        {
+          "titulo": "Accept the first bad ones",
+          "sub": "is the method",
+          "texto": [
+            "To get good, you have to be bad first. Replace the \"ummm\" with silence: a pause sounds like confidence.",
+            "If it's allowed where you are, record your calls and listen to one a day."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Twenty minutes of practice saves twenty burned calls.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · One-page script",
+          "min": "30 min",
+          "texto": "Run the script prompt for your niche. Read it all out loud and rewrite every sentence you wouldn't say to a friend. Then do five rounds in the simulator.",
+          "pronto": "the script fits on one page, the opening lasts up to 15 timed seconds, and no answer to an objection runs longer than two sentences."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Simulated call with a score",
+          "min": "10 min",
+          "texto": "Do the simulated call for this lesson. If you don't reach the top score, read the comments, click restart, and try again.",
+          "pronto": "you finished the simulated call with the top score and you can say why asking for the person by name and offering two time slots make a difference."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "The owner asks: \"but how exactly does this work?\". What do you do?",
+          "opcoes": [
+            "Explain it in detail, taking advantage of their interest",
+            "Say that the best way is to see it, and propose fifteen minutes, with two time slots",
+            "Offer to send some material by email"
+          ],
+          "certa": 1,
+          "ref": "simconversa",
+          "explica": "Explaining burns up their curiosity and turns the call into a rushed decision. The goal of the call is the meeting."
+        },
+        {
+          "p": "What is the role of the phrase \"would you rather hang up now?\" in the opening?",
+          "opcoes": [
+            "Test the person's patience",
+            "Hand control back with an explicit way out, which makes the person really listen",
+            "End quickly so you can call more people"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Nobody likes being sold to without having agreed to listen. Whoever grants the fifteen seconds opens their mind."
+        },
+        {
+          "p": "Which of these pitches follows the result + deny the assumption rule?",
+          "opcoes": [
+            "We are leaders in disruptive AI solutions",
+            "We help distributors use the AI they already have without exposing customer data and without changing systems",
+            "We do AI audits with a risk matrix"
+          ],
+          "certa": 1,
+          "ref": "simconversa",
+          "explica": "It promises a result in the owner's language and knocks down the assumption that you're going to sell a new system. It works when the reply becomes \"what do you mean?\"."
+        },
+        {
+          "p": "He says \"that makes sense, call me next week\". What do you answer?",
+          "opcoes": [
+            "\"Sounds good, whenever is best for you\"",
+            "\"So we don't forget: today at 4 p.m. or tomorrow at 10 a.m.?\"",
+            "\"Can I call in two weeks?\""
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Two concrete options, as soon as possible. A week later nobody remembers a thirty-second conversation, and the no-show follows."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "One single goal: the meeting",
+          "texto": "The service is sold there, not over the phone."
+        },
+        {
+          "t": "Permission in 15 seconds",
+          "texto": "Admitting it's a cold call disarms the person who answers."
+        },
+        {
+          "t": "Result + denied assumption",
+          "texto": "It's the combination that creates curiosity."
+        },
+        {
+          "t": "Two time slots, as soon as possible",
+          "texto": "And the invitation goes out before the next number."
+        }
+      ]
+    }
+  ]
+}

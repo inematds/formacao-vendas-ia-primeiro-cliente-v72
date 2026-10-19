@@ -1,0 +1,185 @@
+{
+  "id": "formacao-vendas-ia-primeiro-cliente-v72",
+  "lang": "en",
+  "url": "https://inematds.github.io/formacao-vendas-ia-primeiro-cliente-v72/en/",
+  "nome": "Selling with AI 4 · From Zero to Your First Client",
+  "sub": "Selling with AI Program · course 4 of 5",
+  "volta": {
+    "t": "AI Consulting Area",
+    "href": "https://eventos.inema.pro/consultoria-ia/"
+  },
+  "lado_card": {
+    "rot": "Selling with AI Program",
+    "t": "Course 4 of 5",
+    "texto": "In the suggested order, the last one is course 5: selling the follow-up, with 90-day mentoring and monthly advisory.",
+    "link": "Go to course 5",
+    "href": "https://inematds.github.io/formacao-vendas-ia-masterclass-v72/"
+  },
+  "rodape": "INEMA.CLUB · open and free content · INEMA Learning v7.2 format · <a href=\"https://eventos.inema.pro/consultoria-ia/\">eventos.inema.pro/consultoria-ia</a> · <a href=\"https://eventos.inema.pro/prof2030/\">Professional 2030</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {},
+  "inicio": {
+    "kicker": "Selling with AI Program · course 4 of 5 · 8 lessons",
+    "titulo": "From Zero to Your First Client: enter through the AI audit",
+    "lead": "Building got easy. Trusting what was built did not. In eight lessons you pick your niche, run an AI audit with written authorization, set your price, build your list, call and ask permission, run the meeting, and deliver with monthly advisory.",
+    "cta": "Start with lesson 1",
+    "cta2": {
+      "t": "See the AI Consulting Area",
+      "href": "https://eventos.inema.pro/consultoria-ia/"
+    },
+    "capa_alt": "A consultant and the owner of a distribution company review a one-page report at a table, with the warehouse in the background.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "short lessons"
+      },
+      {
+        "v": "16",
+        "t": "hands-on exercises"
+      },
+      {
+        "v": "1",
+        "t": "simulated call"
+      },
+      {
+        "v": "30",
+        "t": "days of plan"
+      }
+    ],
+    "aulas_titulo": "The lessons",
+    "aulas_sub": "In first-client order: choose your offer and niche, audit, set your price, prospect, call, meet, and deliver.",
+    "blocos": [
+      {
+        "t": "Who it's for",
+        "itens": [
+          "People who already know how to build automations and AI agents, but haven't landed their first client yet.",
+          "People who have realized that selling \"I'll build your robot\" has become a price war.",
+          "People who want to get into companies through the diagnostic, with a clear scope and written authorization."
+        ]
+      },
+      {
+        "t": "What you will be able to do",
+        "itens": [
+          "Separate the offers that lose value from the ones that build up, and put together your portfolio of 4 offers.",
+          "Run an AI audit: authorization, inventory of apps and agents, risks, and a report with a 30-day plan.",
+          "Build your price table, your list of companies, and the cold call script that asks for permission.",
+          "Run the 15-minute meeting, deliver in the client's accounts, and follow a 30-day plan to your first client."
+        ]
+      },
+      {
+        "t": "Where this course fits in Professional 2030",
+        "itens": [
+          "<a href=\"https://eventos.inema.pro/prof2030/\">Professional 2030</a> has four roles: Consultant, Auditor, Mentor, and Trainer. All four sell trust, not building.",
+          "This course uses the <b>Auditor</b> as the way in: the AI audit opens the company's door. Then comes the <b>Consultant</b>, with the plan and the follow-up.",
+          "Common base it uses: AI risks, scope with written authorization (\"it is not a pentest, nor incident response, nor legal advice\"), and the one-page report."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Skip to content",
+    "aulas": "Lessons",
+    "concluido": "completed",
+    "aula": "Lesson",
+    "nesta_aula": "In this lesson, you will learn:",
+    "objetivo": "Goal:",
+    "proxima_aula": "Next lesson",
+    "aula_anterior": "Previous lesson",
+    "voltar_inicio": "Back to the start of the course",
+    "marcar_concluida": "Mark lesson as complete",
+    "dg_dica": "Click each block in the diagram to see what it does.",
+    "copiar": "Copy",
+    "copiado": "Copied",
+    "selo_simulacao": "Simulation: illustrative example",
+    "selo_real": "Example from the repository",
+    "pronto_quando": "Done when:",
+    "fiz": "I did this exercise",
+    "video_pagina": "Video page with script",
+    "pergunta": "Question",
+    "de": "of",
+    "cert_tag": "skill",
+    "correto": "Correct",
+    "errado": "Not that one",
+    "quiz_aguarda": "Pick one option. The explanation shows up after you try.",
+    "proxima_pergunta": "Next question",
+    "quiz_ver": "See result",
+    "quiz_fim": "Quiz complete",
+    "quiz_total": "You got {a} of {n} right. Get them all right and the lesson is marked as complete.",
+    "aparencia": "Appearance",
+    "tamanho_texto": "Text size",
+    "tema": "Theme",
+    "tema_escuro": "Dark",
+    "tema_papel": "Light paper",
+    "role_dica": "Scroll the page: each step below lights up its part of the diagram.",
+    "pre_requisito": "requires",
+    "ver_aula": "See the lesson",
+    "mapa_dica": "Click an exercise to see what to do and the \"done when\".",
+    "etapas": "Steps",
+    "exercicios": "exercises",
+    "rever": "Review:",
+    "revisar_erradas": "Review the wrong ones",
+    "refazer": "Retake the quiz",
+    "h_semana": "h per week",
+    "data_inicio": "Start date",
+    "ritmo": "Time available",
+    "gerar_plano": "Generate my plan",
+    "baixar_md": "Download plano.md",
+    "baixar_ics": "Download to your calendar (.ics)",
+    "ind_estudo": "Study (lessons)",
+    "ind_pratica": "Self-reported practice",
+    "ind_nota": "Practice = exercises you marked as done. Proof comes in the certification exam.",
+    "estudo": {
+      "titulo": "Your study",
+      "continuar": "Pick up where I left off",
+      "comecar": "Start with lesson 1",
+      "cta_continuar": "Continue lesson {n}",
+      "hoje": "today",
+      "ontem": "yesterday",
+      "ha_dias": "{n} days ago",
+      "desempenho": "Test performance",
+      "notas": "My notes",
+      "dados": "Copy my data",
+      "sem_testes": "No tests taken yet. The test is at the end of each lesson.",
+      "nao_fez": "test not taken yet",
+      "ultimo": "Latest",
+      "melhor": "Best",
+      "tentativas": "attempts",
+      "tentativa": "attempt",
+      "tudo_certo": "You got everything right on the latest test.",
+      "rever": "To review",
+      "resposta": "Correct answer:",
+      "ir_teste": "Retake the quiz",
+      "sem_notas": "No notes yet. In a lesson, select a passage of text and tap Highlight or Note.",
+      "so_marcado": "(highlight only)",
+      "marcar": "Highlight",
+      "anotar": "Note",
+      "salvar": "Save",
+      "apagar": "Remove highlight",
+      "fechar": "Close",
+      "nota_ph": "Write your note about this passage…",
+      "um_bloco": "Highlight within a single paragraph only.",
+      "nao_marca": "This passage can't be highlighted.",
+      "dados_exp": "Your progress, your notes and your test scores are kept only in this browser. Download a copy (.json) to keep it safe or to continue on another computer or browser; there, load the copy. Loading adds to what already exists and doesn't erase anything.",
+      "exportar": "Download copy",
+      "importar": "Load copy",
+      "import_ok": "Copy loaded ({n} items). Refreshing the page…",
+      "import_erro": "File not recognized. Nothing was changed.",
+      "import_outro": "This copy is from a different course. Nothing was changed.",
+      "export_ok": "Copy downloaded."
+    },
+    "conv_dica": "Choose your answer. The comment appears right after, and the conversation continues based on your choice.",
+    "conv_voce": "You",
+    "conv_escolha": "Your answer",
+    "conv_boa": "Good choice",
+    "conv_meio": "Room to improve",
+    "conv_ruim": "Weak choice",
+    "conv_fim": "End of the conversation",
+    "conv_placar": "You scored {p} of {m} possible points.",
+    "conv_licao": "Lesson:",
+    "conv_recomecar": "Restart the conversation",
+    "conv_feita": "Your best score: {p} of {m} points.",
+    "comecar": "Start the lesson",
+    "nesta_vai": "In this lesson you will",
+    "trocar_tema": "Switch light/dark theme"
+  },
+  "icone": "escudo"
+}

@@ -1,0 +1,264 @@
+{
+  "slug": "piramide",
+  "num": 1,
+  "menu": "Pirámide",
+  "titulo": "Lo que pierde valor y lo que se queda",
+  "titulo_curto": "Lo que pierde valor",
+  "minutos": 16,
+  "lead": "Vender IA no es una sola cosa. Son capas: unas se vuelven más valiosas con el tiempo, otras se vuelven commodity y el precio se desploma. Construir un sitio web, una tienda o un robot se volvió fácil, y quien vende solo eso compite por precio. Esta clase separa las capas y arma tu portafolio sobre la base que perdura.",
+  "objetivo": "separar las ofertas de construcción, que pierden valor, de las de confianza, que se acumulan, y armar tu portafolio de 4 ofertas.",
+  "competencias": [
+    "separar-oferta-que-comoditiza",
+    "montar-portfolio-de-ofertas",
+    "calcular-margem-por-projeto"
+  ],
+  "aprende": [
+    {
+      "t": "Leer la pirámide del dinero en IA: ticket alto × vida útil"
+    },
+    {
+      "t": "Elegir la puerta de entrada correcta para quien está en cero"
+    },
+    {
+      "t": "Mirar el margen, no la facturación"
+    },
+    {
+      "t": "Armar un portafolio de 4 ofertas en el que construir es parte de un servicio"
+    }
+  ],
+  "hero_alt": "Pirámide de bloques de piedra sobre una mesa: base ancha y firme, bloque de la cima agrietado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La pirámide del dinero en IA",
+      "sub": "De la cima a la base: el ticket baja, la vida útil sube. Haz clic en cada capa.",
+      "estilo": "escada",
+      "nos": [
+        {
+          "icone": "robo",
+          "titulo": "Construcción suelta",
+          "sub": "sitio web, tienda, robot, automatización simple",
+          "detalhe": "Se vende bien hoy, pero cualquiera aprende a armarlo en una tarde, y las propias herramientas ya generan el flujo a partir de una frase. Es la capa que más pierde valor. Véndela si paga las cuentas; no construyas tu identidad sobre ella."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Revisión",
+          "sub": "verificar lo que se construyó",
+          "detalhe": "La empresa ya tiene un robot, un agente o una app hechos con IA y no sabe si puede confiar en ellos. Revisar permisos, datos y lo que hace el agente cuando no sabe es un servicio que crece junto con la cantidad de cosas construidas."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Acompañamiento",
+          "sub": "ajustar cuando se rompe",
+          "detalhe": "Quien ya tiene algo funcionando quiere a alguien cerca para ajustarlo. El acompañamiento nace de la entrega y es lo que evita empezar de cero todos los meses."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Diagnóstico y enseñanza",
+          "sub": "la base que se acumula",
+          "forte": true,
+          "detalhe": "Cada empresa que diagnosticas mejora las preguntas de la siguiente. El material de una capacitación se reutiliza en la siguiente. Y quien confía en ti vuelve a comprar sin cotizar con la competencia. Es la única capa que se vuelve más valiosa cuanto más tiempo permaneces en ella."
+        }
+      ],
+      "legenda": "Tu identidad queda en la base: \"ayudo a las empresas a confiar en lo que hace la IA\", no \"hago agentes de voz\".",
+      "dica": "En Profesional 2030 la base tiene nombre: diagnosticar, revisar, acompañar y enseñar."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Las cuatro puertas de entrada",
+      "sub": "Cuatro razones por las que una empresa le paga a alguien para encargarse de la IA. No son igual de buenas.",
+      "passos": [
+        {
+          "titulo": "Desconocimiento",
+          "sub": "la ventana que se cierra",
+          "texto": [
+            "El cliente paga caro porque no sabe qué tan simple es eso.",
+            "Desaparece apenas el tema se vuelve tutorial popular. Úsala como caja, nunca como plan."
+          ]
+        },
+        {
+          "titulo": "Muestra gratis",
+          "sub": "la puerta que abre la siguiente",
+          "texto": [
+            "Enseñas o diagnosticas algo pequeño gratis, la persona ve valor real y acepta un proyecto de prueba.",
+            "Es la ruta más confiable para quien está en cero."
+          ],
+          "exemplo": {
+            "rot": "En cero",
+            "texto": "Un diagnóstico gratuito bien hecho abre puertas que ningún correo electrónico abre."
+          }
+        },
+        {
+          "titulo": "Ventaja injusta",
+          "sub": "el sector donde ya has vivido",
+          "texto": [
+            "¿Trabajaste años en logística, contabilidad o seguros? Vende allí.",
+            "Ya hablas el idioma, conoces las reglas y sabes dónde duele."
+          ]
+        },
+        {
+          "titulo": "Presión de apariencia",
+          "sub": "la empresa que necesita mostrar acción",
+          "texto": [
+            "A las empresas grandes les exigen internamente: \"¿qué estamos haciendo con la IA?\".",
+            "Ahí la formación y la consultoría alcanzan los valores más altos, pero quien está empezando rara vez llega en el primer año."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Facturación no es ganancia",
+      "sub": "El número que circula en las capturas de pantalla siempre es facturación. Por sí solo, no dice nada.",
+      "passos": [
+        {
+          "titulo": "Margen por proyecto",
+          "sub": "el número que importa",
+          "texto": [
+            "Un contrato grande que paga a un equipo puede dejar casi nada. Un proyecto más pequeño hecho por ti puede dejar mucho más.",
+            "Referencia saludable para una operación con terceros: margen neto entre 35% y 45%."
+          ]
+        },
+        {
+          "titulo": "Horas reales",
+          "sub": "incluso las que no se convirtieron en nada",
+          "texto": [
+            "Cuenta las horas de propuesta y de reunión que no se cerraron.",
+            "Un proyecto aprobado y no pagado es pérdida con fecha límite."
+          ]
+        },
+        {
+          "titulo": "Piezas que se jalan entre sí",
+          "sub": "un mes es una suma",
+          "texto": [
+            "La auditoría descubre el problema; la corrección de ese problema es la venta siguiente.",
+            "Quien aprendió a usar pide formación; quien tiene algo funcionando pide acompañamiento."
+          ],
+          "exemplo": {
+            "rot": "Cuidado",
+            "texto": "El acompañamiento mensual suele durar de dos a tres meses. El antídoto está en la clase 8: mostrar en el mes 2 el mapa del mes 5."
+          }
+        },
+        {
+          "titulo": "Los errores que te hunden",
+          "sub": "no es la tecnología",
+          "texto": [
+            "Sobreingeniería, construir sobre datos podridos, prometer plazos que dependen de terceros, elegir un nicho sin datos y cobrar pidiendo disculpas.",
+            "Habla más simple de lo que parece necesario."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "La cuenta de una línea antes de aceptar cualquier proyecto, y el prompt del portafolio.",
+      "blocos": [
+        {
+          "rot": "La cuenta de una línea",
+          "icone": "lista",
+          "conteudo": "PROJETO: <nome>\nPreço: <valor>  ·  Horas estimadas: <h>  ·  Custo de terceiros: <valor>\nMargem = (preço − custo de terceiros − horas × <sua hora>) ÷ preço = <%>\n\nSe a margem não fecha em pelo menos um terço:\n[ ] o preço sobe   [ ] o escopo encolhe   [ ] eu recuso"
+        },
+        {
+          "rot": "Prompt · portafolio de 90 días",
+          "icone": "chat",
+          "conteudo": "Eres mi estratega de ofertas. Voy a armar un negocio de servicios\nde IA para los próximos 90 días, vendiendo confianza: diagnosticar,\nrevisar, acompañar y enseñar. La construcción solo entra como parte de uno\nde esos servicios.\n\nMi contexto:\n- Sector donde ya tengo experiencia de verdad: <sector, o \"ninguno\">\n- Lo que ya sé construir hoy: <lista, aunque sea poco>\n- Horas por semana disponibles: <número>\n- Cuánto necesito facturar al mes para que esto valga la pena: <valor>\n\nArma para mí:\n1. CUATRO ofertas, de la más fácil de vender a la más difícil. Para cada\n   una: nombre, qué incluye, qué queda fuera, tiempo de entrega,\n   rango de precio y por qué un cliente compraría ESTA.\n2. La SECUENCIA: qué oferta abre la puerta a cuál, y la frase que uso\n   para proponer la siguiente después de entregar la anterior.\n3. La CUENTA: cuántas ventas de cada oferta necesito por mes, con las horas\n   que tengo. Si no cierra, dímelo de frente y propón qué recortar.\n4. Marca cuáles ofertas probablemente estarán convertidas en commodity en 12 meses.\n\nNo inventes demanda. Si falta información, pregunta antes de adivinar."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Guarda las respuestas en un archivo con la fecha de hoy. Vuelve a leerlas en 90 días.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tu portafolio de 4 ofertas",
+          "min": "30 min",
+          "texto": "Ejecuta el prompt del portafolio con tu contexto. Reescribe el resultado hasta que cada oferta sea de diagnóstico, revisión, acompañamiento o enseñanza; si hay construcción, aparece dentro de uno de esos servicios.",
+          "pronto": "el archivo tiene 4 ofertas con lo que queda fuera de cada una, la secuencia entre ellas y la cuenta cerrada en números; ninguna oferta es solo \"yo construyo\"."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La cuenta de una línea",
+          "min": "10 min",
+          "texto": "Toma tu oferta de entrada y completa la cuenta de una línea con precio, horas y costo de terceros.",
+          "pronto": "el margen está calculado en % y, si quedó por debajo de un tercio, marcaste qué cambia: precio, alcance o rechazo."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué capa de la pirámide se vuelve más valiosa cuanto más tiempo permaneces en ella?",
+          "opcoes": [
+            "Agentes de voz, porque el ticket es alto",
+            "Diagnóstico y enseñanza, porque el conocimiento y el material se acumulan",
+            "Automatización simple, porque todo el mundo la necesita"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Cada diagnóstico mejora el siguiente y el material de formación se reutiliza. Ticket alto y vida larga apuntan a lados opuestos: el agente de voz paga bien hoy y desaparece."
+        },
+        {
+          "p": "Estás en cero, sin pasado en ningún sector. ¿Por qué puerta entrar?",
+          "opcoes": [
+            "Presión de apariencia, apuntando a empresas grandes",
+            "Muestra gratis: un diagnóstico pequeño y bien hecho",
+            "Desconocimiento, cobrando caro mientras lo das"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Sin reputación, te sobran la muestra gratis y la ventaja injusta. La presión de apariencia exige historial; el desconocimiento es una ventana que se cierra."
+        },
+        {
+          "p": "Un contrato de acompañamiento grande y un proyecto pequeño hecho por ti solo. ¿Qué número decide cuál es mejor?",
+          "opcoes": [
+            "La facturación de cada uno",
+            "El margen neto que queda al final",
+            "El número de clientes"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La facturación sola engaña. El contrato grande puede dejar casi nada después de pagar al equipo. Mira el margen: una regla saludable está entre 35% y 45%."
+        },
+        {
+          "p": "¿Qué oferta de este portafolio tiene más probabilidad de perder valor en 12 meses?",
+          "opcoes": [
+            "Diagnóstico de cómo la empresa usa IA",
+            "Construir un robot de conversación para el sitio web",
+            "Capacitar al equipo para usar lo que se entregó"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La construcción suelta es la capa que más se vuelve commodity. El robot puede seguir existiendo, pero como parte de un servicio de diagnóstico, revisión o acompañamiento."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La cima se vuelve commodity, la base se acumula",
+          "texto": "Vende las capas de arriba si pagan las cuentas; la identidad se queda en la base."
+        },
+        {
+          "t": "Cuatro puertas",
+          "texto": "Desde cero, entra por la muestra gratis o por el sector donde ya has vivido."
+        },
+        {
+          "t": "Margen, no facturación",
+          "texto": "Haz la cuenta en una línea antes de aceptar: por debajo de un tercio, algo cambia."
+        },
+        {
+          "t": "Piezas que se jalan entre sí",
+          "texto": "La auditoría lleva a la corrección, que lleva a la capacitación, que lleva al acompañamiento."
+        }
+      ]
+    }
+  ]
+}

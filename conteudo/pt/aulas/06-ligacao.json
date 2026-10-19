@@ -1,0 +1,196 @@
+{
+  "slug": "ligacao",
+  "num": 6,
+  "menu": "Ligação",
+  "titulo": "Ligação fria com permissão",
+  "titulo_curto": "Ligação fria",
+  "minutos": 20,
+  "lead": "O erro mais caro da prospecção por telefone é tentar vender o serviço na ligação. Você está interrompendo alguém no meio do expediente, e ninguém compra nada assim. A ligação tem um objetivo só: marcar a reunião. Esta aula ensina a pedir permissão, falar de resultado, segurar a informação e sair com horário marcado.",
+  "objetivo": "ligar pedindo permissão, falar de resultado e marcar a reunião sem explicar o serviço ao telefone.",
+  "competencias": ["abrir-ligacao-com-permissao", "fazer-pitch-de-uma-frase", "marcar-reuniao-com-dois-horarios"],
+  "aprende": [
+    {"t": "Os primeiros 15 segundos: honestidade e permissão"},
+    {"t": "O pitch de uma frase: resultado + negar a suposição errada"},
+    {"t": "Segurar a informação e virar para a reunião"},
+    {"t": "Treinar numa ligação simulada com placar"}
+  ],
+  "hero_alt": "Homem fala ao celular com calma, com um roteiro e uma planilha impressa na mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A anatomia da ligação",
+      "sub": "Cinco movimentos, sempre nesta ordem. Clique em cada um.",
+      "nos": [
+        {"icone": "cadeado", "titulo": "Permissão", "sub": "15 segundos", "forte": true,
+         "detalhe": "Seja honesto sobre o que é a ligação e devolva o controle: \"é uma ligação fria, me dá quinze segundos ou prefere desligar agora?\". Quem concede os quinze segundos passa a escutar de verdade. Sem permissão, tudo o que você diz é ruído."},
+        {"icone": "alvo", "titulo": "Pitch", "sub": "uma frase",
+         "detalhe": "Prometa um resultado e derrube a suposição que a pessoa já fez sobre você. Se ela acha que você vende sistema novo, negue troca de sistema. Funciona quando a resposta vira \"como assim?\"."},
+        {"icone": "x", "titulo": "Segurar", "sub": "não explique",
+         "detalhe": "Explicar ao telefone gasta a curiosidade e vira decisão apressada de alguém distraído. Responda que o melhor é ver e pergunte se vale marcar quinze minutos. \"Faz sentido?\" é a sua âncora."},
+        {"icone": "calendario", "titulo": "Dois horários", "sub": "o quanto antes",
+         "detalhe": "\"Hoje às 16h ou amanhã às 10h?\" transforma uma decisão difícil numa escolha fácil. \"Quando você pode?\" devolve a decisão a alguém ocupado, e a resposta vira \"me manda mensagem\"."},
+        {"icone": "enviar", "titulo": "Convite", "sub": "antes do próximo número",
+         "detalhe": "Confirme o canal, diga que manda o convite e desligue: depois de marcar, cada frase a mais só cria risco. Mande o convite antes de discar o próximo número."}
+      ],
+      "legenda": "Você não vende o serviço, vende a reunião. O serviço se vende lá, com tela compartilhada e atenção inteira."
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Ligação simulada: a distribuidora",
+      "sub": "Conversa simulada para treinar; as falas são ficção. Escolha a resposta que você daria; o comentário aparece logo depois.",
+      "personagem": {"nome": "Carlos, dono de uma distribuidora", "papel": "40 funcionários · atende o celular no meio do expediente"},
+      "inicio": "recepcao",
+      "falas": {
+        "recepcao": {
+          "cliente": "(Recepção) Distribuidora, bom dia. Com quem você quer falar?",
+          "opcoes": [
+            {"t": "Quero falar com o responsável pela empresa.", "vai": "fim-barrado", "nota": 0,
+             "comenta": "É a frase que a recepção mais ouve e mais barra. Sem um nome, você soa como vendedor aleatório."},
+            {"t": "O Carlos está?", "vai": "sobre", "nota": 2,
+             "comenta": "Pedir por um nome mostra que você pesquisou e aumenta muito a chance de chegar a quem decide."}
+          ]
+        },
+        "sobre": {
+          "cliente": "(Recepção) Está. Ele está esperando a sua ligação? É sobre o quê?",
+          "opcoes": [
+            {"t": "Vou ser sincero: é uma ligação fria. A gente ajuda distribuidoras a usar a IA que já têm sem expor dado de cliente, e eu queria saber se isso é prioridade para ele.", "vai": "abre", "nota": 2,
+             "comenta": "Honestidade com quem filtra funciona melhor que disfarce. Uma frase, sem tentar convencer a recepção."},
+            {"t": "É um assunto pessoal, ele sabe.", "vai": "fim-barrado", "nota": 0,
+             "comenta": "Mentir para a recepção queima o número: na próxima ligação ninguém te ajuda, e o dono começa a conversa desconfiado."},
+            {"t": "É sobre inteligência artificial. Deixa eu te explicar como funciona a nossa auditoria…", "vai": "abre", "nota": 1,
+             "comenta": "Você passou, mas gastou energia vendendo para quem não pode dizer sim. A recepção só precisa de uma frase."}
+          ]
+        },
+        "abre": {
+          "cliente": "Alô, Carlos falando.",
+          "opcoes": [
+            {"t": "Carlos, aqui é o Pedro. Vou ser sincero: é uma ligação fria, quero te vender uma coisa. Você me dá quinze segundos para eu dizer o que é, ou prefere desligar agora?", "vai": "permissao", "nota": 2,
+             "comenta": "Você assumiu o incômodo antes que ele apontasse e devolveu o controle com a saída explícita. É isso que desarma."},
+            {"t": "Oi, Carlos, tudo bem? Você tem um minutinho?", "vai": "permissao", "nota": 1,
+             "comenta": "Pede tempo, mas esconde o que é. Ele percebe em segundos que é venda e a confiança cai."},
+            {"t": "Carlos, somos uma consultoria especializada em inteligência artificial para empresas, com metodologia própria de…", "vai": "fim-desliga", "nota": 0,
+             "comenta": "Sem permissão, a apresentação da empresa é ruído. Ele estava esperando um cliente, não um vendedor."}
+          ]
+        },
+        "permissao": {
+          "cliente": "Tá, fala. Quinze segundos.",
+          "opcoes": [
+            {"t": "A gente ajuda distribuidoras a usar a IA que já têm, no WhatsApp e nos pedidos, sem expor dado de cliente e sem trocar de sistema.", "vai": "curioso", "nota": 2,
+             "comenta": "Resultado em linguagem de dono e a suposição errada (\"vai me vender sistema novo\") derrubada na mesma frase."},
+            {"t": "Fazemos auditoria de IA com inventário de agentes, matriz de risco e análise de permissões das integrações.", "vai": "fim-desliga", "nota": 0,
+             "comenta": "Jargão mata a ligação. Inventário, matriz, integração: nada disso é linguagem de quem atende no meio do expediente."},
+            {"t": "A gente trabalha com IA para empresas.", "vai": "curioso", "nota": 1,
+             "comenta": "Não assusta, mas também não promete resultado nem nega a suposição. A curiosidade fica fraca."}
+          ]
+        },
+        "curioso": {
+          "cliente": "Como assim? O que exatamente vocês fazem?",
+          "opcoes": [
+            {"t": "Olha, eu te liguei do nada, então vou ser direto: o melhor jeito de entender é ver. Preparo uma prévia com o que é público da sua empresa e te mostro em quinze minutos. Faz sentido?", "vai": "horario", "nota": 2,
+             "comenta": "Respondeu sem explicar, manteve o tom honesto e terminou numa pergunta fechada sobre o horário, não sobre o serviço."},
+            {"t": "Primeiro a gente levanta todos os sistemas, depois classifica os riscos, depois monta o relatório com…", "vai": "fim-email", "nota": 0,
+             "comenta": "Explicar ao telefone gasta a curiosidade que você acabou de criar. Ele decide com pressa, distraído, e a resposta é \"manda por e-mail\"."},
+            {"t": "Posso te mandar um material por e-mail para você ver com calma?", "vai": "fim-email", "nota": 1,
+             "comenta": "Educado, mas você entregou a decisão para depois. Material sem conversa raramente é lido."}
+          ]
+        },
+        "horario": {
+          "cliente": "Faz sentido. Me liga semana que vem que a gente vê.",
+          "opcoes": [
+            {"t": "Fechado. Quando for melhor para você, me avisa.", "vai": "fim-email", "nota": 0,
+             "comenta": "\"Quando você pode?\" devolve a decisão a alguém ocupado. Na prática, é um não educado."},
+            {"t": "Para não esquecer: hoje às 16h ou amanhã às 10h, qual fica melhor?", "vai": "fim-bom", "nota": 2,
+             "comenta": "Duas opções concretas, o quanto antes. Ninguém lembra de uma conversa de trinta segundos uma semana depois."},
+            {"t": "Pode ser terça que vem, às 10h?", "vai": "fim-longe", "nota": 1,
+             "comenta": "Um horário concreto é melhor que nenhum, mas uma semana depois a chance de ele não aparecer dispara."}
+          ]
+        },
+        "fim-barrado": {"fim": true, "titulo": "Parou na recepção",
+          "texto": "A ligação morreu antes de chegar a quem decide. Sem o nome do dono e sem honestidade com quem atende, a recepção faz exatamente o trabalho dela. Volte à aula 5: o nome vem antes da ligação."},
+        "fim-desliga": {"fim": true, "titulo": "Desligou",
+          "texto": "Sem permissão ou com jargão, tudo o que você disse foi ruído. Marque amarelo na planilha, reescreva a abertura e treine até o \"prefere desligar agora?\" sair natural."},
+        "fim-email": {"fim": true, "titulo": "\"Manda por e-mail\"",
+          "texto": "Quase sempre é um não. Na próxima, responda: \"mando sim, e para o e-mail fazer sentido, prefere que eu mostre amanhã de manhã ou depois de amanhã à tarde?\". Se ele insistir, mande, marque azul e volte em uma semana."},
+        "fim-longe": {"fim": true, "titulo": "Marcou, mas longe",
+          "texto": "Você tem um horário, mas uma semana é tempo demais para uma conversa de trinta segundos. Mande o convite e a mensagem pedindo um sim escrito agora (aula 7), e da próxima vez ofereça hoje ou amanhã."},
+        "fim-bom": {"fim": true, "titulo": "Reunião marcada",
+          "texto": "Verde na planilha. Você confirma o e-mail, desliga e manda o convite antes de discar o próximo número. A prévia do diagnóstico e a reunião de quinze minutos são a aula 7."}
+      },
+      "licao": "A ligação vende a reunião, não o serviço: permissão, uma frase de resultado, nenhuma explicação e dois horários."
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "As falas ficam abertas na sua mesa. Os dois prompts você roda antes de queimar números reais.",
+      "blocos": [
+        {"rot": "Abertura, pitch e virada", "icone": "chat",
+         "conteudo": "ABERTURA (até 15 s)\n— Oi, é o <seu nome>. Falo com o <nome do dono>?\n— <Nome>, vou ser sincero: essa é uma ligação fria, eu quero te vender\n  uma coisa. Você me dá quinze segundos pra eu dizer o que é, ou prefere\n  desligar agora?\n\nPITCH (1 frase: resultado + negar a suposição errada)\n— A gente ajuda <tipo de empresa> a <resultado em linguagem de dono>,\n  sem <a suposição errada: trocar de sistema / gastar com anúncio>.\n\nVIRADA (\"como funciona?\")\n— Olha, eu te liguei do nada, então vou ser direto: a melhor forma de\n  entender é ver. Meu objetivo era só saber se vale marcar uns quinze\n  minutos pra eu te mostrar. Faz sentido pra você?\n\nFECHAMENTO\n— Hoje às <16h> ou amanhã às <10h>?\n— Qual o melhor e-mail? Te mando o convite agora."},
+        {"rot": "Recepção: as três situações", "icone": "usuario",
+         "conteudo": "[\"ele está esperando sua ligação?\" / \"é sobre o quê?\"]\n— Vou ser sincero: é uma ligação fria. A gente ajuda <tipo de empresa> a\n  <resultado>, e eu queria saber se isso é prioridade pra vocês agora.\n\n[\"ele não está disponível\"]\n— Sem problema. Tem um horário melhor pra eu retornar? Logo cedo,\n  quando ele chega, funciona?\n\n[\"quer deixar recado?\"]\n— Quero. Só diz que é sobre <resultado>, e que eu ligo de volta\n  <dia e hora>.\n\nAnote o nome de quem atendeu. Na próxima: \"oi, <nome>, é o <seu nome>\nde novo, o <dono> já chegou?\""},
+        {"rot": "Prompt · roteiro do seu nicho", "icone": "lista",
+         "conteudo": "Você é meu treinador de prospecção por telefone. Escreva meu roteiro\nde ligação fria para marcar uma reunião de 15 minutos.\nMEU NICHO = <setor>\nO QUE EU VENDO = <ex.: auditoria de IA: o que a empresa já usa, riscos e plano de 30 dias>\nO RESULTADO PRO CLIENTE = <em linguagem de dono>\nA SUPOSIÇÃO ERRADA que esse setor faz = <ex.: \"vai me vender sistema novo\">\n\nEstrutura, com as falas prontas:\n1. ABERTURA (máx. 15 s): quem é + ligação fria + permissão + saída explícita.\n2. PITCH (1 frase): resultado + negação da suposição errada.\n3. RESPOSTA A \"como funciona?\": sem explicar, virando para a reunião.\n   Termine com \"faz sentido?\".\n4. FECHAMENTO: duas opções de horário, mesmo dia ou dia seguinte.\n5. RECEPÇÃO: \"é sobre o quê?\", \"ele não está\", \"quer deixar recado?\".\n6. OBJEÇÕES: as 6 mais comuns deste setor, cada resposta em no máximo\n   duas frases, voltando para a marcação.\n7. O QUE NUNCA DIZER: palavras e assuntos proibidos.\nLinguagem falada, frases curtas, zero jargão. Cabe em uma página."},
+        {"rot": "Prompt · simulador de ligação", "icone": "robo",
+         "conteudo": "Vamos treinar ligação fria. Você é o dono de <tipo de empresa do meu\nnicho>, ocupado, no meio do expediente, e acabou de atender o telefone\nsem esperar essa ligação.\nRegras:\n- Responda SEMPRE em uma ou duas frases, como uma pessoa apressada.\n- 6 em cada 10 vezes, resista ou tente encerrar.\n- Se eu usar jargão, reaja com estranhamento.\n- Se eu explicar demais, corte com \"olha, estou sem tempo agora\".\n- Não saia do papel até eu escrever FIM.\nQuando eu escrever FIM, me avalie em cinco pontos:\n(1) pedi permissão nos primeiros 15 s? (2) falei de resultado ou de\ntecnologia? (3) segurei a informação? (4) ofereci dois horários?\n(5) qual foi minha frase mais fraca, e como reescrevê-la?\nComece dizendo apenas \"Alô?\"."}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Palavras e respiração",
+      "sub": "Objeções e fechamento em profundidade ficam nos cursos 3 e 5 da formação. Aqui, o mínimo para a ligação.",
+      "passos": [
+        {"titulo": "Palavras que funcionam", "sub": "linguagem de dono",
+         "texto": ["\"menos risco\", \"sem trocar seu sistema\", \"quinze minutos\", \"eu te mostro\", \"faz sentido?\"."]},
+        {"titulo": "Palavras que matam", "sub": "jargão e adjetivo",
+         "texto": ["\"sinergia\", \"transformação digital\", \"revolucionário\", \"disruptivo\" e nomes técnicos que quem atende não usa."]},
+        {"titulo": "Aceite as primeiras ruins", "sub": "é o método",
+         "texto": ["Para ficar bom, você precisa ser ruim primeiro. Troque os \"éééé\" por silêncio: pausa soa como confiança.", "Se for permitido onde você está, grave as suas ligações e ouça uma por dia."]}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Vinte minutos de treino poupam vinte ligações queimadas.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Roteiro de uma página", "min": "30 min",
+         "texto": "Rode o prompt do roteiro para o seu nicho. Leia tudo em voz alta e reescreva toda frase que você não diria a um amigo. Depois faça cinco rodadas no simulador.",
+         "pronto": "o roteiro cabe numa página, a abertura dura até 15 segundos cronometrados e nenhuma resposta a objeção passa de duas frases."},
+        {"id": "e2", "titulo": "2 · Ligação simulada com placar", "min": "10 min",
+         "texto": "Faça a ligação simulada desta aula. Se não chegar ao placar máximo, leia os comentários, clique em recomeçar e tente de novo.",
+         "pronto": "você terminou a ligação simulada com o placar máximo e sabe dizer por que pedir pelo nome e oferecer dois horários fazem diferença."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "O dono pergunta: \"mas como exatamente isso funciona?\". O que você faz?",
+         "opcoes": ["Explica em detalhes, aproveitando o interesse", "Diz que o melhor é ver e propõe quinze minutos, com dois horários", "Oferece mandar um material por e-mail"],
+         "certa": 1, "ref": "simconversa",
+         "explica": "Explicar gasta a curiosidade e transforma a ligação numa decisão apressada. O objetivo da ligação é a reunião."},
+        {"p": "Qual é a função da frase \"prefere desligar agora?\" na abertura?",
+         "opcoes": ["Testar a paciência da pessoa", "Devolver o controle com uma saída explícita, o que faz a pessoa escutar de verdade", "Encerrar rápido para ligar para mais gente"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Ninguém gosta de ser vendido sem ter concordado em ouvir. Quem concede os quinze segundos abre a cabeça."},
+        {"p": "Qual destes pitches segue a regra resultado + negar a suposição?",
+         "opcoes": ["Somos líderes em soluções de IA disruptivas", "A gente ajuda distribuidoras a usar a IA que já têm sem expor dado de cliente e sem trocar de sistema", "Fazemos auditoria de IA com matriz de risco"],
+         "certa": 1, "ref": "simconversa",
+         "explica": "Promete resultado em linguagem de dono e derruba a suposição de que você vai vender sistema novo. Funciona quando a resposta vira \"como assim?\"."},
+        {"p": "Ele diz \"faz sentido, me liga semana que vem\". O que responder?",
+         "opcoes": ["\"Combinado, quando for melhor para você\"", "\"Para não esquecer: hoje às 16h ou amanhã às 10h?\"", "\"Posso ligar daqui a duas semanas?\""],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Duas opções concretas, o quanto antes. Uma semana depois ninguém lembra de uma conversa de trinta segundos, e a ausência dispara."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Objetivo único: a reunião", "texto": "O serviço se vende lá, não ao telefone."},
+        {"t": "Permissão em 15 segundos", "texto": "Assumir que é ligação fria desarma quem atende."},
+        {"t": "Resultado + suposição negada", "texto": "É a combinação que gera curiosidade."},
+        {"t": "Dois horários, o quanto antes", "texto": "E o convite sai antes do próximo número."}
+      ]
+    }
+  ]
+}

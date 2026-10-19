@@ -1,0 +1,284 @@
+{
+  "slug": "nicho",
+  "num": 2,
+  "menu": "Niche",
+  "titulo": "Waves, trust and niche",
+  "titulo_curto": "Waves and niche",
+  "minutos": 16,
+  "lead": "Every technology wave repeats the pattern: the new thing appears, few companies adopt it, and then comes a long gap in which most know they are behind. In that gap, the people who get paid are the ones who help others adopt safely. This lesson shows why trust comes before the big contract and how to pick a niche without getting stuck.",
+  "objetivo": "pick a niche using the 3 criteria (money, access to the decision-maker, real problem) and start with the easy yes that builds trust.",
+  "competencias": [
+    "escolher-nicho-com-criterio",
+    "construir-confianca-por-etapas",
+    "escrever-posicionamento"
+  ],
+  "aprende": [
+    {
+      "t": "Find the phase of the wave where the service provider wins"
+    },
+    {
+      "t": "Why the chatbot stopped being the best first sale"
+    },
+    {
+      "t": "The 4 steps of trust leading up to the big contract"
+    },
+    {
+      "t": "Pick a niche with 3 criteria and one positioning sentence"
+    }
+  ],
+  "hero_alt": "A consultant talks with the owner of a building-materials store at the counter.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The logic of waves",
+      "sub": "Four phases of every technology wave. Click each one.",
+      "nos": [
+        {
+          "icone": "sol",
+          "titulo": "New thing",
+          "sub": "the technology appears",
+          "detalhe": "Lots of talk, little adoption. Whoever sells here sells curiosity, and the client doesn't yet know what to ask for."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "First companies",
+          "sub": "a handful adopt it",
+          "detalhe": "Companies with their own technical team test on their own. Few outsiders get called in."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "The lagging majority",
+          "sub": "the provider's window",
+          "forte": true,
+          "detalhe": "The stretch, sometimes years long, when most people haven't adopted yet and know they're behind. That's how it went with websites, apps and social media. It's the most profitable phase for those who help others adopt and trust what they adopted."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Everyone",
+          "sub": "the margin drops",
+          "detalhe": "Once everyone has adopted, building becomes a commodity. The value that's left is in reviewing, following up and teaching what's already running."
+        }
+      ],
+      "legenda": "It's not the most exciting phase: it's the most profitable one for service providers.",
+      "dica": "The model is resilient (no inventory, no dependence on a platform), but it's neither passive nor fast: without new conversations every week, revenue stops."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The first sale has changed",
+      "sub": "The chat bot on the website was almost everyone's first sale. Why it's now just one piece.",
+      "passos": [
+        {
+          "titulo": "The problem is still real",
+          "sub": "websites that don't answer",
+          "texto": [
+            "The website dumps information but doesn't answer the visitor's question. A long form, phone only, nobody answering after hours.",
+            "Open the websites of ten service companies in your city: most have nothing but a phone number."
+          ]
+        },
+        {
+          "titulo": "Building got easy",
+          "sub": "the offer loses value",
+          "texto": [
+            "Setting up the bot today takes an afternoon, and many tools already come with one ready to go.",
+            "Selling only \"I'll install the bot\" means competing on price with the tool itself."
+          ]
+        },
+        {
+          "titulo": "Trust didn't get easier",
+          "sub": "the question that remains",
+          "texto": [
+            "The owner wants to know: does the bot make up prices? Where does the customers' data go? Who answers when it gets something wrong?",
+            "Answering that is diagnosis and review, and that's what opens the door to the company."
+          ],
+          "exemplo": {
+            "rot": "The turning point",
+            "texto": "The entry point becomes the AI audit (lesson 3). The bot, when it makes sense, comes in as one of its fixes."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Trust comes before big contracts",
+      "sub": "A service is a promise, and a promise is only accepted by people who trust you. Four steps.",
+      "passos": [
+        {
+          "titulo": "An easy yes",
+          "sub": "the owner approves alone",
+          "texto": [
+            "Something cheap enough to approve without a meeting or a committee.",
+            "If they have to ask for permission, you've already lost weeks."
+          ]
+        },
+        {
+          "titulo": "Deliver fast and stay close",
+          "sub": "being present creates the next sale",
+          "texto": [
+            "Time inside the client's operation is what makes the bigger problems surface."
+          ]
+        },
+        {
+          "titulo": "Let the big problem surface",
+          "sub": "after two or three months",
+          "texto": [
+            "The client tells you things they would never say in a first meeting. That's where the high-value project is born, without you pushing anything."
+          ]
+        },
+        {
+          "titulo": "Delivery becomes public proof",
+          "sub": "testimonial and case study",
+          "texto": [
+            "Proof from third parties lowers the risk the next client perceives.",
+            "That, not your technique, is what lets you charge more on the next project."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Niche: the three criteria",
+      "sub": "Staying in one sector makes the work compound: the same problems, vocabulary and objections keep coming back.",
+      "passos": [
+        {
+          "titulo": "Is there money?",
+          "sub": "room in the margin to pay for a service",
+          "texto": [
+            "A business that operates on the edge will love your idea and won't buy it."
+          ]
+        },
+        {
+          "titulo": "Can you talk to the decision-maker?",
+          "sub": "the owner picks up",
+          "texto": [
+            "A decision buried under three levels of approval is too long a cycle for someone who needs cash now."
+          ]
+        },
+        {
+          "titulo": "Can you solve something real today?",
+          "sub": "not six months from now",
+          "texto": [
+            "There has to be a concrete problem you can tackle with what you already know."
+          ],
+          "exemplo": {
+            "rot": "Common mistake",
+            "texto": "Picking a niche by the solution (\"I build voice agents\") instead of the industry. The solution gets old; the industry doesn't."
+          }
+        },
+        {
+          "titulo": "The minimum setup",
+          "sub": "fits in one afternoon",
+          "texto": [
+            "Business: a way to get paid and a page with what you do. Product: what you already know how to use. Prospecting: a spreadsheet and a phone.",
+            "Only spend on a tool when not having it blocks a specific sale. At the end of each delivery, 20 minutes: a clean copy, what broke, and how long it took."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy",
+      "sub": "The prompt settles the niche decision today, with the three criteria applied in a comparable way.",
+      "blocos": [
+        {
+          "rot": "Prompt · choose the niche",
+          "icone": "chat",
+          "conteudo": "You are my market analyst. I need to choose ONE niche to sell\ntrust services in AI: an audit of how the company uses AI,\noperations diagnostic, review of what has already been built, and training.\n\nMy reality:\n- Industries where I have worked or have contacts: <list>\n- City or region where I can serve clients: <where>\n- Industries that interest me, even without experience: <list>\n\nScore each industry on these three criteria, from 1 to 5:\nA) Has money: margin to pay for an outside service.\nB) You can reach the decision-maker: the owner picks up, or there is a wall of approvals.\nC) I can solve something real today, with what I already know, without studying for months.\n\nThen give me:\n1. The table with the scores and the total.\n2. The winner, and why the others lost.\n3. For the winner: the 5 most common operational pain points and where the company\n   is probably already using AI without knowing whether it can be trusted.\n4. My sentence: \"I help <who> to <result> without <the pain they fear>.\"\n5. 10 questions I should be able to answer about this industry before the\n   first call, marking the ones I probably don't know.\n\nDon't sugarcoat it. If no industry is any good, say so and suggest two better ones."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Commit to the niche for at least one year: any less and referrals won't come.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The niche table",
+          "min": "25 min",
+          "texto": "Run the prompt with at least three industries. If the totals tie, the criteria were applied too loosely: redo it with more detail about each industry.",
+          "pronto": "the table has a winner with a clear margin over the runner-up, and the positioning sentence fits in one breath, said out loud."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The industry's 10 questions",
+          "min": "30 min",
+          "texto": "Answer the 10 questions from item 5 in writing before you call any company. The ones you don't know become the week's homework.",
+          "pronto": "the 10 questions are answered or marked as homework, with the source where you will get the answer."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "In which phase of the wave is the service provider paid best?",
+          "opcoes": [
+            "At the start, when everyone is talking about the topic",
+            "In the gap when most people haven't adopted yet and know they are behind",
+            "When all companies have already adopted"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The late-majority phase is the most profitable for whoever helps with adoption. At the start the client doesn't know what to ask for; at the end, the margin has already dropped."
+        },
+        {
+          "p": "What is the recommended path to a big contract?",
+          "opcoes": [
+            "An ambitious proposal right at the first contact",
+            "Start with something small, deliver well, and let the big problem surface",
+            "Invest in visual identity to look bigger"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A big contract rarely comes from a cold proposal. It comes after months of small jobs with the same company, proving that you deliver and that you speak up when something goes wrong."
+        },
+        {
+          "p": "Why is \"I install the chatbot on your website\" no longer the best first offer?",
+          "opcoes": [
+            "Because companies no longer have the problem of answering visitors",
+            "Because building got easy and turns into a price fight; what's missing is knowing whether the bot can be trusted",
+            "Because chatbots are banned"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The problem is still real, but building has become a commodity. The question that remains (does the bot make things up? where does the data go?) is diagnostic and review work."
+        },
+        {
+          "p": "Which of these is a niche mistake?",
+          "opcoes": [
+            "Staying in the same industry for a year",
+            "Picking a niche by the solution, like \"I build voice agents\"",
+            "Choosing an industry where the owner picks up the phone"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The solution gets old; the industry doesn't. A niche is a market segment (an industry, sometimes a size), not a tool."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "The window is the late majority",
+          "texto": "Whoever helps companies adopt and trust AI gets paid in it."
+        },
+        {
+          "t": "The first sale has changed",
+          "texto": "The robot becomes one piece; the entry point is the AI audit."
+        },
+        {
+          "t": "Trust by steps",
+          "texto": "Easy yes, presence, big problem, public proof."
+        },
+        {
+          "t": "Niche by sector",
+          "texto": "Money, access to the decision-maker, and a real problem today."
+        }
+      ]
+    }
+  ]
+}

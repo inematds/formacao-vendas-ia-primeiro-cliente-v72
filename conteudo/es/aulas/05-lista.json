@@ -1,0 +1,267 @@
+{
+  "slug": "lista",
+  "num": 5,
+  "menu": "Lista",
+  "titulo": "Lista que convierte",
+  "titulo_curto": "Lista que convierte",
+  "minutos": 17,
+  "lead": "Sin rutina, la prospección se vuelve un arrebato: treinta llamadas un lunes, frustración y dos semanas de silencio. Esta clase arma lo que sostiene todo lo demás: dónde encontrar las empresas, cómo calificar cada una en tres minutos, cómo descubrir el nombre de quien decide y una hoja de cálculo con colores que muestra todo el día en una pantalla.",
+  "objetivo": "armar una lista calificada de empresas, con el nombre de quien decide, y la rutina diaria de contacto.",
+  "competencias": [
+    "montar-lista-qualificada",
+    "achar-quem-decide",
+    "manter-rotina-de-prospeccao"
+  ],
+  "aprende": [
+    {
+      "t": "Por qué llamada, y no correo, si estás empezando de cero"
+    },
+    {
+      "t": "Encontrar y calificar empresas en tres minutos, sin hablar con nadie"
+    },
+    {
+      "t": "Descubrir el nombre de quien decide en fuentes públicas"
+    },
+    {
+      "t": "La hoja de colores y la rutina que no depende del ánimo"
+    }
+  ],
+  "hero_alt": "Notebook con una hoja de cálculo de filas coloreadas, un celular y una taza de café sobre la mesa.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "De la búsqueda a la lista del día",
+      "sub": "Cinco etapas, una vez al día. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Buscar",
+          "sub": "nicho + ciudad en el mapa",
+          "detalhe": "Una búsqueda por mapas basta: nicho más ciudad trae decenas de empresas con teléfono, sitio web y número de reseñas. Abre cada candidata en una pestaña y solo después califica: alternar búsqueda y calificación vuelve la lista insoportablemente lenta."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Tres filtros",
+          "sub": "tres minutos por empresa",
+          "detalhe": "1. ¿La empresa tiene movimiento? 2. ¿Hay una brecha que tú resuelves? 3. ¿Se puede descubrir quién decide? De cien empresas quedan unas veinte, y eso es lo que cuida tu mejor energía."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Quien decide",
+          "sub": "un nombre, no un cargo",
+          "forte": true,
+          "detalhe": "\"¿Está Ricardo?\" pasa por la recepción; \"quiero hablar con el responsable\" es la frase que más bloquea. Fuentes: el registro público de empresas, la página \"quiénes somos\", la red social profesional y las respuestas a las reseñas, que muchas veces firma el dueño."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Hoja de colores",
+          "sub": "el día en una pantalla",
+          "detalhe": "Amarillo: no contestó, vuelve mañana. Rojo: sin interés, sale de la lista. Azul: pidió que llames después, anota día y hora. Verde: reunión agendada, el único número que importa."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Rutina",
+          "sub": "todo día hábil",
+          "detalhe": "Llama a la lista del día, marca dos veces cada número, actualiza el color antes del siguiente y arma la lista de mañana al cerrar el bloque."
+        }
+      ],
+      "legenda": "La simplicidad y la constancia vencen a la herramienta cara: no contrates un sistema de ventas antes del primer cliente."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Los tres filtros, por dentro",
+      "sub": "Calificar es responder una pregunta: ¿esta empresa pierde algo con el problema que yo resuelvo?",
+      "passos": [
+        {
+          "titulo": "Tamaño adecuado",
+          "sub": "ni demasiado pequeña, ni demasiado grande",
+          "texto": [
+            "Regla guía: entre 10 y 50 reseñas. Menos de 10, es pequeña o demasiado nueva. Más de 300, ya tiene agencia y no hablas con quien decide.",
+            "Y pregunta si tu servicio tiene sentido en esa región antes de armar la lista."
+          ]
+        },
+        {
+          "titulo": "La brecha",
+          "sub": "tu gancho",
+          "texto": [
+            "Para la auditoría de IA, el gancho es ver que la empresa ya usa IA o automatización: bot en el sitio, atención automática en WhatsApp, app de pedidos, área de clientes.",
+            "Si tiene algo funcionando y nadie lo revisó, encontraste el tema de la llamada."
+          ],
+          "exemplo": {
+            "rot": "En la planilla",
+            "texto": "Columna \"brecha\": \"bot de WhatsApp sin humano a la vista\", \"app de pedidos con login de cliente\", \"solo formulario largo\"."
+          }
+        },
+        {
+          "titulo": "La cuenta que justifica la llamada",
+          "sub": "sin acusar a nadie",
+          "texto": [
+            "Un sitio de servicios razonable convierte alrededor del 2% de las visitas en contacto. Mil visitas y dos contactos son 0,2%: diez veces por debajo.",
+            "No acusas: muestras la cuenta y preguntas si parte de las personas no encontró una forma cómoda de hablar con ellos."
+          ]
+        },
+        {
+          "titulo": "Las reglas de tu mercado",
+          "sub": "antes del volumen",
+          "texto": [
+            "La prospección por teléfono está regulada en muchos lugares: horario, registro de rechazos, listas de bloqueo y multas relevantes.",
+            "Verifica qué rige en tu país y en tu sector. Respetar a quien pidió no ser contactado es una regla, no una cortesía."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Por qué llamada, y la rutina",
+      "sub": "Quien está en cero no tiene un problema de escala: tiene un problema de aprendizaje.",
+      "passos": [
+        {
+          "titulo": "La llamada devuelve respuesta en segundos",
+          "sub": "el ciclo más corto",
+          "texto": [
+            "Escuchas la objeción real, con el tono de voz incluido, y cada llamada entrena la reunión que viene después.",
+            "El correo toma semanas para prepararse, resuelve un problema de escala que no tienes, y el silencio no enseña nada."
+          ]
+        },
+        {
+          "titulo": "La meta diaria",
+          "sub": "empieza con 20",
+          "texto": [
+            "La meta completa es 75 empresas por día. Si tienes otro trabajo, empieza con 20, pero todos los días hábiles, sin excepción.",
+            "Marca dos veces: parte de las personas contesta en el segundo intento."
+          ]
+        },
+        {
+          "titulo": "Color antes del próximo número",
+          "sub": "ocho segundos",
+          "texto": [
+            "Un color y una línea de observación. Cinco llamadas después no recuerdas cuál era cuál, y vuelves a llamar a quien pidió que no lo llamaras."
+          ]
+        },
+        {
+          "titulo": "La matemática que tranquiliza",
+          "sub": "previsible en dos semanas",
+          "texto": [
+            "No importa la tasa exacta: después de dos semanas sabes cuántas llamadas producen una reunión.",
+            "Ahí el \"no\" deja de ser rechazo y se vuelve una línea de la planilla, rumbo al próximo sí."
+          ],
+          "exemplo": {
+            "rot": "Consejo",
+            "texto": "Llama junto con otra persona que también está empezando, en una videollamada: se corrigen el guion el uno al otro y el abandono se desploma."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Las columnas de la planilla y el prompt que adapta la calificación a tu nicho.",
+      "blocos": [
+        {
+          "rot": "Columnas de la planilla",
+          "icone": "lista",
+          "conteudo": "empresa | teléfono principal | nombre de quien decide | sitio | reseñas | movimiento estimado | brecha (tu gancho) | estado (color) | observación (una línea) | próximo contacto\n\nCOLORES\namarillo = no contestó, vuelvo mañana\nrojo     = sin interés, sale de la lista (y no se llama más)\nazul     = pidió que llame después: <día y hora>\nverde    = reunión agendada"
+        },
+        {
+          "rot": "Prompt · manual de calificación del nicho",
+          "icone": "chat",
+          "conteudo": "Eres mi operador de preventa. Voy a prospectar por teléfono empresas\nde un sector para ofrecer auditoría de IA (inventario de lo que la empresa\nya usa de IA, riesgos de datos, permisos y claves, plan de 30 días).\nMI NICHO = <sector>\nMI REGIÓN = <ciudad o estado>\nMI PRECIO DE ENTRADA = <valor>\n\nEntrega:\n1. 8 verificaciones objetivas, solo con información pública, que indiquen si la\n   empresa ya usa IA o automatización sin que nadie lo revise. Sí/no y peso.\n2. 5 señales de que NO debo gastar una llamada en esa empresa.\n3. 4 fuentes públicas para encontrar a quien decide en este sector y región.\n4. Las columnas de la planilla con un ejemplo de fila completada.\n5. Particularidades del sector: estacionalidad, horarios del dueño,\n   vocabulario y reglas o restricciones de contacto que suelen existir.\n6. En dos frases, cómo explico el motivo de la llamada sin acusar a nadie.\nSi no tienes base para afirmar algo, di que es una suposición."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Una buena lista aprueba más o menos a una de cada tres empresas.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Lista de 20 empresas",
+          "min": "60 min",
+          "texto": "Ejecuta el prompt de calificación y prueba la lista de verificación en tres empresas reales de tu nicho. Si todas pasan o todas caen, ajusta los criterios. Después arma la planilla con 20 empresas.",
+          "pronto": "la planilla tiene 20 empresas calificadas, cada una con la brecha anotada y el nombre de quien decide (o la fuente donde lo vas a buscar)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Reglas y rutina",
+          "min": "20 min",
+          "texto": "Anota las reglas de contacto por teléfono que valen en tu país y en tu sector. Elige el horario fijo de tu bloque diario y la meta inicial.",
+          "pronto": "las reglas de contacto están anotadas con la fuente y el bloque diario está en la agenda, con horario y meta (por ejemplo, 20 llamadas)."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Por qué descubrir el nombre del dueño antes de llamar cambia tanto el resultado?",
+          "opcoes": [
+            "Porque así le vendes directo a la recepción",
+            "Porque pedir por un nombre aumenta mucho la probabilidad de llegar a quien decide",
+            "Porque es obligatorio mencionar el nombre del responsable"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "\"Quiero hablar con el responsable\" es la frase que más bloquean. Con el nombre, suenas como alguien que ya tiene un asunto con esa persona, y muestras que investigaste."
+        },
+        {
+          "p": "Para quien está en cero, ¿por qué llamada y no correo?",
+          "opcoes": [
+            "Porque el correo está prohibido",
+            "Porque la llamada te devuelve aprendizaje en segundos y el silencio del correo no enseña nada",
+            "Porque la llamada da más escala"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Quien está en cero necesita aprender rápido qué funciona. El correo resuelve la escala, un problema que todavía no tienes."
+        },
+        {
+          "p": "Una empresa tiene 600 reseñas y agencia de marketing. ¿Entra en la lista?",
+          "opcoes": [
+            "Sí, es la mejor: tiene dinero",
+            "Probablemente no: difícilmente hablas con quien decide",
+            "Sí, pero solo por correo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La regla guía es el tamaño con dueño accesible (cerca de 10 a 50 reseñas). La empresa grande tiene un muro de aprobaciones y un ciclo demasiado largo para quien necesita el primer cliente."
+        },
+        {
+          "p": "¿Cuándo actualizar el color de la planilla?",
+          "opcoes": [
+            "Al final del bloque de llamadas",
+            "Justo después de colgar, antes de marcar el siguiente número",
+            "Una vez por semana"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Ocho segundos por llamada evitan llamar dos veces a quien pidió que no lo llamaran más. Respetar la negativa es regla."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La llamada enseña rápido",
+          "texto": "Es el canal de quien necesita aprender, no escalar."
+        },
+        {
+          "t": "Tres filtros",
+          "texto": "Tamaño correcto, brecha que tú resuelves y nombre de quien decide."
+        },
+        {
+          "t": "Hoja de colores",
+          "texto": "Amarillo, rojo, azul, verde; color antes del siguiente número."
+        },
+        {
+          "t": "Rutina y reglas",
+          "texto": "Todos los días hábiles, y respetando las reglas de contacto de tu mercado."
+        }
+      ]
+    }
+  ]
+}

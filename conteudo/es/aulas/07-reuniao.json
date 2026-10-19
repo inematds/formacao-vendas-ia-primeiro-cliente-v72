@@ -1,0 +1,262 @@
+{
+  "slug": "reuniao",
+  "num": 7,
+  "menu": "Reunión",
+  "titulo": "De la reunión agendada a la cerrada",
+  "titulo_curto": "La reunión",
+  "minutos": 18,
+  "lead": "La reunión agendada todavía no es un cliente. Se pierde en la inasistencia, en la pantalla desordenada, en la jerga y en la prisa por vender. Esta clase prepara los quince minutos: confirmar por escrito, llegar con un avance del diagnóstico hecho con datos públicos, calibrar el nivel de la conversación y escuchar más de lo que hablas.",
+  "objetivo": "preparar el avance del diagnóstico con datos públicos y conducir 15 minutos de reunión escuchando más de lo que hablas.",
+  "competencias": [
+    "confirmar-reuniao-por-escrito",
+    "preparar-previa-de-diagnostico",
+    "conduzir-reuniao-consultiva"
+  ],
+  "aprende": [
+    {
+      "t": "Confirmar con invitación y un sí por escrito"
+    },
+    {
+      "t": "Armar el avance del diagnóstico antes de recibir"
+    },
+    {
+      "t": "Calibrar el nivel de la conversación con la primera pregunta"
+    },
+    {
+      "t": "Presentar la oferta de entrada con calma"
+    }
+  ],
+  "hero_alt": "Una consultora en una videollamada escucha con atención al dueño de una pequeña empresa, con el cuaderno abierto.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Los quince minutos",
+      "sub": "De la confirmación al siguiente paso. Haz clic en cada etapa.",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Confirmar",
+          "sub": "invitación + sí por escrito",
+          "detalhe": "Invitación en el calendario y un mensaje aparte pidiendo un \"ok\". Quien responde asiste; quien no responde solo estaba siendo educado por teléfono. Si no hay respuesta hasta unas horas antes, un recordatorio corto."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Avance del diagnóstico",
+          "sub": "hecho antes de recibir",
+          "forte": true,
+          "detalhe": "Con lo que es público (sitio web, canales de atención, reseñas, lo que la empresa dice que usa), llegas con tres hallazgos y una hipótesis de riesgo. Di lo que es: \"armé esto con la información pública de ustedes ayer\". El esfuerzo concreto es el argumento."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Cuatro pestañas",
+          "sub": "y nada más",
+          "detalhe": "El sitio web de él, el avance del diagnóstico, la cuenta de los números y tu agenda. Bandeja de mensajes cerrada, nada de otro cliente abierto, diapositivas solo al final, si las hay."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Calibrar y escuchar",
+          "sub": "habla menos que él",
+          "detalhe": "La primera pregunta descubre el nivel: \"¿cuánto has trabajado con IA en la empresa?\". Después, preguntas abiertas. Eres un consultor que por casualidad tiene un servicio, no un vendedor que por casualidad hace preguntas."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Oferta y siguiente paso",
+          "sub": "en la agenda abierta",
+          "detalhe": "La oferta de entrada en máximo tres frases, y el siguiente paso agendado ahí mismo, sin \"después te lo envío\"."
+        }
+      ],
+      "legenda": "Una hora de preparación antes vale más que cualquier técnica aplicada durante la reunión."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Por dentro de la reunión",
+      "sub": "El orden de la conversación, sin guion fijo.",
+      "passos": [
+        {
+          "titulo": "Di el alcance enseguida",
+          "sub": "qué es y qué no es",
+          "texto": [
+            "Antes de mostrar el avance: \"lo que yo hago es evaluar y hacer el triaje de los riesgos de IA. No es pentest, ni respuesta a incidentes, ni dictamen jurídico.\"",
+            "Decir lo que no haces es lo que hace que todo lo demás parezca confiable."
+          ]
+        },
+        {
+          "titulo": "Calibra el nivel",
+          "sub": "la primera pregunta",
+          "texto": [
+            "\"Soy desarrollador\": sube el nivel. \"Solo usé esos chats\": baja y no uses ninguna palabra técnica más.",
+            "El error grave no es hablar demasiado simple: es hacer que la persona se sienta tonta."
+          ]
+        },
+        {
+          "titulo": "Pregunta y tira del hilo",
+          "sub": "preguntas abiertas",
+          "texto": [
+            "\"¿Qué herramientas de IA usa el equipo hoy, incluso por cuenta propia?\" \"¿Qué pasa cuando el robot no sabe responder?\" \"Si un problema desapareciera mañana, ¿cuál sería?\"",
+            "Ayuda con algo que no vendes: un consejo útil fuera del alcance genera más confianza que cualquier argumento."
+          ]
+        },
+        {
+          "titulo": "Muestra, no cuentes",
+          "sub": "el avance en pantalla",
+          "texto": [
+            "Comparte la pantalla y muestra los tres hallazgos con el lugar donde los viste. Termina en pregunta, nunca en acusación.",
+            "\"Ustedes están expuestos\" genera defensa. \"¿Es posible que nadie haya revisado a dónde van esas conversaciones?\" hace que él llegue solo a la conclusión."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La calma de quien no necesita esa venta",
+      "sub": "La oferta de entrada es pequeña por un motivo práctico: un precio pequeño te deja relajado, y la calma se lee como competencia.",
+      "passos": [
+        {
+          "titulo": "La oferta de entrada",
+          "sub": "simple y corta",
+          "texto": [
+            "Por ejemplo: una auditoría de IA de alcance cerrado, con inventario, riesgos y plan de 30 días, a un precio que el dueño aprueba solo.",
+            "Menciona de pasada lo que más haces (corrección, capacitación, acompañamiento), sin presionar."
+          ]
+        },
+        {
+          "titulo": "\"Lo voy a pensar\"",
+          "sub": "no insistas",
+          "texto": [
+            "En una oferta pequeña, casi siempre significa \"no vi valor\". Pregunta con honestidad qué faltó: la respuesta mejora la próxima reunión.",
+            "Las objeciones a fondo están en los cursos 3 y 5 de la formación."
+          ]
+        },
+        {
+          "titulo": "Cuando no hay encaje",
+          "sub": "cierra con elegancia",
+          "texto": [
+            "La empresa no usa nada que valga la pena auditar, la persona responde con monosílabos, o el dolor real está donde tú no lo resuelves.",
+            "Dilo, y ganarás un contacto que luego te recomienda."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El mensaje sale justo después de la llamada. La apertura y el guion los usas en la reunión.",
+      "blocos": [
+        {
+          "rot": "Mensaje de confirmación",
+          "icone": "enviar",
+          "conteudo": "Hola <nombre>, soy <tu nombre>, hablamos hace un momento.\nAcabo de enviarte la invitación para el <día> a las <hora>, son 15 minutos.\nVoy a preparar un avance con la información pública de <empresa>\nespecíficamente, así que quiero asegurarme de que podrás estar.\n¿Me confirmas con un \"ok\" para que empiece a prepararlo?"
+        },
+        {
+          "rot": "Apertura de la reunión",
+          "icone": "chat",
+          "conteudo": "— <Nombre>, gracias por tu tiempo. Antes de empezar, una frase sobre lo que\n  hago: evalúo y hago el triaje de los riesgos de IA de la empresa. No es\n  pentest, ni respuesta a incidentes, ni dictamen jurídico.\n— Y una pregunta rápida, para no hacerte perder tiempo con algo que\n  ya sabes: ¿cuánto usan IA tú y el equipo en el día a día?"
+        },
+        {
+          "rot": "Prompt · avance del diagnóstico",
+          "icone": "lupa",
+          "conteudo": "Eres un auditor de IA preparando un avance de 3 minutos para mostrar\nen la primera reunión. Usa SOLO información pública.\nEMPRESA = <nombre>\nSITIO = <dirección>\nLO QUE YA DESCUBRÍ = <pega la investigación de la clase 3>\n\nEntrega:\n1. TRES HALLAZGOS, cada uno con: lo que vi, dónde lo vi (enlace o pantalla)\n   y por qué le importa al dueño, en lenguaje de dueño.\n2. UNA HIPÓTESIS DE RIESGO (datos, permisos o claves), escrita como\n   pregunta, nunca como acusación.\n3. LO QUE NO SÉ y solo descubro con autorización por escrito.\n4. La frase de transición hacia la oferta de entrada.\nNo intentes acceder a áreas restringidas. Marca [SUPOSICIÓN] lo que sea inferido."
+        },
+        {
+          "rot": "Prompt · guion de 15 minutos",
+          "icone": "relogio",
+          "conteudo": "Eres mi formador de reuniones consultivas. Arma mi guion.\nMI NICHO = <sector>\nMI OFERTA DE ENTRADA = <qué es y cuánto cuesta>\nLO QUE MUESTRO EN PANTALLA = <avance del diagnóstico con datos públicos>\n\nBloques con tiempo marcado:\n0-1 min   APERTURA: alcance en una frase + la pregunta que calibra el nivel.\n1-5 min   DIAGNÓSTICO: 6 preguntas ABIERTAS de este sector, con lo que hay que escuchar.\n5-9 min   EL AVANCE: los 3 hallazgos, terminando siempre en pregunta.\n9-12 min  LO QUE TRAE LA AUDITORÍA COMPLETA: inventario, riesgos, plan de 30 días.\n12-14 min OFERTA: el precio en máximo 3 frases.\n14-15 min PRÓXIMO PASO: agendar ahí mismo y enviar el documento de autorización.\nAdemás: 4 señales de que NO hay encaje, y lo que NUNCA digo.\nLenguaje hablado, cero jerga."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Después de cada reunión, dos líneas: lo que dijo y dónde te trabaste.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Confirmación y avance",
+          "min": "40 min",
+          "texto": "Adapta el mensaje de confirmación. Luego ejecuta el prompt del avance para una empresa real de tu lista (o para Horizonte Distribuidora del laboratorio).",
+          "pronto": "el mensaje pide una respuesta de una palabra, y el avance tiene 3 hallazgos con dónde los viste y una hipótesis de riesgo escrita como pregunta."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Guion de 15 minutos",
+          "min": "30 min",
+          "texto": "Ejecuta el prompt del guion y suma el tiempo de los bloques en los que hablas tú. Convierte la explicación en pregunta hasta que quepa.",
+          "pronto": "tu parte suma hasta 7 de los 15 minutos, la frase del alcance está en la apertura y el guion termina con el documento de autorización marcado para envío."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuál es la preparación de mayor impacto antes de la reunión?",
+          "opcoes": [
+            "Una presentación de diapositivas bien diseñada",
+            "El avance del diagnóstico hecho con los datos públicos de esa empresa",
+            "Memorizar técnicas de cierre"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Llegar con su trabajo ya empezado hace que la reunión sea una demostración, no una promesa. Y di lo que es: \"armé esto con la información pública de ustedes\"."
+        },
+        {
+          "p": "¿Por qué pedir un \"ok\" escrito en el mensaje de confirmación?",
+          "opcoes": [
+            "Para tener prueba jurídica de la cita",
+            "Porque quien responde asiste, y el silencio avisa antes que la reunión se va a caer",
+            "Para mostrar profesionalismo"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Sin pedir respuesta no tienes ninguna señal sobre la asistencia. La inasistencia es el mayor desperdicio de la agenda de quien empieza."
+        },
+        {
+          "p": "Encontraste en el avance que la atención automática parece enviar conversaciones a un servicio externo. ¿Cómo presentarlo?",
+          "opcoes": [
+            "\"Ustedes están filtrando datos de clientes\"",
+            "\"¿Es posible que nadie haya revisado adónde van esas conversaciones?\"",
+            "No mencionarlo, para no asustar"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La conclusión en forma de pregunta hace que llegue solo al riesgo, y una conclusión propia no se discute. Una afirmación se vuelve defensa; y tú todavía no tienes autorización para confirmarla."
+        },
+        {
+          "p": "El cliente dice \"lo voy a pensar\" sobre una oferta de entrada pequeña. ¿Qué hacer?",
+          "opcoes": [
+            "Insistir con un descuento",
+            "Preguntar con honestidad qué faltó",
+            "Mandar tres recordatorios en la semana"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "En una oferta pequeña, \"lo voy a pensar\" casi siempre significa \"no vi el valor\". La respuesta honesta es el regalo que mejora la próxima reunión."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Invitación + sí por escrito",
+          "texto": "Es lo que reduce las ausencias."
+        },
+        {
+          "t": "Avance antes de recibir",
+          "texto": "Tres hallazgos públicos, con el lugar donde los viste."
+        },
+        {
+          "t": "Alcance y calibración",
+          "texto": "Di lo que no es, y habla al nivel de la persona."
+        },
+        {
+          "t": "Oferta pequeña, calma grande",
+          "texto": "Y el próximo paso marcado en la agenda abierta."
+        }
+      ]
+    }
+  ]
+}

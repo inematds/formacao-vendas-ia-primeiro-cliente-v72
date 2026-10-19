@@ -1,0 +1,255 @@
+{
+  "slug": "preco",
+  "num": 4,
+  "menu": "Price",
+  "titulo": "Pricing is a test",
+  "titulo_curto": "Pricing is a test",
+  "minutos": 18,
+  "lead": "Nobody can tell you the exact price of what you do. What exists is a process: you propose a number, watch how the market responds, and adjust. This lesson gives you ranges by service as a guide, shows you how to turn the pain into a number, and separates maintenance from improvement, where most people get tangled up.",
+  "objetivo": "build your price table by range, with the value calculation and the separation between maintenance and improvement.",
+  "competencias": [
+    "testar-preco-no-mercado",
+    "precificar-por-valor",
+    "separar-manutencao-de-melhoria"
+  ],
+  "aprende": [
+    {
+      "t": "Treat price as a test and \"no\" as information"
+    },
+    {
+      "t": "Use the ranges by service without copying anyone else's price"
+    },
+    {
+      "t": "Turn the client's pain into a calculation they can redo themselves"
+    },
+    {
+      "t": "Separate maintenance from improvement in the monthly contract"
+    }
+  ],
+  "hero_alt": "Hands over a table with a calculator, a notebook of numbers, and a pen.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The pricing loop",
+      "sub": "Price is not a formula: it is a loop. Click each step.",
+      "volta": "adjust and propose again",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Propose",
+          "sub": "a firm number",
+          "detalhe": "State the price without apologizing. The price is information, not a request. Keep the same number for at least ten proposals before you conclude anything."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Observe",
+          "sub": "is your calendar still filling up?",
+          "detalhe": "Treat \"no\" as data, not as a verdict on you. It shows where the ceiling is at that point in your reputation."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Adjust",
+          "sub": "one step at a time",
+          "forte": true,
+          "detalhe": "Move up one step at a time and see whether your calendar stays full. Over time, and with proof from third parties, the same work becomes worth more without having become more complex."
+        }
+      ],
+      "legenda": "How you sabotage yourself: changing the price in every conversation, giving a discount before anyone asks, copying the price of someone with ten times your reputation.",
+      "dica": "All the amounts in this lesson are in dollars, as an illustrative range for a mature market. Adapt to your market."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The ranges, service by service",
+      "sub": "Guides, not rules: they keep you from asking for a tenth of what you are worth, or three times what you can deliver. Illustrative range in dollars; adapt to your market.",
+      "passos": [
+        {
+          "titulo": "AI audit",
+          "sub": "free to US$ 3,000",
+          "texto": [
+            "The top of the range comes from the deliverable: a structured report, an inventory, risks with evidence, and a 30-day plan.",
+            "It is your entry door: free while you learn, charged once the process is repeatable."
+          ]
+        },
+        {
+          "titulo": "In-house training",
+          "sub": "US$ 2,500 to 25,000",
+          "texto": [
+            "The best effort-to-return ratio: it builds trust with several people at once and it is reusable. The first one takes about ten hours of prep; the eleventh, two.",
+            "One training per department multiplies the same material across three contracts."
+          ]
+        },
+        {
+          "titulo": "One-off build",
+          "sub": "assistant US$ 250 to 4,000 · automation US$ 2,000 to 15,000",
+          "texto": [
+            "The top only holds up when it involves organizing the client's messy data or connecting actions to their systems, not just writing instructions.",
+            "It is the range that drops the most when a ready-made subscription alternative shows up."
+          ],
+          "exemplo": {
+            "rot": "Window",
+            "texto": "A type of solution is rare and expensive for a few months. Then the tutorials and ready-made tools arrive, and what was worth thousands starts to look like something you get with a subscription. Use the money from the window to build relationships and reputation."
+          }
+        },
+        {
+          "titulo": "Hourly consulting",
+          "sub": "US$ 50 to 500/h",
+          "texto": [
+            "The top requires a proven track record and social proof. Volume drops as the price goes up.",
+            "Charging by the hour has a low ceiling: the faster you get, the less you earn. That is why the next section exists."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Recurring revenue: maintenance is not improvement",
+      "sub": "The monthly contract gives you predictability, and it is where most people end up doing a new project at a support price.",
+      "passos": [
+        {
+          "titulo": "Maintenance",
+          "sub": "fixed monthly fee",
+          "texto": [
+            "Anything you already delivered that stops working, you fix.",
+            "It covers failures of the solution, not changes the client made on their own."
+          ]
+        },
+        {
+          "titulo": "Improvement",
+          "sub": "hour credit",
+          "texto": [
+            "Something new, a scope change, a different screen.",
+            "The monthly plan includes a quota of hours; anything beyond that is billed separately."
+          ],
+          "exemplo": {
+            "rot": "Example",
+            "texto": "A US$ 1,500 plan = US$ 1,000 of maintenance + 4 hours of improvement included. Illustrative range; adapt to your market."
+          }
+        },
+        {
+          "titulo": "Churn",
+          "sub": "two to three months",
+          "texto": [
+            "Month 1 the client is delighted; month 2 it has become the expectation; month 3: \"what have you done for me lately?\". It is not dissatisfaction, it is value saturation.",
+            "Antidote: in month 2, show the month 5 plan, and keep prospecting running even when your calendar is full."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "First the value calculation, then your price list. You practice the price sentence out loud.",
+      "blocos": [
+        {
+          "rot": "Prompt · the value of the problem",
+          "icone": "chat",
+          "conteudo": "You are my pricing analyst.\nCLIENTE = <type of company and size>\nPROBLEMA = <the pain in two sentences, the way the client described it>\nMINHA SOLUÇÃO = <what you will deliver>\nMINHAS HORAS ESTIMADAS = <number>\nCUSTO DE TERCEIROS = <amount or zero>\n\nDo this in order:\n1. The 3 to 6 NUMBERS I need to ask the client in order to know how much\n   this problem costs per month, with the questions ready, no jargon.\n2. With plausible values for the size, SHOW THE CALCULATION step by step\n   of the monthly and annual cost of the problem, marking what is an assumption.\n3. THREE price ranges (conservative, likely, aggressive), each one\n   justified as a proportion of the value generated.\n4. My net margin in each range. If it falls below 35%, say so.\n5. The SENTENCE I say when presenting the price, without apologizing and without\n   promising what is not in the scope.\nIf essential information is missing, ask before assuming."
+        },
+        {
+          "rot": "Prompt · my price list",
+          "icone": "lista",
+          "conteudo": "You are my pricing consultant. Build my price list of AI trust services\n(audit, review, training, advisory).\nMEU MERCADO = <country/region and currency>\nMEU NICHO = <sector>\nMINHA EXPERIÊNCIA REAL = <what I have already delivered, or \"none\">\nMINHA PROVA SOCIAL = <testimonials, cases, or \"none\">\nHORAS POR SEMANA = <number>\n\nReference ranges from a mature market, in dollars:\n- Audit: 0 to 3,000 · Training per area: 2,500 to 25,000\n- Consulting per hour: 50 to 500 · One-off automation: 2,000 to 15,000\n\n1. ADJUST the ranges to my market and my level of social proof,\n   justifying each adjustment.\n2. Table with 5 services: name, what it includes, what it does NOT include,\n   timeline and launch price.\n3. My ENTRY PRICE for the first client.\n4. The price sentence in 3 versions: phone, message, meeting.\n5. My answers to the 4 most common price objections in my niche.\n   None of them may start with a discount.\nPoint out any price that leaves me with a margin below 35%."
+        },
+        {
+          "rot": "How to say a price",
+          "icone": "megafone",
+          "conteudo": "Minha hora é <X>. Tenho experiência com <A> e com <B>, e garanto esses\ndois pontos. Sobre <C> eu tenho incerteza, porque nunca fiz exatamente\nassim: por isso vou cobrar <5> horas, mesmo sabendo que provavelmente\nvou trabalhar <7>."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "After this exercise there is no more \"I'll think about how much to charge\": there is a number.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Your price list",
+          "min": "35 min",
+          "texto": "Run the price list prompt with your market and your niche. Check the answers to the objections: if any of them ends up offering a discount, discard it and ask for another.",
+          "pronto": "you have 5 services with what is included, what is not included, timeline and launch price, and no objection answer starts or ends with a discount."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The price sentence out loud",
+          "min": "10 min",
+          "texto": "Read the three versions of the price sentence out loud, timing yourself. Cut until it becomes a simple statement.",
+          "pronto": "each of the three versions fits in under 15 seconds and separates what is guaranteed from what is uncertain."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "You heard three \"no\"s in a row when stating your price. What do you do?",
+          "opcoes": [
+            "Lower the price in the next conversation",
+            "Hold the number for at least ten proposals and treat the \"no\" as data",
+            "Copy the price of a famous competitor"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Changing the price in every conversation keeps you from finding out where the ceiling is. Ten proposals with the same number give you real information."
+        },
+        {
+          "p": "A client cancels the monthly contract in the third month. What is the most likely cause?",
+          "opcoes": [
+            "You delivered too little",
+            "Value saturation: the delight became expectation and there was nothing new to look forward to",
+            "The price was too high from the start"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Monthly contracts tend to last two to three months even with the same delivery. The antidote is to show the month 5 plan in month 2."
+        },
+        {
+          "p": "The client asks for a new screen under the maintenance contract. How do you handle it?",
+          "opcoes": [
+            "Do it for free, so you don't lose the client",
+            "It is an improvement: it uses the hour quota, and anything beyond that is billed separately",
+            "Refuse, because it was not in the contract"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Maintenance fixes what was already delivered. Something new is an improvement, billed by hour credit. Mixing the two is doing a new project at a support price."
+        },
+        {
+          "p": "Why price by the value of the problem and not just by the hour?",
+          "opcoes": [
+            "Why hourly pricing is off-limits in consulting",
+            "Because hourly pay has a low ceiling, and the faster you get, the less you earn",
+            "Because the client never knows what the problem costs"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "With the math laid out (which the client can redo in the calculator), the price becomes a share of the value created. Math the client doesn't understand can't support any price."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Pricing is a loop",
+          "texto": "Propose, observe, adjust one step at a time."
+        },
+        {
+          "t": "Ranges are guideposts",
+          "texto": "Illustrative, in dollars; adapt to your market and your social proof."
+        },
+        {
+          "t": "Open math",
+          "texto": "The pain becomes a number the client can redo in the calculator."
+        },
+        {
+          "t": "Maintenance ≠ improvement",
+          "texto": "And plan for churn of two to three months."
+        }
+      ]
+    }
+  ]
+}

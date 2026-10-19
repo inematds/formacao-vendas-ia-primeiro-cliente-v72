@@ -1,0 +1,267 @@
+{
+  "slug": "lista",
+  "num": 5,
+  "menu": "List",
+  "titulo": "A list that converts",
+  "titulo_curto": "A list that converts",
+  "minutos": 17,
+  "lead": "Without a routine, prospecting turns into a burst: thirty calls on a Monday, frustration, and two weeks of silence. This lesson builds what holds up everything else: where to find companies, how to qualify each one in three minutes, how to find the name of the decision-maker, and a color-coded spreadsheet that shows your whole day on one screen.",
+  "objetivo": "build a qualified list of companies, with the name of the decision-maker, and a daily contact routine.",
+  "competencias": [
+    "montar-lista-qualificada",
+    "achar-quem-decide",
+    "manter-rotina-de-prospeccao"
+  ],
+  "aprende": [
+    {
+      "t": "Why calls, not email, for someone starting from zero"
+    },
+    {
+      "t": "Find and qualify companies in three minutes, without talking to anyone"
+    },
+    {
+      "t": "Find the decision-maker's name in public sources"
+    },
+    {
+      "t": "The color spreadsheet and a routine that doesn't depend on mood"
+    }
+  ],
+  "hero_alt": "A laptop with a spreadsheet of colored rows, a phone, and a cup of coffee on the table.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "From search to the day's list",
+      "sub": "Five steps, once a day. Tap each one.",
+      "nos": [
+        {
+          "icone": "lupa",
+          "titulo": "Search",
+          "sub": "niche + city on the map",
+          "detalhe": "One map search is enough: niche plus city brings up dozens of companies with phone, website, and number of reviews. Open each candidate in a tab and only then qualify: switching back and forth between searching and qualifying makes the list painfully slow."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Three filters",
+          "sub": "three minutes per company",
+          "detalhe": "1. Does the company have activity? 2. Is there a gap you can fix? 3. Can you find out who decides? Out of a hundred companies, about twenty are left, and that's what saves your best energy."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "The decision-maker",
+          "sub": "a name, not a title",
+          "forte": true,
+          "detalhe": "\"Is Ricardo in?\" gets past reception; \"I'd like to talk to the person in charge\" is the phrase they block most. Sources: the public company registry, the \"about us\" page, professional social networks, and replies to reviews, which the owner often signs."
+        },
+        {
+          "icone": "lista",
+          "titulo": "Color spreadsheet",
+          "sub": "the day on one screen",
+          "detalhe": "Yellow: didn't answer, call back tomorrow. Red: not interested, off the list. Blue: asked to be called later, note the day and time. Green: meeting booked, the only number that matters."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Routine",
+          "sub": "every business day",
+          "detalhe": "Call the day's list, dial each number twice, update the color before the next one, and build tomorrow's list when you close the block."
+        }
+      ],
+      "legenda": "Simplicity and consistency beat expensive tools: don't subscribe to a sales system before your first client."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The three filters, up close",
+      "sub": "Qualifying means answering one question: does this company lose something because of the problem I solve?",
+      "passos": [
+        {
+          "titulo": "Right size",
+          "sub": "not too small, not too big",
+          "texto": [
+            "Rule of thumb: between 10 and 50 reviews. Under 10, they are too small or too new. Over 300, they already have an agency and you are not talking to the decision-maker.",
+            "And ask whether your service makes sense in that region before you build the list."
+          ]
+        },
+        {
+          "titulo": "The gap",
+          "sub": "your hook",
+          "texto": [
+            "For the AI audit, the hook is seeing that the company already uses AI or automation: a bot on the website, automatic customer service on WhatsApp, an order app, a customer area.",
+            "If they have something running and nobody has checked it, you have found the subject of your call."
+          ],
+          "exemplo": {
+            "rot": "In the spreadsheet",
+            "texto": "\"Gap\" column: \"WhatsApp bot with no human in sight\", \"order app with customer login\", \"only a long form\"."
+          }
+        },
+        {
+          "titulo": "The math that justifies the call",
+          "sub": "without accusing anyone",
+          "texto": [
+            "A decent service website converts about 2% of visits into contacts. A thousand visits and two contacts is 0.2%: ten times below that.",
+            "You are not accusing anyone: you show the math and ask whether some people have not found a comfortable way to reach them."
+          ]
+        },
+        {
+          "titulo": "The rules of your market",
+          "sub": "before the volume",
+          "texto": [
+            "Phone prospecting is regulated in many places: calling hours, opt-out records, do-not-call lists, and significant fines.",
+            "Check what applies in your country and in your industry. Respecting people who asked not to be contacted is a rule, not a courtesy."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Why calls, and the routine",
+      "sub": "If you are starting from zero, you do not have a scale problem: you have a learning problem.",
+      "passos": [
+        {
+          "titulo": "A call gives you an answer in seconds",
+          "sub": "the shortest cycle",
+          "texto": [
+            "You hear the real objection, with the tone of voice along with it, and every call trains you for the meeting that comes next.",
+            "Email takes weeks to prepare, solves a scale problem you do not have, and silence teaches you nothing."
+          ]
+        },
+        {
+          "titulo": "The daily goal",
+          "sub": "start with 20",
+          "texto": [
+            "The full goal is 75 companies a day. If you have another job, start with 20, but every business day, no exceptions.",
+            "Dial twice: some people pick up on the second try."
+          ]
+        },
+        {
+          "titulo": "Color before the next number",
+          "sub": "eight seconds",
+          "texto": [
+            "One color and one line of notes. Five calls later you do not remember which was which, and you call again someone who asked you not to call."
+          ]
+        },
+        {
+          "titulo": "The math that calms you down",
+          "sub": "predictable in two weeks",
+          "texto": [
+            "The exact rate does not matter: after two weeks you know how many calls produce a meeting.",
+            "Then a \"no\" stops being rejection and becomes a line in the spreadsheet, on the way to the next yes."
+          ],
+          "exemplo": {
+            "rot": "Tip",
+            "texto": "Call alongside another person who is also just starting, on a video call: you correct each other's script and quitting drops sharply."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The spreadsheet columns and the prompt that adapts the qualification to your niche.",
+      "blocos": [
+        {
+          "rot": "Spreadsheet columns",
+          "icone": "lista",
+          "conteudo": "company | main phone | decision-maker's name | website | reviews | estimated traffic | gap (your hook) | status (color) | note (one line) | next contact\n\nCOLORS\nyellow = no answer, call back tomorrow\nred    = not interested, remove from list (and never call again)\nblue   = asked for a call back later: <day and time>\ngreen  = meeting booked"
+        },
+        {
+          "rot": "Prompt · niche qualification manual",
+          "icone": "chat",
+          "conteudo": "You are my pre-sales operator. I am going to prospect companies\nin a sector by phone to offer an AI audit (inventory of what the company\nalready uses in AI, data risks, permissions and keys, 30-day plan).\nMY NICHE = <sector>\nMY REGION = <city or state>\nMY ENTRY PRICE = <amount>\n\nDeliver:\n1. 8 objective checks, using public information only, that indicate whether the\n   company already uses AI or automation with nobody checking it. Yes/no and weight.\n2. 5 signs that I should NOT spend a call on that company.\n3. 4 public sources to find the decision-maker in this sector and region.\n4. The spreadsheet columns with an example of a filled-in row.\n5. Sector particularities: seasonality, the owner's schedule,\n   vocabulary, and contact rules or restrictions that usually exist.\n6. In two sentences, how I explain the reason for the call without accusing anyone.\nIf you do not have a basis to state something, say it is an assumption."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "A good list gets roughly one in three companies approved.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · List of 20 companies",
+          "min": "60 min",
+          "texto": "Run the qualification prompt and test the checklist on three real companies in your niche. If they all pass or all fail, adjust the criteria. Then build the spreadsheet with 20 companies.",
+          "pronto": "the spreadsheet has 20 qualified companies, each with the gap noted and the name of the decision-maker (or the source where you will look for it)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Rules and routine",
+          "min": "20 min",
+          "texto": "Write down the phone contact rules that apply in your country and your industry. Choose a fixed time for your daily block and set your starting goal.",
+          "pronto": "the contact rules are noted with their source, and the daily block is on your calendar, with a time and a goal (for example, 20 calls)."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Why does finding the owner's name before calling change the result so much?",
+          "opcoes": [
+            "Because that way you sell straight to the receptionist",
+            "Because asking for a name greatly increases your chance of reaching the decision-maker",
+            "Because you are required to mention the name of the person in charge"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "\"I'd like to speak with the person in charge\" is the most blocked line. With a name, you sound like someone who already has business with that person, and you show that you did your research."
+        },
+        {
+          "p": "For someone starting from zero, why a call and not an email?",
+          "opcoes": [
+            "Because email is prohibited",
+            "Because a call gives you learning in seconds, and the silence of an email teaches you nothing",
+            "Because a call gives you more scale"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Someone starting from zero needs to learn fast what works. Email solves for scale, a problem you don't have yet."
+        },
+        {
+          "p": "A company has 600 reviews and a marketing agency. Does it make the list?",
+          "opcoes": [
+            "Yes, it's the best one: it has money",
+            "Probably not: you will hardly ever reach the decision-maker",
+            "Yes, but only by email"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The guiding rule is a size with an accessible owner (about 10 to 50 reviews). A big company has an approval wall and a sales cycle too long for someone who needs a first client."
+        },
+        {
+          "p": "When should you update the spreadsheet color?",
+          "opcoes": [
+            "At the end of the calling block",
+            "Right after you hang up, before dialing the next number",
+            "Once a week"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Eight seconds per call keeps you from calling twice someone who asked not to be called again. Respecting a refusal is a rule."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Calls teach fast",
+          "texto": "It's the channel for someone who needs to learn, not to scale."
+        },
+        {
+          "t": "Three filters",
+          "texto": "Right size, a gap you can solve, and the name of the decision-maker."
+        },
+        {
+          "t": "Color spreadsheet",
+          "texto": "Yellow, red, blue, green; color before the next number."
+        },
+        {
+          "t": "Routine and rules",
+          "texto": "Every business day, and respecting the contact rules of your market."
+        }
+      ]
+    }
+  ]
+}

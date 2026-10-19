@@ -1,0 +1,353 @@
+{
+  "slug": "entrega",
+  "num": 8,
+  "menu": "Delivery",
+  "titulo": "Deliver, follow up, and the 30-day plan",
+  "titulo_curto": "Delivery and plan",
+  "minutos": 22,
+  "lead": "A well-written contract doesn't protect anyone from an unhappy client. What protects you is fast, visible delivery in the first week. Delivery doesn't end the relationship, it opens it. This lesson shows how to deliver inside the client's accounts, review an agent by its five parts, follow up without overwhelming, and close out your 30-day plan to your first client.",
+  "objetivo": "deliver fast inside the client's accounts, review the agent by its 5 parts, and build your 30-day plan to your first client.",
+  "competencias": [
+    "entregar-nas-contas-do-cliente",
+    "revisar-instrucao-de-agente",
+    "acompanhar-e-achar-o-problema-seguinte",
+    "planejar-30-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Deliver fast, inside the client's accounts"
+    },
+    {
+      "t": "Review an agent's instructions by its 5 parts"
+    },
+    {
+      "t": "Follow up, find the next problem, and ask for the right testimonial"
+    },
+    {
+      "t": "Generate your 30-day plan with dates"
+    }
+  ],
+  "hero_alt": "A consultant shows three employees of a distributor a whiteboard with sticky notes in four columns.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The cycle after the yes",
+      "sub": "It's not a straight path, it's a cycle. Click each step.",
+      "volta": "the next client sees less risk",
+      "nos": [
+        {
+          "icone": "enviar",
+          "titulo": "Deliver fast",
+          "sub": "in the first week",
+          "detalhe": "Duplicate what you already have, feed it the business's data, test it like an angry customer, and let them know with a short recording showing it working. Whenever possible, do it inside the client's own accounts, handing over the access."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Follow up",
+          "sub": "biweekly conversation",
+          "detalhe": "Fifteen minutes: what came up, what to adjust, and what's bothering them in the operation. The third question is the one that counts. Read what the agent answered and fix it before you're asked."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Next problem",
+          "sub": "no cold proposal",
+          "detalhe": "Audit → fix the most expensive risk → train the team that will live with it → monthly advisory. And show the month 5 map in month 2: nobody cancels a contract they still expect something from."
+        },
+        {
+          "icone": "check",
+          "titulo": "Proof",
+          "sub": "specific testimonial",
+          "forte": true,
+          "detalhe": "What lets you charge more on the next project isn't that you got more skilled: it's that the next client sees less risk. Perceived risk drops with third-party proof, requested the same week as the delivery."
+        }
+      ],
+      "legenda": "That's why the fifth client is easier than the first, and why the first needs to be cheap."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Review an agent: the 5 parts",
+      "sub": "An agent's quality lives in one block of text, the instruction. Reviewing the five parts is a trust service, even when someone else built it.",
+      "passos": [
+        {
+          "titulo": "Context and action",
+          "sub": "who it is and what it does",
+          "texto": [
+            "Where it is, who it talks to, and the three things it does, nothing more.",
+            "An agent with a goal like \"close as many as possible\" is already a warning sign: there is no limit."
+          ]
+        },
+        {
+          "titulo": "Rules",
+          "sub": "what it never does",
+          "texto": [
+            "Promise a deadline, give a price or discount outside the price list, make up information that is not in the data, follow orders pasted into the customer's text.",
+            "Every action involving money or data needs a cap or a human approval."
+          ]
+        },
+        {
+          "titulo": "Format",
+          "sub": "a conversation, not a document",
+          "texto": [
+            "Short messages, human tone, no long paragraphs. And say it is an AI when asked."
+          ]
+        },
+        {
+          "titulo": "Safety",
+          "sub": "the forgotten part",
+          "texto": [
+            "The exact phrase for when it doesn't know, and the exact phrase for handing off to a person. This is what prevents embarrassment in front of the customer.",
+            "Test it with questions it shouldn't be able to answer: if it makes something up, tighten the rule before showing it to any customer."
+          ],
+          "exemplo": {
+            "rot": "Before publishing",
+            "texto": "Does it answer the five most common questions? Does it admit when it doesn't know? Does the lead alert reach the right person? Does it work on a phone? Does the model's usage account have a balance?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "You can use the checklist with any agent. The testimonial request goes out the week of delivery.",
+      "blocos": [
+        {
+          "rot": "Agent review checklist",
+          "icone": "escudo",
+          "conteudo": "AGENT INSTRUCTION REVIEW · <company> · <date>\nScope: AI risk assessment and triage; it is not a pentest, nor incident\nresponse, nor legal advice. Written authorization: [ ] yes\n\nCONTEXT   [ ] says who it is, where it is and who it talks to\nACTION    [ ] lists what it does (at most 3 things)\nRULES     [ ] forbids making up information outside the data\n          [ ] has a cap for discounts, prices and order value\n          [ ] ignores orders pasted into the customer's text\n          [ ] requires human approval for actions involving money or data\nFORMAT    [ ] short messages; says it is an AI when asked\nSAFETY    [ ] exact phrase for when it doesn't know\n          [ ] exact phrase for handing off to a person\n          [ ] log of what it did (who, when, how much)\n\nFIXES (one per line, with the part and where you saw it)\n1. <part> · <what is missing> · <where you saw it> · <proposed fix>\n2.\n3."
+        },
+        {
+          "rot": "Testimonial request",
+          "icone": "chat",
+          "conteudo": "Hi <name>, I'm glad it's working well.\nCan I ask you a two-minute favor? A few words from you help a lot\nwith future clients. It doesn't need to be polished: just answer\nthese, by voice message if that's easier:\n1. What was the problem before?\n2. What changed afterward?\n3. What made you say yes, even though you didn't know me?\nIf you prefer, I'll write it based on your answers and send it to you for approval."
+        },
+        {
+          "rot": "Prompt · my 30-day plan",
+          "icone": "calendario",
+          "conteudo": "Build my 30-day plan to land my first AI audit client.\nMY NICHE = <sector>\nMY ENTRY OFFER = <what it is and the price>\nHOURS PER DAY = <number>       DAYS AVAILABLE = <which ones>\nSTART DATE = <date>\n\nW1 niche, offer and authorization form · W2 list and script ·\nW3 call every day · W4 meeting, audit and testimonial.\n\n1. A day-by-day calendar, at most 3 tasks per day, fitting the hours.\n   Concrete, verifiable tasks; nothing like \"study the subject\".\n2. The NUMERIC TARGET for each week (companies on the list, calls,\n   meetings, audits).\n3. The 3 points where I will probably get stuck, and what to do at each.\n4. One STOP CRITERION per week: the signal to change the approach.\nIf the hours are not enough, say so on the first line and propose 45 days."
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "Four deliverables until your first client. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "auditoria",
+          "icone": "escudo",
+          "quando": "Week 1",
+          "titulo": "Audit",
+          "sub": "Form and report",
+          "saida": "Authorization form and report with a 30-day plan.",
+          "passo": "Your entry offer: written authorization, an inventory of apps and agents, three risks and the 30-day plan. Practice on Horizonte Distribuidora."
+        },
+        {
+          "aula": "preco",
+          "icone": "grafico",
+          "quando": "Week 1",
+          "titulo": "Price",
+          "sub": "Price list and the price line",
+          "saida": "Price list with 5 services and an entry price.",
+          "passo": "Requires the audit. Put an entry price on the audit and on the services it leads to."
+        },
+        {
+          "aula": "ligacao",
+          "icone": "chat",
+          "quando": "Weeks 2 and 3",
+          "titulo": "Prospect",
+          "sub": "Script and simulated call",
+          "saida": "One-page script and booked meetings.",
+          "passo": "Requires the list from lesson 5. Practice in the simulation, then call every business day."
+        },
+        {
+          "aula": "entrega",
+          "icone": "check",
+          "quando": "Week 4",
+          "titulo": "Deliver",
+          "sub": "Review and plan",
+          "saida": "Agent review and 30-day plan with dates.",
+          "passo": "Requires the meeting from lesson 7. Deliver fast, review it using the 5 parts, and ask for the testimonial the same week."
+        }
+      ],
+      "resultado": {
+        "titulo": "By the end of the course",
+        "texto": "You get into companies through the AI audit, with a price, a list, a script, and a way of delivering that creates the next sale.",
+        "total": "16 exercises"
+      },
+      "rolagem_fim": {
+        "titulo": "The whole cycle",
+        "texto": "The audit opens the door, the price is a test, the call books the meeting, and the delivery creates the proof for your next client. Lessons 1, 2, 5, and 7 go into the plan generated below."
+      },
+      "legenda": "Portfolio (lesson 1), niche (lesson 2), list (lesson 5), and meeting (lesson 7) go into the plan with dates."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Choose your start date and how much time you have each week. The plan includes all 16 exercises in the course.",
+      "curso": "Selling with AI 4 · From Zero to Your First Client",
+      "horas_padrao": 8,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · What loses value",
+          "aula": "piramide"
+        },
+        {
+          "titulo": "Lesson 2 · Waves and niche",
+          "aula": "nicho"
+        },
+        {
+          "titulo": "Lesson 3 · AI audit",
+          "aula": "auditoria"
+        },
+        {
+          "titulo": "Lesson 4 · Price is a test",
+          "aula": "preco"
+        },
+        {
+          "titulo": "Lesson 5 · A list that converts",
+          "aula": "lista"
+        },
+        {
+          "titulo": "Lesson 6 · Cold call",
+          "aula": "ligacao"
+        },
+        {
+          "titulo": "Lesson 7 · The meeting",
+          "aula": "reuniao"
+        },
+        {
+          "titulo": "Lesson 8 · Delivery and plan",
+          "aula": "entrega"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Selling with AI 4 · From Zero to Your First Client",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Finishing the course changes nothing on its own. The difference is almost never knowledge: it's week 3.",
+      "fonte": "Lab: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">Horizonte Distribuidora's WhatsApp agent</a>",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Review of the Horizonte agent",
+          "min": "40 min",
+          "texto": "Open the WhatsApp agent piece in the lab and read its instruction. Go through the review checklist part by part and write down the corrections.",
+          "pronto": "the 5 parts are checked off on the checklist and there are at least 3 corrections, each with the part, where you saw it, and the proposed fix. The full review of the agent is work for the Auditor program."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your 30-day plan",
+          "min": "30 min",
+          "texto": "Use the generator above with your start date and your hours. If you want to detail it day by day, also run the plan prompt.",
+          "pronto": "you downloaded the plano.md and the .ics, the first block of calls is on your calendar, and each week has a numeric goal."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which part of the agent's instruction is the one most people forget, and the one that stops it from making up information?",
+          "opcoes": [
+            "The response format",
+            "Safety: what it does when it doesn't know or when asked for something out of scope",
+            "The context of where it is"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Without the exact \"I don't know\" phrase and the handoff to a person, the agent makes things up with total confidence in front of the customer."
+        },
+        {
+          "p": "A sales agent's instruction says \"grant whatever discount is needed so we don't lose the sale.\" Which part has the problem?",
+          "opcoes": [
+            "Format",
+            "Rules: there is no cap and no human approval for actions involving money",
+            "Context"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Every action involving money or data needs a cap or human approval. It's one of the corrections the review writes down, with where you saw it."
+        },
+        {
+          "p": "Why build inside the client's accounts and hand over the access?",
+          "opcoes": [
+            "To save on tools",
+            "Because you lose the leverage of holding the solution hostage, and you earn the reputation of someone who doesn't lock anyone in",
+            "Because it's mandatory"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "It's the build becoming part of a trusted service. That reputation is what closes your next projects."
+        },
+        {
+          "p": "Which testimonial helps your next client the most?",
+          "opcoes": [
+            "\"You're great, I recommend you\"",
+            "One that states the problem from before and the observable change after",
+            "A long text about your technique"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Perceived risk drops with concrete proof from third parties. If you only get praise, go back and ask specifically what changed."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Speed protects",
+          "texto": "Deliver in the first week, on the client's accounts."
+        },
+        {
+          "t": "Five parts",
+          "texto": "Context, action, rules, format and safety. The last one is the one people forget."
+        },
+        {
+          "t": "The delivery opens the relationship",
+          "texto": "Biweekly follow-up and the month 5 map in month 2."
+        },
+        {
+          "t": "30-day plan",
+          "texto": "Audit, price, prospect and deliver, with dates."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Next in the program: Selling with AI 5 · Masterclass",
+          "href": "https://inematds.github.io/formacao-vendas-ia-masterclass-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "Lab: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Professional 2030: the AI Auditor program",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

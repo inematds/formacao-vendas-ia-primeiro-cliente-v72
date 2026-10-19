@@ -1,0 +1,125 @@
+{
+  "slug": "preco",
+  "num": 4,
+  "menu": "Preço",
+  "titulo": "Preço é teste",
+  "titulo_curto": "Preço é teste",
+  "minutos": 18,
+  "lead": "Ninguém consegue dizer o preço exato do que você faz. O que existe é um processo: você propõe um número, observa a resposta do mercado e ajusta. Esta aula dá as faixas por serviço como baliza, mostra como transformar a dor em número e separa manutenção de melhoria, onde mais gente se enrola.",
+  "objetivo": "montar a sua tabela de preços por faixa, com a conta do valor e a separação entre manutenção e melhoria.",
+  "competencias": ["testar-preco-no-mercado", "precificar-por-valor", "separar-manutencao-de-melhoria"],
+  "aprende": [
+    {"t": "Tratar preço como teste e o \"não\" como informação"},
+    {"t": "Usar as faixas por serviço sem copiar o preço de ninguém"},
+    {"t": "Transformar a dor do cliente numa conta que ele refaz"},
+    {"t": "Separar manutenção de melhoria no contrato mensal"}
+  ],
+  "hero_alt": "Mãos sobre uma mesa com calculadora, caderno de números e caneta.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "O laço do preço",
+      "sub": "Preço não é fórmula: é um laço. Clique em cada etapa.",
+      "volta": "ajuste e proponha de novo",
+      "nos": [
+        {"icone": "caneta", "titulo": "Propor", "sub": "um número firme",
+         "detalhe": "Diga o preço sem pedir desculpa. O preço é uma informação, não um pedido. Mantenha o mesmo número por pelo menos dez propostas antes de concluir algo."},
+        {"icone": "usuario", "titulo": "Observar", "sub": "a agenda continua enchendo?",
+         "detalhe": "Trate o \"não\" como dado, não como veredito sobre você. Ele mostra onde está o teto naquele momento de reputação."},
+        {"icone": "grafico", "titulo": "Ajustar", "sub": "um degrau por vez", "forte": true,
+         "detalhe": "Suba um degrau de cada vez e veja se a agenda continua cheia. Com o tempo e com prova de terceiros, o mesmo trabalho passa a valer mais sem ter ficado mais complexo."}
+      ],
+      "legenda": "Como se sabota: mudar o preço a cada conversa, dar desconto antes de pedirem, copiar o preço de quem tem dez vezes mais reputação.",
+      "dica": "Todos os valores desta aula estão em dólar, como faixa ilustrativa de um mercado maduro. Adapte ao seu mercado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "As faixas, serviço por serviço",
+      "sub": "Balizas, não regras: servem para você não pedir um décimo do que vale nem três vezes o que consegue entregar. Faixa ilustrativa em dólar; adapte ao seu mercado.",
+      "passos": [
+        {"titulo": "Auditoria de IA", "sub": "grátis a US$ 3.000",
+         "texto": ["O topo da faixa vem do entregável: relatório estruturado, inventário, riscos com evidência e plano de 30 dias.", "É a sua porta de entrada: de graça enquanto você aprende, cobrada quando o processo é repetível."]},
+        {"titulo": "Treinamento interno", "sub": "US$ 2.500 a 25.000",
+         "texto": ["A melhor relação esforço-retorno: constrói confiança com várias pessoas de uma vez e é reciclável. O primeiro leva umas dez horas de preparo; o décimo primeiro, duas.", "Um treinamento por área multiplica o mesmo material por três contratos."]},
+        {"titulo": "Construção avulsa", "sub": "assistente US$ 250 a 4.000 · automação US$ 2.000 a 15.000",
+         "texto": ["O topo só se sustenta quando envolve organizar a bagunça de dados do cliente ou ligar ações aos sistemas dele, não só escrever instruções.", "É a faixa que mais cai quando aparece alternativa pronta por assinatura."],
+         "exemplo": {"rot": "Janela", "texto": "Um tipo de solução é raro e caro por alguns meses. Depois chegam os tutoriais e as ferramentas prontas, e o que valia milhares passa a parecer coisa de assinatura. Use o dinheiro da janela para construir relação e reputação."}},
+        {"titulo": "Consultoria por hora", "sub": "US$ 50 a 500/h",
+         "texto": ["O topo exige histórico comprovado e prova social. O volume cai conforme o preço sobe.", "Cobrar por hora tem teto baixo: quanto mais rápido você fica, menos ganha. Por isso a próxima seção."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Recorrência: manutenção não é melhoria",
+      "sub": "O contrato mensal dá previsibilidade, e é onde mais gente acaba fazendo projeto novo pelo preço de suporte.",
+      "passos": [
+        {"titulo": "Manutenção", "sub": "valor fixo mensal",
+         "texto": ["O que já foi entregue e parou de funcionar, você conserta.", "Cobre falhas da solução, não mudanças que o cliente fez por conta."]},
+        {"titulo": "Melhoria", "sub": "crédito de horas",
+         "texto": ["Coisa nova, mudança de escopo, tela diferente.", "O plano mensal inclui uma cota de horas; o que passar disso é cobrado à parte."],
+         "exemplo": {"rot": "Exemplo", "texto": "Plano de US$ 1.500 = US$ 1.000 de manutenção + 4 horas de melhoria inclusas. Faixa ilustrativa; adapte ao seu mercado."}},
+        {"titulo": "A rotatividade", "sub": "dois a três meses",
+         "texto": ["Mês 1 o cliente fica encantado; mês 2 aquilo virou expectativa; mês 3: \"o que você fez por mim ultimamente?\". Não é insatisfação, é saturação de valor.", "Antídoto: mostre no mês 2 o plano do mês 5, e mantenha a prospecção rodando mesmo com a agenda cheia."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Primeiro a conta do valor, depois a sua tabela. A frase do preço você treina em voz alta.",
+      "blocos": [
+        {"rot": "Prompt · o valor do problema", "icone": "chat",
+         "conteudo": "Você é meu analista de precificação.\nCLIENTE = <tipo de empresa e porte>\nPROBLEMA = <a dor em duas frases, do jeito que o cliente descreveu>\nMINHA SOLUÇÃO = <o que você vai entregar>\nMINHAS HORAS ESTIMADAS = <número>\nCUSTO DE TERCEIROS = <valor ou zero>\n\nFaça nesta ordem:\n1. Os 3 a 6 NÚMEROS que eu preciso perguntar ao cliente para saber quanto\n   esse problema custa por mês, com as perguntas prontas, sem jargão.\n2. Com valores plausíveis para o porte, MOSTRE A CONTA passo a passo\n   do custo mensal e anual do problema, marcando o que é suposição.\n3. TRÊS faixas de preço (conservadora, provável, agressiva), cada uma\n   justificada como proporção do valor gerado.\n4. Minha margem líquida em cada faixa. Se ficar abaixo de 35%, diga.\n5. A FRASE que eu digo ao apresentar o preço, sem pedir desculpa e sem\n   prometer o que não está no escopo.\nSe faltar informação essencial, pergunte antes de supor."},
+        {"rot": "Prompt · minha tabela de preços", "icone": "lista",
+         "conteudo": "Você é meu consultor de precificação. Monte minha tabela de serviços\nde confiança em IA (auditoria, revisão, treinamento, acompanhamento).\nMEU MERCADO = <país/região e moeda>\nMEU NICHO = <setor>\nMINHA EXPERIÊNCIA REAL = <o que já entreguei, ou \"nenhuma\">\nMINHA PROVA SOCIAL = <depoimentos, casos, ou \"nenhuma\">\nHORAS POR SEMANA = <número>\n\nFaixas de referência de um mercado maduro, em dólar:\n- Auditoria: 0 a 3.000 · Treinamento por área: 2.500 a 25.000\n- Consultoria por hora: 50 a 500 · Automação avulsa: 2.000 a 15.000\n\n1. AJUSTE as faixas ao meu mercado e ao meu nível de prova social,\n   justificando cada ajuste.\n2. Tabela com 5 serviços: nome, o que inclui, o que NÃO inclui,\n   prazo e preço de lançamento.\n3. Meu PREÇO DE ENTRADA para o primeiro cliente.\n4. A frase do preço em 3 versões: telefone, mensagem, reunião.\n5. Minhas respostas às 4 objeções de preço mais comuns no meu nicho.\n   Nenhuma pode começar com desconto.\nAponte qualquer preço que me deixe com margem abaixo de 35%."},
+        {"rot": "Como se diz um preço", "icone": "megafone",
+         "conteudo": "Minha hora é <X>. Tenho experiência com <A> e com <B>, e garanto esses\ndois pontos. Sobre <C> eu tenho incerteza, porque nunca fiz exatamente\nassim: por isso vou cobrar <5> horas, mesmo sabendo que provavelmente\nvou trabalhar <7>."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Depois deste exercício não existe mais \"vou pensar quanto cobrar\": existe um número.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Sua tabela de preços", "min": "35 min",
+         "texto": "Rode o prompt da tabela com o seu mercado e o seu nicho. Confira as respostas às objeções: se alguma termina oferecendo desconto, descarte e peça outra.",
+         "pronto": "você tem 5 serviços com o que inclui, o que não inclui, prazo e preço de lançamento, e nenhuma resposta a objeção começa ou termina em desconto."},
+        {"id": "e2", "titulo": "2 · A frase do preço em voz alta", "min": "10 min",
+         "texto": "Leia em voz alta as três versões da frase do preço, cronometrando. Corte até virar afirmação simples.",
+         "pronto": "cada uma das três versões cabe em menos de 15 segundos e separa o que é garantido do que é incerto."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Você ouviu três \"nãos\" seguidos ao dizer o seu preço. O que fazer?",
+         "opcoes": ["Baixar o preço na próxima conversa", "Manter o número por pelo menos dez propostas e tratar o \"não\" como dado", "Copiar o preço de um concorrente famoso"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Mudar o preço a cada conversa impede você de descobrir onde está o teto. Dez propostas com o mesmo número dão uma informação de verdade."},
+        {"p": "Um cliente cancela o contrato mensal no terceiro mês. Qual a causa mais provável?",
+         "opcoes": ["Você entregou pouco", "Saturação de valor: o encantamento virou expectativa e faltou algo novo para esperar", "O preço estava alto desde o começo"],
+         "certa": 1, "ref": "passos",
+         "explica": "Contratos mensais costumam durar de dois a três meses mesmo com entrega igual. O antídoto é mostrar no mês 2 o plano do mês 5."},
+        {"p": "O cliente pede uma tela nova no contrato de manutenção. Como tratar?",
+         "opcoes": ["Faz de graça, para não perder o cliente", "É melhoria: entra na cota de horas, e o que passar é cobrado à parte", "Recusa, porque não estava no contrato"],
+         "certa": 1, "ref": "passos",
+         "explica": "Manutenção conserta o que já foi entregue. Coisa nova é melhoria, cobrada por crédito de horas. Misturar as duas é fazer projeto novo pelo preço de suporte."},
+        {"p": "Por que precificar pelo valor do problema e não só por hora?",
+         "opcoes": ["Porque hora é proibida em consultoria", "Porque hora tem teto baixo e quanto mais rápido você fica, menos ganha", "Porque o cliente nunca sabe quanto custa o problema"],
+         "certa": 1, "ref": "codigo",
+         "explica": "Com a conta aberta (que o cliente consegue refazer na calculadora), o preço vira proporção do valor gerado. Conta que o cliente não entende não sustenta preço nenhum."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Preço é laço", "texto": "Proponha, observe, ajuste um degrau por vez."},
+        {"t": "Faixas são baliza", "texto": "Ilustrativas, em dólar; adapte ao seu mercado e à sua prova social."},
+        {"t": "Conta aberta", "texto": "A dor vira número que o cliente refaz na calculadora."},
+        {"t": "Manutenção ≠ melhoria", "texto": "E conte com a rotatividade de dois a três meses."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "slug": "auditoria",
+  "num": 3,
+  "menu": "Auditoría",
+  "titulo": "La auditoría de IA en 4 pasos",
+  "titulo_curto": "Auditoría de IA",
+  "minutos": 22,
+  "lead": "La auditoría de IA es el servicio más eficaz para entrar a una empresa que nunca ha oído hablar de ti. El cliente sale con un documento que guarda, muestra al socio y usa para decidir: qué usa ya la empresa de IA, qué riesgos trae eso y qué hacer en los próximos 30 días. Y empieza antes de la primera pregunta, con autorización por escrito.",
+  "objetivo": "conducir una auditoría de IA con autorización escrita, inventario de apps y agentes, riesgos e informe con plan de 30 días.",
+  "competencias": [
+    "pedir-autorizacao-por-escrito",
+    "inventariar-apps-e-agentes",
+    "triar-riscos-de-dados-permissoes-chaves",
+    "escrever-relatorio-com-plano-de-30-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Acordar el alcance y la autorización por escrito antes de mirar cualquier cosa"
+    },
+    {
+      "t": "Investigar la empresa y llegar con hipótesis listas"
+    },
+    {
+      "t": "Hacer el inventario de apps y agentes, incluida la IA que TI no conoce"
+    },
+    {
+      "t": "Entregar el informe de 7 partes con plan de 30 días"
+    }
+  ],
+  "hero_alt": "Auditora y el responsable de TI de una distribuidora revisan una hoja de inventario en el portátil.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El camino de la auditoría",
+      "sub": "Un acuerdo y cuatro pasos, siempre en este orden. Haz clic en cada uno.",
+      "nos": [
+        {
+          "icone": "cadeado",
+          "titulo": "Autorización",
+          "sub": "alcance por escrito",
+          "forte": true,
+          "detalhe": "Antes de abrir cualquier sistema: quién autoriza, qué vas a mirar, qué no vas a mirar y por cuánto tiempo. Dicho en voz alta y firmado: \"es evaluación y triaje de riesgos de IA; no es pentest, ni respuesta a incidentes, ni dictamen jurídico\"."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "1 · Investigar",
+          "sub": "antes de la reunión",
+          "detalhe": "Con el sitio web y el correo del contacto ya puedes armar un retrato del negocio, hipótesis de dolor y señales de dónde la empresa ya usa IA. Todo lo que se infiera sin fuente va marcado como suposición."
+        },
+        {
+          "icone": "lista",
+          "titulo": "2 · Inventariar",
+          "sub": "apps, agentes e IA en la sombra",
+          "detalhe": "La lista de lo que existe: sistemas, robots, agentes, integraciones y las herramientas que los empleados instalaron por su cuenta. Para cada elemento: para qué sirve, quién lo usa, a qué datos accede y quién es el dueño."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "3 · Riesgos y soluciones",
+          "sub": "datos, permisos, claves",
+          "detalhe": "Para cada elemento del inventario, tres preguntas: ¿qué dato sale de aquí y hacia dónde? ¿Qué puede hacer por sí solo? ¿Dónde están las claves y contraseñas? Y llegas con las correcciones ya redactadas en borrador, cada una indicando qué queda manual."
+        },
+        {
+          "icone": "arquivo",
+          "titulo": "4 · Informe",
+          "sub": "7 partes y plan de 30 días",
+          "detalhe": "El documento que queda: inventario, riesgos con evidencia, correcciones priorizadas y un plan de 30 días con la victoria rápida del primer mes. Una grabación corta explicando el informe vale más que diez páginas extra."
+        }
+      ],
+      "legenda": "La auditoría no termina en sí misma: genera las ventas siguientes, la corrección y la formación.",
+      "dica": "Es la puerta de entrada de esta formación y el puente hacia la formación Auditor de Profesional 2030."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Los cuatro pasos, por dentro",
+      "sub": "Qué hacer y el error común en cada uno.",
+      "passos": [
+        {
+          "titulo": "Investigar",
+          "sub": "hipótesis, no corazonadas",
+          "texto": [
+            "Ejecuta el prompt de investigación con el nombre de la empresa en una variable: cambias una línea y reutilizas el texto decenas de veces.",
+            "Busca las marcas de suposición. Si no hay ninguna, el modelo está presentando una corazonada como hecho."
+          ]
+        },
+        {
+          "titulo": "Inventariar",
+          "sub": "la lista oficial no basta",
+          "texto": [
+            "TI lista lo que compró. Los empleados usan extensiones, chatbots en la cuenta personal y apps de grabación que nadie aprobó: es la IA en la sombra.",
+            "Una encuesta interna corta (\"¿cómo usas la tecnología en el trabajo?\") revela lo que la lista oficial esconde."
+          ],
+          "exemplo": {
+            "rot": "Formulario",
+            "texto": "Usa un formulario solo cuando el cliente vino a ti. Si fuiste tú quien lo buscó, pedir tarea antes de probar valor tumba la conversación."
+          }
+        },
+        {
+          "titulo": "Riesgos y soluciones",
+          "sub": "con lo que queda manual",
+          "texto": [
+            "Datos: registro de clientes en una hoja abierta o que va a un proveedor sin contrato. Permisos: agente que envía, borra o da descuento sin aprobación. Claves: contraseña o clave de acceso visible en el código o compartida.",
+            "Cada corrección en borrador dice qué quedaría manual. \"Nada, todo automatizado\" es fantasía."
+          ]
+        },
+        {
+          "titulo": "Informe",
+          "sub": "estructura fija",
+          "texto": [
+            "Con la estructura de 7 partes, respondes por correo electrónico el \"¿y qué recibo al final?\".",
+            "Escribe dictando: di lo que concluiste, transcribe y pídele al asistente que lo estructure. Tu opinión de verdad queda en el texto."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El documento va antes que todo. El prompt lo ejecutas antes de la reunión. El inventario y el informe los completas durante y después.",
+      "blocos": [
+        {
+          "rot": "Documento de alcance y autorización",
+          "icone": "cadeado",
+          "conteudo": "DOCUMENTO DE ALCANCE Y AUTORIZACIÓN · AUDITORÍA DE IA\nEmpresa: <razón social>          Fecha: <dd/mm/aaaa>\nQuién autoriza: <nombre, cargo>     Auditor(a): <tu nombre>\n\nQUÉ ES: evaluación y triaje de riesgos de IA.\nNO ES: pentest, ni respuesta a incidentes, ni dictamen jurídico.\n\nQUÉ VOY A REVISAR\n- Inventario de apps, agentes, integraciones y herramientas de IA en uso\n- A qué datos accede cada uno y a dónde los envía\n- Permisos: qué puede hacer cada uno por su cuenta\n- Dónde están las claves y contraseñas de acceso (sin copiarlas)\n\nQUÉ NO VOY A HACER\n- Intentar invadir, probar ataques o tumbar cualquier sistema\n- Copiar, guardar o llevarme datos de clientes o empleados\n- Cambiar configuraciones sin solicitud escrita\n\nACCESO: <pantallas, documentos, personas que voy a entrevistar>\nPERÍODO: del <fecha> al <fecha>\nENTREGA: informe con inventario, riesgos y plan de 30 días\n\nFirma de quien autoriza: ______________________"
+        },
+        {
+          "rot": "Prompt · investigación antes de la reunión",
+          "icone": "chat",
+          "conteudo": "Eres un auditor de IA preparando la primera reunión con una empresa.\nEMPRESA = <nombre de la empresa>\nSITIO = <dirección del sitio>\nSECTOR = <sector, si lo sabes>\n\nInvestiga en la web y devuelve, en este orden:\n1. RETRATO: qué vende la EMPRESA, a quién, tamaño aparente, cómo capta clientes.\n2. DÓNDE YA HAY IA O AUTOMATIZACIÓN VISIBLE: bot en el sitio o en WhatsApp,\n   formularios, app de pedidos, área del cliente. Di dónde lo viste.\n3. HIPÓTESIS DE DOLOR: 6 procesos que las empresas de este tipo hacen a mano.\n4. HIPÓTESIS DE RIESGO: para cada ítem del paso 2, a qué dato\n   probablemente accede y qué podría hacer por su cuenta.\n5. PREGUNTAS PARA LA REUNIÓN: las 10 que solo el dueño puede responder\n   y que cambiarían tus conclusiones.\n\nMarca con [SUPOSICIÓN] todo lo que dedujiste sin fuente. No inventes números.\nNo intentes acceder a áreas restringidas: solo a lo que es público."
+        },
+        {
+          "rot": "Inventario de apps y agentes",
+          "icone": "lista",
+          "conteudo": "INVENTARIO DE IA · <empresa> · <fecha>\n\n| ítem | para qué | quién lo usa | datos a los que accede | puede hacer por su cuenta | dónde está la clave | dueño | ¿oficial? |\n|------|----------|--------------|------------------------|---------------------------|---------------------|-------|-----------|\n| <ej.: agente de WhatsApp> | <ventas> | <atención al cliente> | <conversaciones, registro de clientes> | <crear pedido, descuento> | <panel del proveedor> | <nombre> | sí |\n| <ej.: extensión de resumen de correo> | | | | | | | no (en la sombra) |\n\nRIESGOS (uno por línea, con evidencia)\n- DATOS: <qué sale, a dónde, dónde lo viste>\n- PERMISOS: <qué actúa sin aprobación, dónde lo viste>\n- CLAVES: <dónde están expuestas o compartidas, dónde lo viste>"
+        },
+        {
+          "rot": "Informe de 7 partes",
+          "icone": "arquivo",
+          "conteudo": "INFORME DE AUDITORÍA DE IA · <empresa> · <fecha>\n\n1. OBJETIVOS Y ALCANCE\n   Lo que la empresa considera prioridad, en sus propias palabras.\n   Evaluación y triaje de riesgos de IA; no es pentest, ni respuesta\n   a incidentes, ni dictamen jurídico.\n2. INVENTARIO: apps, agentes, integraciones e IA en la sombra, con dueño.\n3. SISTEMAS Y DATOS: qué tiene puerta de integración, qué no tiene,\n   dónde el dato está desordenado.\n4. RIESGOS CON EVIDENCIA: datos, permisos y claves, del más grave\n   al menos grave.\n5. PREPARACIÓN DEL EQUIPO: qué tan abierto está el equipo a cambiar.\n6. CORRECCIONES Y OPORTUNIDADES PRIORIZADAS: retorno sobre esfuerzo,\n   con la cuenta abierta y lo que queda manual.\n7. PLAN DE 30 DÍAS Y PRÓXIMOS PASOS\n   Semana 1: <victoria rápida>   Semana 2: <...>\n   Semana 3: <...>               Semana 4: <...>\n   Después (60 y 90 días): <lo que viene>\n   Sesión de seguimiento de 30 min: <fecha>"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cuándo rechazar, y si es gratis o de pago",
+      "sub": "La auditoría también es tu filtro. Y la honestidad es lo que cierra.",
+      "passos": [
+        {
+          "titulo": "Dato podrido",
+          "sub": "vende primero el ordenamiento",
+          "texto": [
+            "La misma información escrita de cinco maneras, registros duplicados, un campo que nadie sabe explicar.",
+            "Vende primero el servicio de organizar los datos: menos glamoroso, más seguro."
+          ]
+        },
+        {
+          "titulo": "Sistema sin integración",
+          "sub": "di el precio real",
+          "texto": [
+            "Di cuánto cuesta el rodeo. Si el cliente no lo acepta, recházalo: un acceso bloqueado consume semanas sin culpa tuya."
+          ]
+        },
+        {
+          "titulo": "Equipo resistente",
+          "sub": "capacitación primero",
+          "texto": [
+            "El equipo evita detallar cómo trabaja, por miedo a ser reemplazado, o nadie por debajo del dueño fue avisado.",
+            "Propón capacitación antes de la automatización: quien aprendió a usarla deja de sabotear."
+          ]
+        },
+        {
+          "titulo": "¿Gratis o de pago?",
+          "sub": "depende de una cosa",
+          "texto": [
+            "¿Todavía no generas reuniones por tu cuenta? La auditoría gratuita es tu entrada y tu entrenamiento. ¿Ya tienes un proceso repetible y el cliente vino a ti? Cobra.",
+            "Al final, educa sin atar: di en qué puntos este tipo de proyecto suele fallar, aunque lo ejecute con otra persona."
+          ],
+          "exemplo": {
+            "rot": "Frase",
+            "texto": "Si ejecutan este plan con otra empresa, no hay problema. Presten atención a estos cinco puntos: es donde este tipo de proyecto suele fallar."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica en Horizonte Distribuidora",
+      "sub": "Horizonte es una empresa ficticia de 40 personas, con piezas de IA de estudio. Todo ahí es falso y a propósito.",
+      "fonte": "Laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/\">Horizonte Distribuidora</a> · <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">Inventario de TI</a>",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El documento de autorización",
+          "min": "15 min",
+          "texto": "Completa el documento de alcance y autorización para Horizonte, con el dueño (Carlos Mendes) como quien autoriza. Después lee en voz alta la frase de lo que la auditoría no es.",
+          "pronto": "el documento tiene quién autoriza, qué vas a mirar, qué no vas a hacer, período y entrega, y la frase \"no es pentest, ni respuesta a incidentes, ni dictamen jurídico\" está escrita y fue dicha en voz alta."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Inventario e informe de una página",
+          "min": "45 min",
+          "texto": "Abre el inventario de TI y las piezas del laboratorio. Arma el inventario con el modelo, incluyendo las herramientas que aparecen solo en la búsqueda interna. Nombra un riesgo de datos, uno de permisos y uno de claves, cada uno con dónde lo viste. Cierra con el plan de 30 días.",
+          "pronto": "el inventario tiene cada pieza con dueño y la marca oficial/en la sombra; hay 3 riesgos (datos, permisos, claves) con evidencia; y el plan de 30 días tiene una tarea por semana. Encontrar todas las fallas plantadas queda para la formación Auditor."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "El dueño de la empresa dice \"puedes mirar todo, siéntete a gusto\" por teléfono. ¿Qué haces antes de abrir cualquier sistema?",
+          "opcoes": [
+            "Empiezas enseguida, para aprovechar la buena voluntad",
+            "Envías el documento de alcance y autorización y esperas la firma",
+            "Pides la contraseña de administrador de todos los sistemas"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "La autorización verbal no protege a ninguno de los dos. El documento dice qué miras, qué no haces y por cuánto tiempo, y deja claro que no es pentest, ni respuesta a incidentes, ni dictamen jurídico."
+        },
+        {
+          "p": "La lista oficial de TI tiene 8 herramientas. ¿Por qué el inventario no se detiene ahí?",
+          "opcoes": [
+            "Porque TI siempre miente",
+            "Porque los empleados usan IA por su cuenta (extensiones, chatbot en la cuenta personal), la IA en la sombra",
+            "Porque el inventario necesita tener al menos 20 ítems"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La lista oficial muestra lo que se compró. Lo que más expone datos suele ser lo que alguien instaló para ganar tiempo, sin que nadie lo aprobara."
+        },
+        {
+          "p": "Un agente crea pedidos y concede descuentos sin que nadie lo apruebe. ¿En cuál de los tres riesgos entra primero?",
+          "opcoes": [
+            "Claves",
+            "Permisos",
+            "Ninguno: es solo configuración"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Permiso es lo que el ítem puede hacer por sí solo. Actuar con dinero del cliente sin aprobación humana es el caso típico. Datos y claves son las otras dos preguntas."
+        },
+        {
+          "p": "En la reunión de auditoría, ¿qué es lo que más te diferencia?",
+          "opcoes": [
+            "Hacer muchas preguntas exploratorias en el momento",
+            "Llegar con hipótesis y correcciones ya redactadas, cada una diciendo qué queda manual",
+            "Enviar antes un formulario largo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Llegar con el trabajo adelantado produce el efecto \"esta persona entendió mi negocio\". Y el \"qué queda manual\" honesto protege tu credibilidad en la primera revisión."
+        },
+        {
+          "p": "Los datos del cliente están en cinco planillas con el mismo campo escrito de maneras distintas. ¿Qué va primero en el plan de 30 días?",
+          "opcoes": [
+            "El agente, que va a organizar los datos solo",
+            "Arreglar el dato, antes de cualquier automatización",
+            "Rechazar al cliente"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Con datos podridos, entra basura y sale basura, y con IA el error se multiplica. Arreglar el dato es la venta más segura; rechazar es para un sistema trabado sin aceptación de la solución alternativa."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Autorización primero",
+          "texto": "Alcance por escrito: no es pentest, ni respuesta a incidentes, ni dictamen jurídico."
+        },
+        {
+          "t": "Inventario con dueño",
+          "texto": "Apps, agentes, integraciones y la IA en la sombra."
+        },
+        {
+          "t": "Tres riesgos",
+          "texto": "Datos, permisos y claves, cada uno con evidencia."
+        },
+        {
+          "t": "Informe que se queda",
+          "texto": "7 partes y plan de 30 días; la auditoría genera las ventas siguientes."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Laboratorio: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Profesional 2030: la formación Auditor de IA",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

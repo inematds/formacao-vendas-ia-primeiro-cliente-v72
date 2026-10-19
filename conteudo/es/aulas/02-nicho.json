@@ -1,0 +1,284 @@
+{
+  "slug": "nicho",
+  "num": 2,
+  "menu": "Nicho",
+  "titulo": "Olas, confianza y nicho",
+  "titulo_curto": "Olas y nicho",
+  "minutos": 16,
+  "lead": "Toda ola de tecnología repite el patrón: aparece la novedad, pocas empresas la adoptan y llega un intervalo largo en que la mayoría sabe que va atrasada. En ese intervalo se le paga a quien ayuda a los demás a adoptar con seguridad. Esta lección muestra por qué la confianza viene antes del contrato grande y cómo elegir el nicho sin trabarte.",
+  "objetivo": "elegir un nicho con los 3 criterios (dinero, acceso a quien decide, problema real) y empezar por el sí fácil que genera confianza.",
+  "competencias": [
+    "escolher-nicho-com-criterio",
+    "construir-confianca-por-etapas",
+    "escrever-posicionamento"
+  ],
+  "aprende": [
+    {
+      "t": "Encontrar la fase de la ola en que gana el prestador de servicios"
+    },
+    {
+      "t": "Por qué el robot de conversación dejó de ser la mejor primera venta"
+    },
+    {
+      "t": "Los 4 niveles de la confianza hasta el contrato grande"
+    },
+    {
+      "t": "Elegir el nicho con 3 criterios y una frase de posicionamiento"
+    }
+  ],
+  "hero_alt": "Un consultor conversa con la dueña de una tienda de materiales de construcción en el mostrador.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La lógica de las olas",
+      "sub": "Cuatro fases de toda ola de tecnología. Haz clic en cada una.",
+      "nos": [
+        {
+          "icone": "sol",
+          "titulo": "Novedad",
+          "sub": "la tecnología aparece",
+          "detalhe": "Mucha conversación, poca adopción. Quien vende aquí vende curiosidad, y el cliente todavía no sabe qué pedir."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Primeras empresas",
+          "sub": "un puñado la adopta",
+          "detalhe": "Las empresas con equipo técnico propio prueban por su cuenta. Se llama a poca gente de afuera."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "La mayoría atrasada",
+          "sub": "la ventana del proveedor",
+          "forte": true,
+          "detalhe": "El intervalo, a veces de años, en que la mayoría aún no ha adoptado y sabe que va atrasada. Pasó con los sitios web, las aplicaciones y las redes sociales. Es la fase más rentable para quien ayuda a adoptar y a confiar en lo que se adoptó."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Todo el mundo",
+          "sub": "el margen cae",
+          "detalhe": "Cuando todos ya adoptaron, construir se vuelve commodity. El valor queda en revisar, acompañar y enseñar lo que ya está funcionando."
+        }
+      ],
+      "legenda": "No es la fase más emocionante: es la más rentable para los prestadores de servicios.",
+      "dica": "El modelo es resiliente (sin inventario, sin depender de una plataforma), pero no es pasivo ni rápido: sin conversaciones nuevas cada semana, los ingresos se detienen."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La primera venta cambió",
+      "sub": "El robot de conversación en el sitio web fue la primera venta de casi todos. Por qué ahora es solo una pieza.",
+      "passos": [
+        {
+          "titulo": "El problema sigue siendo real",
+          "sub": "sitios que no responden",
+          "texto": [
+            "El sitio vuelca información, pero no responde la pregunta del visitante. Formulario largo, solo teléfono, nadie responde fuera del horario.",
+            "Abre los sitios de diez empresas de servicios de tu ciudad: la mayoría no tiene nada más que un teléfono."
+          ]
+        },
+        {
+          "titulo": "Construir se volvió fácil",
+          "sub": "la oferta pierde valor",
+          "texto": [
+            "Montar el robot hoy es tarea de una tarde, y muchas herramientas ya traen uno listo.",
+            "Vender solo \"yo instalo el robot\" es competir en precio con la propia herramienta."
+          ]
+        },
+        {
+          "titulo": "La confianza no se volvió fácil",
+          "sub": "la pregunta que queda",
+          "texto": [
+            "El dueño quiere saber: ¿el robot inventa precios? ¿A dónde van los datos de los clientes? ¿Quién responde cuando se equivoca?",
+            "Responder eso es diagnóstico y revisión, y es lo que te abre la puerta de la empresa."
+          ],
+          "exemplo": {
+            "rot": "El giro",
+            "texto": "La entrada pasa a ser la auditoría de IA (clase 3). El robot, cuando tiene sentido, entra como una de sus correcciones."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La confianza viene antes de los contratos grandes",
+      "sub": "Un servicio es una promesa, y una promesa solo la acepta quien confía. Cuatro niveles.",
+      "passos": [
+        {
+          "titulo": "Un sí fácil",
+          "sub": "el dueño aprueba solo",
+          "texto": [
+            "Algo lo bastante barato como para aprobarlo sin reunión ni comité.",
+            "Si necesita pedir autorización, ya perdiste semanas."
+          ]
+        },
+        {
+          "titulo": "Entrega rápido y quédate cerca",
+          "sub": "la presencia genera la próxima venta",
+          "texto": [
+            "El tiempo dentro de la operación del cliente es lo que hace que aparezcan los problemas mayores."
+          ]
+        },
+        {
+          "titulo": "Deja que aparezca el problema grande",
+          "sub": "después de dos o tres meses",
+          "texto": [
+            "El cliente cuenta cosas que jamás contaría en una primera reunión. Ahí nace el proyecto de alto valor, sin que tú empujes nada."
+          ]
+        },
+        {
+          "titulo": "La entrega se vuelve prueba pública",
+          "sub": "testimonio y caso",
+          "texto": [
+            "La prueba de terceros reduce el riesgo percibido por el próximo cliente.",
+            "Es eso, y no tu técnica, lo que te permite cobrar más en el proyecto siguiente."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Nicho: los tres criterios",
+      "sub": "Quedarte en un sector hace que el trabajo se acumule: los mismos problemas, el mismo vocabulario y las mismas objeciones vuelven.",
+      "passos": [
+        {
+          "titulo": "¿Tiene dinero?",
+          "sub": "margen para pagar un servicio",
+          "texto": [
+            "Un negocio que opera al límite va a amar tu idea y no va a comprar."
+          ]
+        },
+        {
+          "titulo": "¿Se puede hablar con quien decide?",
+          "sub": "el dueño atiende",
+          "texto": [
+            "Una decisión enterrada en tres niveles de aprobación es un ciclo demasiado largo para quien necesita caja ahora."
+          ]
+        },
+        {
+          "titulo": "¿Resuelves algo real hoy?",
+          "sub": "no dentro de seis meses",
+          "texto": [
+            "Tiene que existir un problema concreto que ataques con lo que ya sabes."
+          ],
+          "exemplo": {
+            "rot": "Error común",
+            "texto": "Elegir el nicho por la solución (\"yo hago agentes de voz\") en vez del sector. La solución envejece; el sector no."
+          }
+        },
+        {
+          "titulo": "La estructura mínima",
+          "sub": "cabe en una tarde",
+          "texto": [
+            "Negocio: una forma de cobrar y una página con lo que haces. Producto: lo que ya sabes usar. Prospección: una hoja de cálculo y un teléfono.",
+            "Gasta en herramientas solo cuando su falta frene una venta concreta. Al final de cada entrega, 20 minutos: copia limpia, qué se rompió y cuánto tiempo llevó."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar",
+      "sub": "El prompt cierra hoy la decisión del nicho, con los tres criterios aplicados de forma comparable.",
+      "blocos": [
+        {
+          "rot": "Prompt · decidir el nicho",
+          "icone": "chat",
+          "conteudo": "Eres mi analista de mercado. Necesito elegir UN nicho para vender\nservicios de confianza en IA: auditoría de cómo la empresa usa IA,\ndiagnóstico de operación, revisión de lo que ya se construyó y formación.\n\nMi realidad:\n- Sectores donde ya trabajé o tengo contactos: <liste>\n- Ciudad o región donde puedo atender: <onde>\n- Sectores que me interesan, aunque no tenga experiencia: <liste>\n\nEvalúa cada sector con estos tres criterios, nota de 1 a 5:\nA) Hay dinero: margen para pagar por un servicio externo.\nB) Se puede hablar con quien decide: el dueño atiende o hay un muro de aprobación.\nC) Resuelvo algo real hoy, con lo que ya sé, sin estudiar meses.\n\nDespués:\n1. La tabla con las notas y el total.\n2. El ganador, y por qué los demás perdieron.\n3. Para el ganador: los 5 dolores operativos más comunes y dónde la empresa\n   probablemente ya usa IA sin saber si puede confiar en ella.\n4. Mi frase: \"Ayudo a <quién> a <resultado> sin <el dolor que teme>.\"\n5. 10 preguntas que debería saber responder sobre ese sector antes de la\n   primera llamada, marcando las que probablemente no sé.\n\nNo suavices. Si ningún sector sirve, dilo y sugiere dos mejores."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Comprométete con el nicho por al menos un año: por debajo de eso la recomendación no llega.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · La tabla del nicho",
+          "min": "25 min",
+          "texto": "Ejecuta el prompt con al menos tres sectores. Si los totales empatan, los criterios se aplicaron de forma vaga: rehazlo con más detalle sobre cada sector.",
+          "pronto": "la tabla tiene un ganador con margen claro sobre el segundo y la frase de posicionamiento cabe en un respiro, dicha en voz alta."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Las 10 preguntas del sector",
+          "min": "30 min",
+          "texto": "Responde por escrito las 10 preguntas del punto 5 antes de llamar a cualquier empresa. Las que no sepas se convierten en la tarea de la semana.",
+          "pronto": "las 10 preguntas están respondidas o marcadas como tarea, con la fuente de donde vas a sacar la respuesta."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿En qué fase de la ola le pagan mejor al proveedor de servicios?",
+          "opcoes": [
+            "En la novedad, cuando todos hablan del tema",
+            "En el intervalo en que la mayoría aún no adoptó y sabe que va atrasada",
+            "Cuando todas las empresas ya adoptaron"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La fase de la mayoría rezagada es la más rentable para quien ayuda a adoptar. En la novedad el cliente no sabe qué pedir; al final, el margen ya cayó."
+        },
+        {
+          "p": "¿Cuál es el camino recomendado para llegar a un contrato grande?",
+          "opcoes": [
+            "Una propuesta ambiciosa desde el primer contacto",
+            "Empezar por algo pequeño, entregar bien y dejar que aparezca el problema grande",
+            "Invertir en identidad visual para parecer más grande"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Un contrato grande rara vez viene de una propuesta en frío. Llega después de meses de trabajos pequeños con la misma empresa, demostrando que entregas y que avisas cuando algo sale mal."
+        },
+        {
+          "p": "¿Por qué \"instalo el robot de chat en el sitio web\" dejó de ser la mejor primera oferta?",
+          "opcoes": [
+            "Porque las empresas ya no tienen el problema de atender a los visitantes",
+            "Porque construir se volvió fácil y se vuelve una guerra de precios; lo que falta es saber si se puede confiar en el robot",
+            "Porque el robot de chat está prohibido"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El problema sigue siendo real, pero construir se volvió una commodity. La pregunta que queda (¿el robot inventa? ¿a dónde van los datos?) es diagnóstico y revisión."
+        },
+        {
+          "p": "¿Cuál de estos es un error de nicho?",
+          "opcoes": [
+            "Quedarse en el mismo sector por un año",
+            "Elegir el nicho por la solución, como \"yo hago agentes de voz\"",
+            "Elegir un sector en el que el dueño atiende el teléfono"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La solución envejece; el sector no. Un nicho es un recorte de mercado (un sector, a veces un tamaño de empresa), no una herramienta."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La ventana es la mayoría rezagada",
+          "texto": "Quien ayuda a adoptar y a confiar recibe el pago en ella."
+        },
+        {
+          "t": "La primera venta cambió",
+          "texto": "El robot pasa a ser una pieza; la entrada es la auditoría de IA."
+        },
+        {
+          "t": "Confianza por niveles",
+          "texto": "Sí fácil, presencia, problema grande, prueba pública."
+        },
+        {
+          "t": "Nicho por sector",
+          "texto": "Dinero, acceso a quien decide y problema real hoy."
+        }
+      ]
+    }
+  ]
+}

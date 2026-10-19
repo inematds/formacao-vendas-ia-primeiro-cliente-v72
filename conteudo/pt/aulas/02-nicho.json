@@ -1,0 +1,137 @@
+{
+  "slug": "nicho",
+  "num": 2,
+  "menu": "Nicho",
+  "titulo": "Ondas, confiança e nicho",
+  "titulo_curto": "Ondas e nicho",
+  "minutos": 16,
+  "lead": "Toda onda de tecnologia repete o padrão: aparece a novidade, poucas empresas adotam e vem um intervalo longo em que a maioria sabe que está atrasada. Nesse intervalo é pago quem ajuda os outros a adotar com segurança. Esta aula mostra por que confiança vem antes do contrato grande e como escolher o nicho sem travar.",
+  "objetivo": "escolher um nicho pelos 3 critérios (dinheiro, acesso a quem decide, problema real) e começar pelo sim fácil que gera confiança.",
+  "competencias": ["escolher-nicho-com-criterio", "construir-confianca-por-etapas", "escrever-posicionamento"],
+  "aprende": [
+    {"t": "Achar a fase da onda em que o prestador de serviço ganha"},
+    {"t": "Por que o robô de conversa deixou de ser a melhor primeira venda"},
+    {"t": "Os 4 degraus da confiança até o contrato grande"},
+    {"t": "Escolher o nicho com 3 critérios e uma frase de posicionamento"}
+  ],
+  "hero_alt": "Consultor conversa com a dona de uma loja de materiais de construção no balcão.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A lógica das ondas",
+      "sub": "Quatro fases de toda onda de tecnologia. Clique em cada uma.",
+      "nos": [
+        {"icone": "sol", "titulo": "Novidade", "sub": "a tecnologia aparece",
+         "detalhe": "Muita conversa, pouca adoção. Quem vende aqui vende curiosidade, e o cliente ainda não sabe o que pedir."},
+        {"icone": "usuario", "titulo": "Primeiras empresas", "sub": "um punhado adota",
+         "detalhe": "Empresas com time técnico próprio testam sozinhas. Pouca gente de fora é chamada."},
+        {"icone": "relogio", "titulo": "A maioria atrasada", "sub": "a janela do prestador", "forte": true,
+         "detalhe": "O intervalo, às vezes de anos, em que a maioria ainda não adotou e sabe que está atrasada. Foi assim com sites, aplicativos e redes sociais. É a fase mais lucrativa para quem ajuda a adotar e a confiar no que foi adotado."},
+        {"icone": "camadas", "titulo": "Todo mundo", "sub": "a margem cai",
+         "detalhe": "Quando todos já adotaram, a construção vira commodity. Sobra valor em revisar, acompanhar e ensinar o que já está rodando."}
+      ],
+      "legenda": "Não é a fase mais empolgante: é a mais lucrativa para prestadores de serviço.",
+      "dica": "O modelo é resiliente (sem estoque, sem depender de uma plataforma), mas não é passivo nem rápido: sem conversas novas toda semana, a receita para."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "A primeira venda mudou",
+      "sub": "O robô de conversa no site foi a primeira venda de quase todo mundo. Por que ele virou só uma peça.",
+      "passos": [
+        {"titulo": "O problema continua real", "sub": "sites que não respondem",
+         "texto": ["O site despeja informação, mas não responde a pergunta do visitante. Formulário longo, só telefone, ninguém responde fora do horário.", "Abra os sites de dez empresas de serviço da sua cidade: a maioria não tem nada além de um telefone."]},
+        {"titulo": "Construir ficou fácil", "sub": "a oferta perde valor",
+         "texto": ["Montar o robô hoje é tarefa de uma tarde, e muitas ferramentas já trazem um pronto.", "Vender só \"eu instalo o robô\" é disputar preço com a própria ferramenta."]},
+        {"titulo": "Confiar não ficou", "sub": "a pergunta que sobra",
+         "texto": ["O dono quer saber: o robô inventa preço? Para onde vão os dados dos clientes? Quem responde quando ele erra?", "Responder isso é diagnóstico e revisão, e é o que abre a empresa."],
+         "exemplo": {"rot": "A virada", "texto": "A entrada passa a ser a auditoria de IA (aula 3). O robô, quando faz sentido, entra como uma das correções dela."}}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Confiança vem antes dos contratos grandes",
+      "sub": "Serviço é promessa, e promessa só é aceita por quem confia. Quatro degraus.",
+      "passos": [
+        {"titulo": "Um sim fácil", "sub": "o dono aprova sozinho",
+         "texto": ["Algo barato o bastante para aprovar sem reunião nem comitê.", "Se ele precisa pedir autorização, você já perdeu semanas."]},
+        {"titulo": "Entregue rápido e fique por perto", "sub": "presença gera a próxima venda",
+         "texto": ["O tempo dentro da operação do cliente é o que faz os problemas maiores aparecerem."]},
+        {"titulo": "Deixe o problema grande aparecer", "sub": "depois de dois ou três meses",
+         "texto": ["O cliente conta coisas que jamais contaria numa primeira reunião. Ali nasce o projeto de valor alto, sem você empurrar nada."]},
+        {"titulo": "Entrega vira prova pública", "sub": "depoimento e caso",
+         "texto": ["Prova de terceiros reduz o risco percebido pelo próximo cliente.", "É isso, não a sua técnica, que permite cobrar mais no projeto seguinte."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Nicho: os três critérios",
+      "sub": "Ficar num setor faz o trabalho acumular: os mesmos problemas, vocabulário e objeções voltam.",
+      "passos": [
+        {"titulo": "Tem dinheiro?", "sub": "margem para pagar serviço",
+         "texto": ["Um negócio que opera no aperto vai adorar a sua ideia e não vai comprar."]},
+        {"titulo": "Dá para falar com quem decide?", "sub": "o dono atende",
+         "texto": ["Decisão enterrada em três níveis de aprovação é ciclo longo demais para quem precisa de caixa agora."]},
+        {"titulo": "Você resolve algo real hoje?", "sub": "não daqui a seis meses",
+         "texto": ["Precisa existir um problema concreto que você ataca com o que já sabe."],
+         "exemplo": {"rot": "Erro comum", "texto": "Nichar pela solução (\"eu faço agente de voz\") em vez do setor. A solução envelhece; o setor não."}},
+        {"titulo": "A estrutura mínima", "sub": "cabe numa tarde",
+         "texto": ["Negócio: uma forma de receber e uma página com o que você faz. Produto: o que você já sabe usar. Prospecção: uma planilha e um telefone.", "Só gaste com ferramenta quando a falta dela travar uma venda concreta. Ao fim de cada entrega, 20 minutos: cópia limpa, o que quebrou e quanto tempo levou."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar",
+      "sub": "O prompt fecha a decisão do nicho hoje, com os três critérios aplicados de forma comparável.",
+      "blocos": [
+        {"rot": "Prompt · decidir o nicho", "icone": "chat",
+         "conteudo": "Você é meu analista de mercado. Preciso escolher UM nicho para vender\nserviços de confiança em IA: auditoria de como a empresa usa IA,\ndiagnóstico de operação, revisão do que já foi construído e treinamento.\n\nMinha realidade:\n- Setores onde já trabalhei ou tenho contatos: <liste>\n- Cidade ou região onde consigo atender: <onde>\n- Setores que me interessam, mesmo sem experiência: <liste>\n\nAvalie cada setor com estes três critérios, nota de 1 a 5:\nA) Tem dinheiro: margem para pagar por serviço externo.\nB) Dá para falar com quem decide: o dono atende ou existe muro de aprovação.\nC) Eu resolvo algo real hoje, com o que já sei, sem estudar meses.\n\nDepois:\n1. A tabela com as notas e o total.\n2. O vencedor, e por que os outros perderam.\n3. Para o vencedor: as 5 dores operacionais mais comuns e onde a empresa\n   provavelmente já usa IA sem saber se pode confiar.\n4. Minha frase: \"Eu ajudo <quem> a <resultado> sem <a dor que ele teme>.\"\n5. 10 perguntas que eu deveria saber responder sobre esse setor antes da\n   primeira ligação, marcando as que eu provavelmente não sei.\n\nNão amenize. Se nenhum setor prestar, diga isso e sugira dois melhores."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Comprometa-se com o nicho por pelo menos um ano: abaixo disso a indicação não chega.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · A tabela do nicho", "min": "25 min",
+         "texto": "Rode o prompt com pelo menos três setores. Se os totais empatarem, os critérios foram aplicados de forma vaga: refaça com mais detalhe sobre cada setor.",
+         "pronto": "a tabela tem um vencedor com margem clara sobre o segundo e a frase de posicionamento cabe num fôlego, dita em voz alta."},
+        {"id": "e2", "titulo": "2 · As 10 perguntas do setor", "min": "30 min",
+         "texto": "Responda por escrito as 10 perguntas do item 5 antes de ligar para qualquer empresa. As que você não souber viram a lição de casa da semana.",
+         "pronto": "as 10 perguntas estão respondidas ou marcadas como lição de casa, com a fonte de onde você vai tirar a resposta."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Em que fase da onda o prestador de serviço é mais bem pago?",
+         "opcoes": ["Na novidade, quando todo mundo fala do assunto", "No intervalo em que a maioria ainda não adotou e sabe que está atrasada", "Quando todas as empresas já adotaram"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "A fase da maioria atrasada é a mais lucrativa para quem ajuda a adotar. Na novidade o cliente não sabe o que pedir; no fim, a margem já caiu."},
+        {"p": "Qual é o caminho recomendado para chegar a um contrato grande?",
+         "opcoes": ["Uma proposta ambiciosa logo no primeiro contato", "Começar por algo pequeno, entregar bem e deixar o problema grande aparecer", "Investir em identidade visual para parecer maior"],
+         "certa": 1, "ref": "passos",
+         "explica": "Contrato grande raramente vem de proposta fria. Vem depois de meses de trabalhos pequenos com a mesma empresa, provando que você entrega e avisa quando algo dá errado."},
+        {"p": "Por que \"eu instalo o robô de conversa no site\" deixou de ser a melhor primeira oferta?",
+         "opcoes": ["Porque as empresas já não têm o problema de responder visitantes", "Porque construir ficou fácil e vira disputa de preço; o que falta é saber se dá para confiar no robô", "Porque robô de conversa é proibido"],
+         "certa": 1, "ref": "passos",
+         "explica": "O problema continua real, mas a construção comoditizou. A pergunta que sobra (o robô inventa? para onde vão os dados?) é diagnóstico e revisão."},
+        {"p": "Qual destes é um erro de nicho?",
+         "opcoes": ["Ficar no mesmo setor por um ano", "Nichar pela solução, como \"eu faço agente de voz\"", "Escolher um setor em que o dono atende o telefone"],
+         "certa": 1, "ref": "passos",
+         "explica": "A solução envelhece; o setor não. Nicho é recorte de mercado (um setor, às vezes um porte), não uma ferramenta."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "A janela é a maioria atrasada", "texto": "Quem ajuda a adotar e a confiar é pago nela."},
+        {"t": "A primeira venda mudou", "texto": "O robô vira uma peça; a entrada é a auditoria de IA."},
+        {"t": "Confiança por degraus", "texto": "Sim fácil, presença, problema grande, prova pública."},
+        {"t": "Nicho por setor", "texto": "Dinheiro, acesso a quem decide e problema real hoje."}
+      ]
+    }
+  ]
+}

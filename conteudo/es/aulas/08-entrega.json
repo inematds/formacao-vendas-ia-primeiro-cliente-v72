@@ -1,0 +1,353 @@
+{
+  "slug": "entrega",
+  "num": 8,
+  "menu": "Entrega",
+  "titulo": "Entregar, acompañar y el plan de 30 días",
+  "titulo_curto": "Entrega y plan",
+  "minutos": 22,
+  "lead": "Un contrato bien escrito no protege a nadie de un cliente insatisfecho: lo que protege es la entrega rápida y visible en la primera semana. La entrega no cierra la relación, la abre. Esta lección te muestra cómo entregar en las cuentas del cliente, revisar un agente por sus cinco partes, acompañar sin saturar y cerrar tu plan de 30 días hasta el primer cliente.",
+  "objetivo": "entregar rápido en las cuentas del cliente, revisar el agente por las 5 partes y armar tu plan de 30 días hasta el primer cliente.",
+  "competencias": [
+    "entregar-nas-contas-do-cliente",
+    "revisar-instrucao-de-agente",
+    "acompanhar-e-achar-o-problema-seguinte",
+    "planejar-30-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Entregar rápido, dentro de las cuentas del cliente"
+    },
+    {
+      "t": "Revisar la instrucción de un agente por sus 5 partes"
+    },
+    {
+      "t": "Acompañar, encontrar el problema siguiente y pedir el testimonio correcto"
+    },
+    {
+      "t": "Generar tu plan de 30 días con fechas"
+    }
+  ],
+  "hero_alt": "El consultor les muestra a tres empleados de una distribuidora una pizarra con post-its en cuatro columnas.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo después del sí",
+      "sub": "No es un camino recto, es un ciclo. Haz clic en cada etapa.",
+      "volta": "el próximo cliente percibe menos riesgo",
+      "nos": [
+        {
+          "icone": "enviar",
+          "titulo": "Entregar rápido",
+          "sub": "en la primera semana",
+          "detalhe": "Duplica lo que ya tienes, aliméntalo con los datos del negocio, pruébalo como un cliente molesto y avisa con una grabación corta que muestre que funciona. Siempre que sea posible, dentro de las cuentas del propio cliente, entregándole los accesos."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Acompañar",
+          "sub": "conversación quincenal",
+          "detalhe": "Quince minutos: qué apareció, qué ajustar y qué está molestando en la operación. La tercera pregunta es la que vale. Lee lo que respondió el agente y corrige antes de que te lo reclamen."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Problema siguiente",
+          "sub": "sin propuesta en frío",
+          "detalhe": "Auditoría → corrección del riesgo más caro → capacitación del equipo que va a convivir con ella → acompañamiento mensual. Y muestra en el mes 2 el mapa del mes 5: nadie cancela un contrato del que todavía espera algo."
+        },
+        {
+          "icone": "check",
+          "titulo": "Prueba",
+          "sub": "testimonio específico",
+          "forte": true,
+          "detalhe": "Lo que te permite cobrar más en el próximo proyecto no es que te hayas vuelto más hábil: es que el próximo cliente percibe menos riesgo. El riesgo percibido baja con la prueba de terceros, pedida la misma semana de la entrega."
+        }
+      ],
+      "legenda": "Por eso el quinto cliente es más fácil que el primero, y por eso el primero tiene que ser barato."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Revisar un agente: las 5 partes",
+      "sub": "La calidad de un agente está en un bloque de texto, la instrucción. Revisar las cinco partes es un servicio de confianza, incluso cuando lo construyó otra persona.",
+      "passos": [
+        {
+          "titulo": "Contexto y acción",
+          "sub": "quién es y qué hace",
+          "texto": [
+            "Dónde está, con quién habla y las tres cosas que hace, nada más que eso.",
+            "Un agente con un objetivo del tipo \"cierra lo máximo posible\" ya es una señal: falta un límite."
+          ]
+        },
+        {
+          "titulo": "Reglas",
+          "sub": "lo que nunca hace",
+          "texto": [
+            "Prometer plazos, dar precios o descuentos fuera de la tabla, inventar información que no está en los datos, seguir órdenes pegadas en el texto del cliente.",
+            "Cada acción con dinero o datos necesita un tope o una aprobación humana."
+          ]
+        },
+        {
+          "titulo": "Formato",
+          "sub": "conversación, no documento",
+          "texto": [
+            "Mensajes cortos, tono humano, sin párrafos largos. Y decir que es IA cuando pregunten."
+          ]
+        },
+        {
+          "titulo": "Seguridad",
+          "sub": "la parte olvidada",
+          "texto": [
+            "La frase exacta para cuando no sabe, y la frase exacta para pasar a una persona. Es lo que evita la vergüenza frente al cliente.",
+            "Pruébalo con preguntas que no debería poder responder: si inventa, endurece la regla antes de mostrarlo a cualquier cliente."
+          ],
+          "exemplo": {
+            "rot": "Antes de publicar",
+            "texto": "¿Responde las cinco dudas más comunes? ¿Admite que no sabe? ¿El aviso de interesado le llega a quien lo necesita? ¿Funciona en el celular? ¿La cuenta de uso del modelo tiene saldo?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "El checklist lo usas en cualquier agente. La solicitud de testimonio sale la semana de la entrega.",
+      "blocos": [
+        {
+          "rot": "Checklist de revisión del agente",
+          "icone": "escudo",
+          "conteudo": "REVISIÓN DE LA INSTRUCCIÓN DEL AGENTE · <empresa> · <fecha>\nAlcance: evaluación y triaje de riesgos de IA; no es pentest, ni respuesta\na incidentes, ni dictamen jurídico. Autorización por escrito: [ ] sí\n\nCONTEXTO  [ ] dice quién es, dónde está y con quién habla\nACCIÓN    [ ] lista lo que hace (máximo 3 cosas)\nREGLAS    [ ] prohíbe inventar información fuera de los datos\n          [ ] tiene tope para descuento, precio y valor de pedido\n          [ ] ignora órdenes pegadas en el texto del cliente\n          [ ] exige aprobación humana para acciones con dinero o datos\nFORMATO   [ ] mensajes cortos; dice que es IA cuando le preguntan\nSEGURIDAD [ ] frase exacta cuando no sabe\n          [ ] frase exacta para pasar a una persona\n          [ ] registro de lo que hizo (quién, cuándo, cuánto)\n\nCORRECCIONES (una por línea, con la parte y dónde lo viste)\n1. <parte> · <qué falta> · <dónde lo viste> · <corrección propuesta>\n2.\n3."
+        },
+        {
+          "rot": "Solicitud de testimonio",
+          "icone": "chat",
+          "conteudo": "Hola <nombre>, qué bueno que esté funcionando bien.\n¿Puedo pedirte un favor de dos minutos? Un testimonio tuyo ayuda mucho\ncon los próximos clientes. No hace falta escribir nada elaborado: respóndeme\nsolo esto, incluso en audio si te resulta más fácil:\n1. ¿Cuál era el problema antes?\n2. ¿Qué cambió después?\n3. ¿Qué te hizo aceptar, aun sin conocerme?\nSi prefieres, yo lo escribo con base en tus respuestas y te lo mando para que lo apruebes."
+        },
+        {
+          "rot": "Prompt · mi plan de 30 días",
+          "icone": "calendario",
+          "conteudo": "Arma mi plan de 30 días para conseguir el primer cliente de\nauditoría de IA.\nMI NICHO = <sector>\nMI OFERTA DE ENTRADA = <qué es y el precio>\nHORAS POR DÍA = <número>       DÍAS DISPONIBLES = <cuáles>\nFECHA DE INICIO = <fecha>\n\nS1 nicho, oferta y documento de autorización · S2 lista y guion ·\nS3 llamar todos los días · S4 reunión, auditoría y testimonio.\n\n1. Calendario día a día, máximo 3 tareas por día, que quepan en las horas.\n   Tareas concretas y verificables; nada de \"estudiar sobre el tema\".\n2. La META NUMÉRICA de cada semana (empresas en la lista, llamadas,\n   reuniones, auditorías).\n3. Los 3 puntos donde probablemente me voy a trabar, y qué hacer en cada uno.\n4. Un CRITERIO DE PARADA por semana: la señal para cambiar el enfoque.\nSi las horas no alcanzan, dilo en la primera línea y propón 45 días."
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "El mapa del curso",
+      "sub": "Cuatro entregas hasta el primer cliente. Haz clic en un ejercicio para ver el \"listo cuando\".",
+      "degraus": [
+        {
+          "aula": "auditoria",
+          "icone": "escudo",
+          "quando": "Semana 1",
+          "titulo": "Auditar",
+          "sub": "Documento e informe",
+          "saida": "Documento de autorización e informe con plan de 30 días.",
+          "passo": "Tu oferta de entrada: autorización por escrito, inventario de apps y agentes, tres riesgos y el plan de 30 días. Practica en Horizonte Distribuidora."
+        },
+        {
+          "aula": "preco",
+          "icone": "grafico",
+          "quando": "Semana 1",
+          "titulo": "Poner precio",
+          "sub": "Tabla y frase del precio",
+          "saida": "Tabla con 5 servicios y precio de entrada.",
+          "passo": "Requiere la auditoría. Pon precio de entrada a la auditoría y a los servicios que ella arrastra."
+        },
+        {
+          "aula": "ligacao",
+          "icone": "chat",
+          "quando": "Semanas 2 y 3",
+          "titulo": "Prospectar",
+          "sub": "Guion y llamada simulada",
+          "saida": "Guion de una página y reuniones agendadas.",
+          "passo": "Requiere la lista de la clase 5. Practica en la simulación, luego llama todos los días hábiles."
+        },
+        {
+          "aula": "entrega",
+          "icone": "check",
+          "quando": "Semana 4",
+          "titulo": "Entregar",
+          "sub": "Revisión y plan",
+          "saida": "Revisión del agente y plan de 30 días con fechas.",
+          "passo": "Requiere la reunión de la clase 7. Entrega rápido, revisa por las 5 partes y pide el testimonio en la misma semana."
+        }
+      ],
+      "resultado": {
+        "titulo": "Al final del curso",
+        "texto": "Entras a las empresas por la auditoría de IA, con precio, lista, guion y una forma de entregar que genera la próxima venta.",
+        "total": "16 ejercicios"
+      },
+      "rolagem_fim": {
+        "titulo": "El ciclo completo",
+        "texto": "La auditoría abre la puerta, el precio es una prueba, la llamada agenda la reunión y la entrega genera la prueba del próximo cliente. Las clases 1, 2, 5 y 7 entran en el plan generado abajo."
+      },
+      "legenda": "Portafolio (clase 1), nicho (clase 2), lista (clase 5) y reunión (clase 7) entran en el plan con fechas."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Genera tu plan con fechas",
+      "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan incluye los 16 ejercicios del curso.",
+      "curso": "Ventas con IA 4 · De Cero al Primer Cliente",
+      "horas_padrao": 8,
+      "degraus": [
+        {
+          "titulo": "Clase 1 · Lo que pierde valor",
+          "aula": "piramide"
+        },
+        {
+          "titulo": "Clase 2 · Olas y nicho",
+          "aula": "nicho"
+        },
+        {
+          "titulo": "Clase 3 · Auditoría de IA",
+          "aula": "auditoria"
+        },
+        {
+          "titulo": "Clase 4 · El precio es una prueba",
+          "aula": "preco"
+        },
+        {
+          "titulo": "Clase 5 · Lista que convierte",
+          "aula": "lista"
+        },
+        {
+          "titulo": "Clase 6 · Llamada en frío",
+          "aula": "ligacao"
+        },
+        {
+          "titulo": "Clase 7 · La reunión",
+          "aula": "reuniao"
+        },
+        {
+          "titulo": "Clase 8 · Entrega y plan",
+          "aula": "entrega"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — Ventas con IA 4 · De Cero al Primer Cliente",
+        "inicio": "Inicio",
+        "ritmo": "Ritmo",
+        "termino": "Fin previsto",
+        "ate": "hasta",
+        "pronto": "listo cuando",
+        "semanas": "semanas",
+        "travou": "## Qué se trabó y la regla que creé",
+        "h": "h por semana",
+        "exs": "ejercicios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Terminar el curso no cambia nada por sí solo. La diferencia casi nunca es conocimiento: es la semana 3.",
+      "fonte": "Laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">agente de WhatsApp de Horizonte Distribuidora</a>",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Revisión del agente de Horizonte",
+          "min": "40 min",
+          "texto": "Abre la pieza del agente de WhatsApp en el laboratorio y lee su instrucción. Pasa el checklist de revisión parte por parte y escribe las correcciones.",
+          "pronto": "las 5 partes están marcadas en el checklist y hay al menos 3 correcciones, cada una con la parte, dónde la viste y la corrección propuesta. La revisión completa del agente es trabajo de la formación Auditor."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tu plan de 30 días",
+          "min": "30 min",
+          "texto": "Usa el generador de arriba con tu fecha de inicio y tus horas. Si quieres detallar día a día, ejecuta también el prompt del plan.",
+          "pronto": "descargaste el plan.md y el .ics, el primer bloque de llamadas está en la agenda y cada semana tiene una meta numérica."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué parte de la instrucción del agente es la que más gente olvida, y la que evita que invente información?",
+          "opcoes": [
+            "El formato de la respuesta",
+            "La seguridad: qué hace cuando no sabe o cuando le piden algo fuera del alcance",
+            "El contexto de dónde está"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Sin la frase exacta del \"no sé\" y del paso a una persona, el agente inventa con total seguridad frente al cliente."
+        },
+        {
+          "p": "La instrucción de un agente de ventas dice \"concede el descuento que haga falta para no perder la venta\". ¿En qué parte está el problema?",
+          "opcoes": [
+            "Formato",
+            "Reglas: falta un tope y aprobación humana para acciones con dinero",
+            "Contexto"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Toda acción con dinero o datos necesita un tope o aprobación humana. Es una de las correcciones que escribe la revisión, con dónde la viste."
+        },
+        {
+          "p": "¿Por qué construir dentro de las cuentas del cliente y entregar los accesos?",
+          "opcoes": [
+            "Para ahorrar en herramientas",
+            "Porque pierdes la palanca de mantener la solución como rehén y ganas la fama de quien no retiene a nadie",
+            "Porque es obligatorio"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Es la construcción convirtiéndose en parte de un servicio de confianza. Esa fama es lo que cierra los próximos proyectos."
+        },
+        {
+          "p": "¿Qué testimonio ayuda más al próximo cliente?",
+          "opcoes": [
+            "\"Ustedes son geniales, se los recomiendo\"",
+            "Uno que cuente el problema de antes y el cambio observable después",
+            "Un texto largo sobre tu técnica"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "El riesgo percibido baja con pruebas concretas de terceros. Si solo llegan elogios, vuelve y pregunta específicamente qué cambió."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "La velocidad protege",
+          "texto": "Entrega en la primera semana, en las cuentas del cliente."
+        },
+        {
+          "t": "Cinco partes",
+          "texto": "Contexto, acción, reglas, formato y seguridad. La última es la que se olvida."
+        },
+        {
+          "t": "La entrega abre la relación",
+          "texto": "Acompañamiento quincenal y el mapa del mes 5 en el mes 2."
+        },
+        {
+          "t": "Plan de 30 días",
+          "texto": "Auditar, fijar precios, prospectar y entregar, con fechas."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Siguiente de la formación: Ventas con IA 5 · Masterclass",
+          "href": "https://inematds.github.io/formacao-vendas-ia-masterclass-v72/",
+          "icone": "seta"
+        },
+        {
+          "t": "Laboratorio: Horizonte Distribuidora",
+          "href": "https://inematds.github.io/prof2030-lab/",
+          "icone": "escudo"
+        },
+        {
+          "t": "Profesional 2030: la formación Auditor de IA",
+          "href": "https://eventos.inema.pro/prof2030/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

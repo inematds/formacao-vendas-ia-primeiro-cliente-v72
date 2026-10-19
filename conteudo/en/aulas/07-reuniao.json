@@ -1,0 +1,262 @@
+{
+  "slug": "reuniao",
+  "num": 7,
+  "menu": "Meeting",
+  "titulo": "From a booked meeting to a closed deal",
+  "titulo_curto": "The meeting",
+  "minutos": 18,
+  "lead": "A booked meeting is not a client yet. It gets lost in no-shows, a messy screen, jargon, and the rush to sell. This lesson prepares the fifteen minutes: confirm in writing, arrive with a diagnostic preview built from public data, calibrate the level of the conversation, and listen more than you talk.",
+  "objetivo": "prepare the diagnostic preview with public data and run a 15-minute meeting listening more than you talk.",
+  "competencias": [
+    "confirmar-reuniao-por-escrito",
+    "preparar-previa-de-diagnostico",
+    "conduzir-reuniao-consultiva"
+  ],
+  "aprende": [
+    {
+      "t": "Confirm with an invite and a written yes"
+    },
+    {
+      "t": "Build the diagnostic preview before the meeting"
+    },
+    {
+      "t": "Set the level of the conversation with the first question"
+    },
+    {
+      "t": "Present the entry offer calmly"
+    }
+  ],
+  "hero_alt": "A consultant on a video call listens closely to the owner of a small business, notebook open.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The fifteen minutes",
+      "sub": "From confirmation to the next step. Tap each stage.",
+      "nos": [
+        {
+          "icone": "check",
+          "titulo": "Confirm",
+          "sub": "invite + written yes",
+          "detalhe": "A calendar invite and a separate message asking for an \"ok.\" Whoever replies shows up; whoever doesn't was just being polite on the phone. If there's no reply a few hours before, send a short reminder."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Diagnostic preview",
+          "sub": "done before the meeting",
+          "forte": true,
+          "detalhe": "With what's public (website, support channels, reviews, what the company says it uses), you arrive with three findings and one risk hypothesis. Say what it is: \"I put this together with your public information yesterday.\" The concrete effort is the argument."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Four tabs",
+          "sub": "and nothing else",
+          "detalhe": "Their website, the diagnostic preview, the math behind the numbers, and your calendar. Messaging inbox closed, nothing from another client open, slides only at the end, if any."
+        },
+        {
+          "icone": "chat",
+          "titulo": "Calibrate and listen",
+          "sub": "talk less than they do",
+          "detalhe": "The first question finds the level: \"how much have you worked with AI in the company so far?\" Then, open questions. You are a consultant who happens to have a service, not a salesperson who happens to ask questions."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Offer and next step",
+          "sub": "with the calendar open",
+          "detalhe": "The entry offer in three sentences or fewer, and the next step booked right there, with no \"I'll send it to you later.\""
+        }
+      ],
+      "legenda": "One hour of preparation beforehand is worth more than any technique used during the meeting."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Inside the meeting",
+      "sub": "The order of the conversation, without a fixed script.",
+      "passos": [
+        {
+          "titulo": "State the scope right away",
+          "sub": "what it is and what it isn't",
+          "texto": [
+            "Before showing the preview: \"what I do is assess and triage AI risks. It is not a pentest, nor incident response, nor legal advice.\"",
+            "Saying what you don't do is what makes everything else seem trustworthy."
+          ]
+        },
+        {
+          "titulo": "Calibrate the level",
+          "sub": "the first question",
+          "texto": [
+            "\"I'm a developer\": raise the level. \"I've only used those chats\": lower it and don't use a single technical word from then on.",
+            "The serious mistake isn't speaking too simply: it's making the person feel dumb."
+          ]
+        },
+        {
+          "titulo": "Ask and pull the thread",
+          "sub": "open questions",
+          "texto": [
+            "\"What AI tools does the team use today, including on their own?\" \"What happens when the bot doesn't know how to answer?\" \"If one problem disappeared tomorrow, which would it be?\"",
+            "Help with something you don't sell: a useful tip outside the scope buys more trust than any argument."
+          ]
+        },
+        {
+          "titulo": "Show, don't tell",
+          "sub": "the preview on screen",
+          "texto": [
+            "Share your screen and show the three findings, along with where you saw them. End with a question, never an accusation.",
+            "\"You're exposed\" triggers defensiveness. \"Is it possible that no one has checked where these conversations go?\" lets them reach the conclusion on their own."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The calm of someone who doesn't need that sale",
+      "sub": "The entry offer is small for a practical reason: a small price keeps you relaxed, and calm reads as competence.",
+      "passos": [
+        {
+          "titulo": "The entry offer",
+          "sub": "simple and short",
+          "texto": [
+            "For example: a fixed-scope AI audit, with an inventory, risks and a 30-day plan, at a price the owner can approve alone.",
+            "Mention in passing what else you do (fixes, training, monthly advisory), without pushing."
+          ]
+        },
+        {
+          "titulo": "\"I'll think about it\"",
+          "sub": "don't push",
+          "texto": [
+            "On a small offer, it almost always means \"I didn't see the value.\" Ask honestly what was missing: the answer improves your next meeting.",
+            "Objections in depth are covered in courses 3 and 5 of the program."
+          ]
+        },
+        {
+          "titulo": "When there's no fit",
+          "sub": "close gracefully",
+          "texto": [
+            "The company uses nothing worth auditing, the person answers in monosyllables, or the real pain is somewhere you don't solve.",
+            "Say so, and you gain a contact who will refer you later."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "Send the message right after the call. You use the opening and the script in the meeting.",
+      "blocos": [
+        {
+          "rot": "Confirmation message",
+          "icone": "enviar",
+          "conteudo": "Hi <name>, this is <your name>, we just spoke a moment ago.\nI just sent you the invite for <day> at <time>, it's 15 minutes.\nI'm going to prepare a preview using public information about <company>\nspecifically, so I want to make sure you'll be able to make it.\nCan you confirm with an \"ok\" so I can start preparing?"
+        },
+        {
+          "rot": "Meeting opening",
+          "icone": "chat",
+          "conteudo": "— <Name>, thank you for your time. Before we start, one sentence about what\n  I do: I assess and triage the company's AI risks. It is not a\n  pentest, nor incident response, nor legal advice.\n— And one quick question, so I don't waste your time on things\n  you already know: how much do you and your team already use AI day to day?"
+        },
+        {
+          "rot": "Prompt · diagnostic preview",
+          "icone": "lupa",
+          "conteudo": "You are an AI auditor preparing a 3-minute preview to show\nin the first meeting. Use ONLY public information.\nCOMPANY = <name>\nWEBSITE = <address>\nWHAT I'VE ALREADY FOUND = <paste the research from lesson 3>\n\nDeliver:\n1. THREE FINDINGS, each with: what I saw, where I saw it (link or screen)\n   and why it matters to the owner, in an owner's language.\n2. ONE RISK HYPOTHESIS (data, permissions or keys), written as a\n   question, never as an accusation.\n3. WHAT I DON'T KNOW and can only find out with written authorization.\n4. The transition sentence into the entry offer.\nDo not try to access restricted areas. Mark anything inferred as [ASSUMPTION]."
+        },
+        {
+          "rot": "Prompt · 15-minute script",
+          "icone": "relogio",
+          "conteudo": "You are my consultative-meeting coach. Build my script.\nMY NICHE = <industry>\nMY ENTRY OFFER = <what it is and how much it costs>\nWHAT I SHOW ON SCREEN = <diagnostic preview with public data>\n\nTimed blocks:\n0-1 min   OPENING: scope in one sentence + the question that calibrates the level.\n1-5 min   DIAGNOSIS: 6 OPEN questions for this industry, with what to listen for.\n5-9 min   THE PREVIEW: the 3 findings, always ending in a question.\n9-12 min  WHAT THE FULL AUDIT DELIVERS: inventory, risks, 30-day plan.\n12-14 min OFFER: the price in 3 sentences at most.\n14-15 min NEXT STEP: book it right there and send the authorization form.\nAlso: 4 signs that there is NO fit, and what I NEVER say.\nSpoken language, zero jargon."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "After each meeting, two lines: what they said and where you got stuck.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Confirmation and preview",
+          "min": "40 min",
+          "texto": "Adapt the confirmation message. Then run the preview prompt for a real company from your list (or for Horizonte Distribuidora from the lab).",
+          "pronto": "the message asks for a one-word reply, and the preview has 3 findings with where you saw them and a risk hypothesis written as a question."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · 15-minute script",
+          "min": "30 min",
+          "texto": "Run the script prompt and add up the time of the blocks where you do the talking. Turn explanation into questions until it fits.",
+          "pronto": "your talking adds up to at most 7 of the 15 minutes, the scope sentence is in the opening, and the script ends with the authorization form marked for sending."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What is the highest-impact preparation before the meeting?",
+          "opcoes": [
+            "A well-designed slide presentation",
+            "The diagnostic preview built from that company's public data",
+            "Memorizing closing techniques"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Showing up with their work already started turns the meeting into a demonstration, not a promise. And say what it is: \"I put this together from your public information.\""
+        },
+        {
+          "p": "Why ask for a written \"ok\" in the confirmation message?",
+          "opcoes": [
+            "To have legal proof of the booking",
+            "Because people who reply show up, and silence warns you ahead of time that the meeting will fall through",
+            "To show professionalism"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Without a request for a reply, you have no signal at all about attendance. No-shows are the biggest waste in the calendar of someone just starting out."
+        },
+        {
+          "p": "In the preview you found that the automated customer service seems to send conversations to an outside service. How do you present it?",
+          "opcoes": [
+            "\"You are leaking customer data\"",
+            "\"Is it possible that no one has checked where these conversations go?\"",
+            "Don't mention it, so as not to scare them"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A conclusion phrased as a question lets them reach the risk on their own, and a conclusion of their own is not up for debate. A statement triggers defensiveness; and you don't yet have authorization to confirm it."
+        },
+        {
+          "p": "The client says \"I'll think about it\" about a small entry offer. What should you do?",
+          "opcoes": [
+            "Push with a discount",
+            "Honestly ask what was missing",
+            "Send three reminders during the week"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "On a small offer, \"I'll think about it\" almost always means \"I didn't see the value.\" The honest answer is the gift that makes the next meeting better."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Invitation + written yes",
+          "texto": "This is what cuts no-shows."
+        },
+        {
+          "t": "Preview before you get paid",
+          "texto": "Three public findings, with where you saw them."
+        },
+        {
+          "t": "Scope and calibration",
+          "texto": "Say what it is not, and speak at the person's level."
+        },
+        {
+          "t": "Small offer, big calm",
+          "texto": "And the next step booked on the open calendar."
+        }
+      ]
+    }
+  ]
+}

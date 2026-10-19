@@ -1,0 +1,127 @@
+{
+  "slug": "piramide",
+  "num": 1,
+  "menu": "Pirâmide",
+  "titulo": "O que perde valor e o que fica",
+  "titulo_curto": "O que perde valor",
+  "minutos": 16,
+  "lead": "Vender IA não é uma coisa só. São camadas: umas ficam mais valiosas com o tempo, outras viram commodity e o preço despenca. Construir um site, uma loja ou um robô ficou fácil, e quem vende só isso disputa preço. Esta aula separa as camadas e monta o seu portfólio na base que dura.",
+  "objetivo": "separar as ofertas de construção, que perdem valor, das de confiança, que se acumulam, e montar o seu portfólio de 4 ofertas.",
+  "competencias": ["separar-oferta-que-comoditiza", "montar-portfolio-de-ofertas", "calcular-margem-por-projeto"],
+  "aprende": [
+    {"t": "Ler a pirâmide do dinheiro em IA: ticket alto × vida útil"},
+    {"t": "Escolher a porta de entrada certa para quem está no zero"},
+    {"t": "Olhar margem, não faturamento"},
+    {"t": "Montar um portfólio de 4 ofertas em que construção é parte de um serviço"}
+  ],
+  "hero_alt": "Pirâmide de blocos de pedra sobre uma mesa: base larga e firme, bloco do topo rachado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "A pirâmide do dinheiro em IA",
+      "sub": "Do topo para a base: o ticket cai, a vida útil sobe. Clique em cada camada.",
+      "estilo": "escada",
+      "nos": [
+        {"icone": "robo", "titulo": "Construção avulsa", "sub": "site, loja, robô, automação simples",
+         "detalhe": "Vende bem hoje, mas qualquer pessoa aprende a montar em uma tarde, e as próprias ferramentas já geram o fluxo a partir de uma frase. É a camada que mais perde valor. Venda se pagar as contas; não construa a sua identidade nela."},
+        {"icone": "lupa", "titulo": "Revisão", "sub": "conferir o que foi construído",
+         "detalhe": "A empresa já tem robô, agente ou app feito por IA e não sabe se pode confiar. Revisar permissões, dados e o que o agente faz quando não sabe é um serviço que cresce junto com a quantidade de coisas construídas."},
+        {"icone": "calendario", "titulo": "Acompanhamento", "sub": "ajustar quando quebra",
+         "detalhe": "Quem já tem algo rodando quer alguém por perto para ajustar. O acompanhamento nasce da entrega e é o que evita recomeçar do zero todo mês."},
+        {"icone": "escudo", "titulo": "Diagnóstico e ensino", "sub": "a base que compõe", "forte": true,
+         "detalhe": "Cada empresa que você diagnostica melhora as perguntas da próxima. O material de um treinamento é reaproveitado no seguinte. E quem confia em você compra de novo sem cotar concorrente. É a única camada que fica mais valiosa quanto mais tempo você fica nela."}
+      ],
+      "legenda": "Sua identidade fica na base: \"eu ajudo empresas a confiar no que a IA faz\", não \"eu faço agente de voz\".",
+      "dica": "No Profissional 2030 a base tem nome: diagnosticar, revisar, acompanhar e ensinar."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "As quatro portas de entrada",
+      "sub": "Quatro razões pelas quais uma empresa paga alguém para tocar IA. Não são igualmente boas.",
+      "passos": [
+        {"titulo": "Desconhecimento", "sub": "a janela que fecha",
+         "texto": ["O cliente paga caro porque não sabe o quanto aquilo é simples.", "Desaparece assim que o assunto vira tutorial popular. Use como caixa, nunca como plano."]},
+        {"titulo": "Amostra grátis", "sub": "a porta que abre a próxima",
+         "texto": ["Você ensina ou diagnostica algo pequeno de graça, a pessoa vê valor real e aceita um projeto de teste.", "É a rota mais confiável para quem está no zero."],
+         "exemplo": {"rot": "No zero", "texto": "Um diagnóstico gratuito bem feito abre porta que e-mail nenhum abre."}},
+        {"titulo": "Vantagem injusta", "sub": "o setor onde você já viveu",
+         "texto": ["Trabalhou anos em logística, contabilidade ou seguros? Venda para lá.", "Você já fala a língua, conhece as regras e sabe onde dói."]},
+        {"titulo": "Pressão de aparência", "sub": "a empresa que precisa mostrar ação",
+         "texto": ["Empresas grandes são cobradas internamente: \"o que estamos fazendo sobre IA?\".", "Ali treinamento e consultoria alcançam os maiores valores, mas o iniciante raramente chega no primeiro ano."]}
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Faturamento não é lucro",
+      "sub": "O número que circula em print de tela é sempre faturamento. Sozinho, ele não diz nada.",
+      "passos": [
+        {"titulo": "Margem por projeto", "sub": "o número que importa",
+         "texto": ["Um contrato grande pagando equipe pode deixar quase nada. Um projeto menor feito por você pode deixar muito mais.", "Régua saudável para operação com terceirizados: margem líquida entre 35% e 45%."]},
+        {"titulo": "Horas reais", "sub": "inclusive as que não viraram nada",
+         "texto": ["Conte as horas de proposta e de reunião que não fecharam.", "Projeto aprovado e não pago é prejuízo com prazo."]},
+        {"titulo": "Peças que se puxam", "sub": "um mês é uma soma",
+         "texto": ["A auditoria descobre o problema; a correção daquele problema é a venda seguinte.", "Quem aprendeu a usar pede treinamento; quem tem algo rodando pede acompanhamento."],
+         "exemplo": {"rot": "Cuidado", "texto": "Acompanhamento mensal costuma durar de dois a três meses. O antídoto está na aula 8: mostrar no mês 2 o mapa do mês 5."}},
+        {"titulo": "Os erros que derrubam", "sub": "não é a tecnologia",
+         "texto": ["Super-engenharia, construir sobre dado podre, prometer prazo que depende de terceiros, nichar sem dado e cobrar pedindo desculpa.", "Fale mais simples do que parece necessário."]}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A conta de uma linha antes de aceitar qualquer projeto, e o prompt do portfólio.",
+      "blocos": [
+        {"rot": "A conta de uma linha", "icone": "lista",
+         "conteudo": "PROJETO: <nome>\nPreço: <valor>  ·  Horas estimadas: <h>  ·  Custo de terceiros: <valor>\nMargem = (preço − custo de terceiros − horas × <sua hora>) ÷ preço = <%>\n\nSe a margem não fecha em pelo menos um terço:\n[ ] o preço sobe   [ ] o escopo encolhe   [ ] eu recuso"},
+        {"rot": "Prompt · portfólio de 90 dias", "icone": "chat",
+         "conteudo": "Você é meu estrategista de ofertas. Vou montar um negócio de serviços\nde IA para os próximos 90 dias, vendendo confiança: diagnosticar,\nrevisar, acompanhar e ensinar. Construção só entra como parte de um\ndesses serviços.\n\nMeu contexto:\n- Setor onde eu já tenho experiência de verdade: <setor, ou \"nenhum\">\n- O que eu já sei construir hoje: <liste, mesmo que pouco>\n- Horas por semana disponíveis: <número>\n- Quanto eu preciso faturar por mês para isso valer a pena: <valor>\n\nMonte para mim:\n1. QUATRO ofertas, da mais fácil de vender para a mais difícil. Para cada\n   uma: nome, o que está incluído, o que fica de fora, tempo de entrega,\n   faixa de preço e por que um cliente compraria ESSA.\n2. A SEQUÊNCIA: qual oferta abre a porta para qual, e a frase que eu uso\n   para propor a seguinte depois de entregar a anterior.\n3. A CONTA: quantas vendas de cada oferta eu preciso por mês, com as horas\n   que eu tenho. Se não fechar, diga isso na cara e proponha o que cortar.\n4. Marque quais ofertas provavelmente estarão comoditizadas em 12 meses.\n\nNão invente demanda. Se faltar informação, pergunte antes de chutar."}
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "Guarde as respostas num arquivo com a data de hoje. Releia em 90 dias.",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · Seu portfólio de 4 ofertas", "min": "30 min",
+         "texto": "Rode o prompt do portfólio com o seu contexto. Reescreva o resultado até cada oferta ser de diagnóstico, revisão, acompanhamento ou ensino; se houver construção, ela aparece dentro de um desses serviços.",
+         "pronto": "o arquivo tem 4 ofertas com o que fica de fora de cada uma, a sequência entre elas e a conta fechada em números; nenhuma oferta é só \"eu construo\"."},
+        {"id": "e2", "titulo": "2 · A conta de uma linha", "min": "10 min",
+         "texto": "Pegue a sua oferta de entrada e preencha a conta de uma linha com preço, horas e custo de terceiros.",
+         "pronto": "a margem está calculada em % e, se ficou abaixo de um terço, você marcou o que muda: preço, escopo ou recusa."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Qual camada da pirâmide fica mais valiosa quanto mais tempo você fica nela?",
+         "opcoes": ["Agentes de voz, porque o ticket é alto", "Diagnóstico e ensino, porque conhecimento e material se acumulam", "Automação simples, porque todo mundo precisa"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Cada diagnóstico melhora o próximo e o material de treinamento é reaproveitado. Ticket alto e vida longa apontam para lados opostos: o agente de voz paga bem hoje e some."},
+        {"p": "Você está no zero, sem passado em nenhum setor. Por qual porta entrar?",
+         "opcoes": ["Pressão de aparência, mirando empresas grandes", "Amostra grátis: um diagnóstico pequeno e bem feito", "Desconhecimento, cobrando caro enquanto dá"],
+         "certa": 1, "ref": "passos",
+         "explica": "Sem reputação, sobram amostra grátis e vantagem injusta. Pressão de aparência exige histórico; desconhecimento é janela que fecha."},
+        {"p": "Um contrato de acompanhamento grande e um projeto pequeno feito por você sozinho. Qual número decide qual é melhor?",
+         "opcoes": ["O faturamento de cada um", "A margem líquida que sobra no fim", "O número de clientes"],
+         "certa": 1, "ref": "passos",
+         "explica": "Faturamento sozinho engana. O contrato grande pode deixar quase nada depois de pagar a equipe. Olhe a margem: régua saudável entre 35% e 45%."},
+        {"p": "Qual oferta deste portfólio tem mais chance de perder valor em 12 meses?",
+         "opcoes": ["Diagnóstico de como a empresa usa IA", "Construir um robô de conversa para o site", "Treinar o time para usar o que foi entregue"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Construção avulsa é a camada que mais comoditiza. O robô pode continuar existindo, mas como parte de um serviço de diagnóstico, revisão ou acompanhamento."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Topo comoditiza, base compõe", "texto": "Venda as camadas de cima se pagarem as contas; a identidade fica na base."},
+        {"t": "Quatro portas", "texto": "No zero, entre por amostra grátis ou pelo setor onde você já viveu."},
+        {"t": "Margem, não faturamento", "texto": "Conta de uma linha antes de aceitar: abaixo de um terço, muda algo."},
+        {"t": "Peças que se puxam", "texto": "Auditoria puxa correção, que puxa treinamento, que puxa acompanhamento."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "slug": "preco",
+  "num": 4,
+  "menu": "Precio",
+  "titulo": "El precio es una prueba",
+  "titulo_curto": "El precio es una prueba",
+  "minutos": 18,
+  "lead": "Nadie puede decirte el precio exacto de lo que haces. Lo que existe es un proceso: propones un número, observas la respuesta del mercado y ajustas. Esta clase te da los rangos por servicio como referencia, muestra cómo convertir el dolor en un número y separa el mantenimiento de la mejora, donde más gente se enreda.",
+  "objetivo": "armar tu tabla de precios por rango, con la cuenta del valor y la separación entre mantenimiento y mejora.",
+  "competencias": [
+    "testar-preco-no-mercado",
+    "precificar-por-valor",
+    "separar-manutencao-de-melhoria"
+  ],
+  "aprende": [
+    {
+      "t": "Tratar el precio como una prueba y el \"no\" como información"
+    },
+    {
+      "t": "Usar los rangos por servicio sin copiar el precio de nadie"
+    },
+    {
+      "t": "Convertir el dolor del cliente en una cuenta que él pueda rehacer"
+    },
+    {
+      "t": "Separar mantenimiento de mejora en el contrato mensual"
+    }
+  ],
+  "hero_alt": "Manos sobre una mesa con calculadora, cuaderno de números y bolígrafo.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "El ciclo del precio",
+      "sub": "El precio no es una fórmula: es un ciclo. Haz clic en cada etapa.",
+      "volta": "ajusta y propón de nuevo",
+      "nos": [
+        {
+          "icone": "caneta",
+          "titulo": "Proponer",
+          "sub": "un número firme",
+          "detalhe": "Di el precio sin pedir disculpas. El precio es una información, no un pedido. Mantén el mismo número por al menos diez propuestas antes de concluir algo."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Observar",
+          "sub": "¿la agenda sigue llenándose?",
+          "detalhe": "Trata el \"no\" como un dato, no como un veredicto sobre ti. Muestra dónde está el techo en ese momento de reputación."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Ajustar",
+          "sub": "un nivel a la vez",
+          "forte": true,
+          "detalhe": "Sube un nivel a la vez y mira si la agenda sigue llena. Con el tiempo y con prueba de terceros, el mismo trabajo pasa a valer más sin haberse vuelto más complejo."
+        }
+      ],
+      "legenda": "Cómo se sabotea uno: cambiar el precio en cada conversación, dar descuento antes de que lo pidan, copiar el precio de quien tiene diez veces más reputación.",
+      "dica": "Todos los valores de esta clase están en dólares, como rango ilustrativo de un mercado maduro. Adapte a su mercado."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Los rangos, servicio por servicio",
+      "sub": "Referencias, no reglas: sirven para que no pidas una décima parte de lo que vales ni el triple de lo que puedes entregar. Rango ilustrativo en dólares; adapte a su mercado.",
+      "passos": [
+        {
+          "titulo": "Auditoría de IA",
+          "sub": "gratis a US$ 3.000",
+          "texto": [
+            "El tope del rango viene del entregable: informe estructurado, inventario, riesgos con evidencia y plan de 30 días.",
+            "Es tu puerta de entrada: gratis mientras aprendes, se cobra cuando el proceso es repetible."
+          ]
+        },
+        {
+          "titulo": "Capacitación interna",
+          "sub": "US$ 2.500 a 25.000",
+          "texto": [
+            "La mejor relación esfuerzo-retorno: construye confianza con varias personas a la vez y es reciclable. El primero lleva unas diez horas de preparación; el undécimo, dos.",
+            "Una capacitación por área multiplica el mismo material por tres contratos."
+          ]
+        },
+        {
+          "titulo": "Construcción suelta",
+          "sub": "asistente US$ 250 a 4.000 · automatización US$ 2.000 a 15.000",
+          "texto": [
+            "El tope solo se sostiene cuando implica ordenar el desorden de datos del cliente o conectar acciones a sus sistemas, no solo escribir instrucciones.",
+            "Es el rango que más cae cuando aparece una alternativa lista por suscripción."
+          ],
+          "exemplo": {
+            "rot": "Ventana",
+            "texto": "Un tipo de solución es raro y caro durante unos meses. Después llegan los tutoriales y las herramientas listas, y lo que valía miles pasa a parecer cosa de suscripción. Usa el dinero de la ventana para construir relación y reputación."
+          }
+        },
+        {
+          "titulo": "Consultoría por hora",
+          "sub": "US$ 50 a 500/h",
+          "texto": [
+            "El tope exige historial comprobado y prueba social. El volumen cae a medida que el precio sube.",
+            "Cobrar por hora tiene un techo bajo: cuanto más rápido te vuelves, menos ganas. Por eso la próxima sección."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Recurrencia: mantenimiento no es mejora",
+      "sub": "El contrato mensual da previsibilidad, y es donde más gente termina haciendo un proyecto nuevo al precio de un soporte.",
+      "passos": [
+        {
+          "titulo": "Mantenimiento",
+          "sub": "valor fijo mensual",
+          "texto": [
+            "Lo que ya se entregó y dejó de funcionar, tú lo arreglas.",
+            "Cubre fallas de la solución, no cambios que el cliente hizo por su cuenta."
+          ]
+        },
+        {
+          "titulo": "Mejora",
+          "sub": "crédito de horas",
+          "texto": [
+            "Algo nuevo, cambio de alcance, una pantalla diferente.",
+            "El plan mensual incluye una cuota de horas; lo que pase de ahí se cobra aparte."
+          ],
+          "exemplo": {
+            "rot": "Ejemplo",
+            "texto": "Plan de US$ 1.500 = US$ 1.000 de mantenimiento + 4 horas de mejora incluidas. Rango ilustrativo; adapte a su mercado."
+          }
+        },
+        {
+          "titulo": "La rotación",
+          "sub": "dos a tres meses",
+          "texto": [
+            "Mes 1: el cliente queda encantado; mes 2: eso ya se volvió expectativa; mes 3: \"¿qué has hecho por mí últimamente?\". No es insatisfacción, es saturación de valor.",
+            "Antídoto: muestra en el mes 2 el plan del mes 5, y mantén la prospección en marcha aunque la agenda esté llena."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "Primero la cuenta del valor, después tu tabla. La frase del precio la entrenas en voz alta.",
+      "blocos": [
+        {
+          "rot": "Prompt · el valor del problema",
+          "icone": "chat",
+          "conteudo": "Eres mi analista de precios.\nCLIENTE = <tipo de empresa y tamaño>\nPROBLEMA = <el dolor en dos frases, tal como lo describió el cliente>\nMI SOLUCIÓN = <lo que vas a entregar>\nMIS HORAS ESTIMADAS = <número>\nCOSTO DE TERCEROS = <valor o cero>\n\nHaz esto en este orden:\n1. Los 3 a 6 NÚMEROS que necesito preguntarle al cliente para saber cuánto\n   cuesta ese problema por mes, con las preguntas listas, sin jerga.\n2. Con valores plausibles para el tamaño, MUESTRA LA CUENTA paso a paso\n   del costo mensual y anual del problema, marcando lo que es suposición.\n3. TRES rangos de precio (conservador, probable, agresivo), cada uno\n   justificado como proporción del valor generado.\n4. Mi margen neto en cada rango. Si queda por debajo del 35%, dilo.\n5. LA FRASE que digo al presentar el precio, sin pedir disculpas y sin\n   prometer lo que no está en el alcance.\nSi falta información esencial, pregunta antes de suponer."
+        },
+        {
+          "rot": "Prompt · mi tabla de precios",
+          "icone": "lista",
+          "conteudo": "Eres mi consultor de precios. Arma mi tabla de servicios\nde confianza en IA (auditoría, revisión, formación, acompañamiento).\nMI MERCADO = <país/región y moneda>\nMI NICHO = <sector>\nMI EXPERIENCIA REAL = <lo que ya entregué, o \"ninguna\">\nMI PRUEBA SOCIAL = <testimonios, casos, o \"ninguna\">\nHORAS POR SEMANA = <número>\n\nRangos de referencia de un mercado maduro, en dólares:\n- Auditoría: 0 a 3.000 · Formación por área: 2.500 a 25.000\n- Consultoría por hora: 50 a 500 · Automatización puntual: 2.000 a 15.000\n\n1. AJUSTA los rangos a mi mercado y a mi nivel de prueba social,\n   justificando cada ajuste.\n2. Tabla con 5 servicios: nombre, qué incluye, qué NO incluye,\n   plazo y precio de lanzamiento.\n3. Mi PRECIO DE ENTRADA para el primer cliente.\n4. La frase del precio en 3 versiones: teléfono, mensaje, reunión.\n5. Mis respuestas a las 4 objeciones de precio más comunes en mi nicho.\n   Ninguna puede empezar con descuento.\nSeñala cualquier precio que me deje con margen por debajo de 35%."
+        },
+        {
+          "rot": "Cómo se dice un precio",
+          "icone": "megafone",
+          "conteudo": "Mi hora es <X>. Tengo experiencia con <A> y con <B>, y garantizo esos\ndos puntos. Sobre <C> tengo incertidumbre, porque nunca lo hice exactamente\nasí: por eso voy a cobrar <5> horas, aunque probablemente\nvoy a trabajar <7>."
+        }
+      ]
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Después de este ejercicio ya no existe \"voy a pensar cuánto cobrar\": existe un número.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tu tabla de precios",
+          "min": "35 min",
+          "texto": "Ejecuta el prompt de la tabla con tu mercado y tu nicho. Revisa las respuestas a las objeciones: si alguna termina ofreciendo descuento, descártala y pide otra.",
+          "pronto": "tienes 5 servicios con lo que incluye, lo que no incluye, plazo y precio de lanzamiento, y ninguna respuesta a una objeción empieza o termina en descuento."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La frase del precio en voz alta",
+          "min": "10 min",
+          "texto": "Lee en voz alta las tres versiones de la frase del precio, cronometrando. Recorta hasta que quede una afirmación simple.",
+          "pronto": "cada una de las tres versiones cabe en menos de 15 segundos y separa lo que está garantizado de lo que es incierto."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "Escuchaste tres \"no\" seguidos al decir tu precio. ¿Qué hacer?",
+          "opcoes": [
+            "Bajar el precio en la próxima conversación",
+            "Mantener el número por lo menos diez propuestas y tratar el \"no\" como dato",
+            "Copiar el precio de un competidor famoso"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Cambiar el precio en cada conversación te impide descubrir dónde está el techo. Diez propuestas con el mismo número dan información de verdad."
+        },
+        {
+          "p": "Un cliente cancela el contrato mensual en el tercer mes. ¿Cuál es la causa más probable?",
+          "opcoes": [
+            "Entregaste poco",
+            "Saturación de valor: el encanto se volvió expectativa y faltó algo nuevo que esperar",
+            "El precio estaba alto desde el principio"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Los contratos mensuales suelen durar de dos a tres meses incluso con la misma entrega. El antídoto es mostrar en el mes 2 el plan del mes 5."
+        },
+        {
+          "p": "El cliente pide una pantalla nueva dentro del contrato de mantenimiento. ¿Cómo tratarlo?",
+          "opcoes": [
+            "La haces gratis, para no perder al cliente",
+            "Es una mejora: entra en la cuota de horas, y lo que pase se cobra aparte",
+            "La rechazas, porque no estaba en el contrato"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El mantenimiento arregla lo que ya se entregó. Lo nuevo es mejora, cobrada por crédito de horas. Mezclar las dos es hacer un proyecto nuevo al precio de soporte."
+        },
+        {
+          "p": "¿Por qué fijar el precio por el valor del problema y no solo por hora?",
+          "opcoes": [
+            "Por qué la hora está prohibida en consultoría",
+            "Porque la hora tiene un techo bajo y cuanto más rápido te vuelves, menos ganas",
+            "Porque el cliente nunca sabe cuánto cuesta el problema"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Con la cuenta abierta (que el cliente puede rehacer en la calculadora), el precio pasa a ser una proporción del valor generado. Una cuenta que el cliente no entiende no sostiene ningún precio."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "El precio es un ciclo",
+          "texto": "Propón, observa, ajusta un nivel a la vez."
+        },
+        {
+          "t": "Los rangos son una referencia",
+          "texto": "Ilustrativos, en dólares; adáptalos a tu mercado y a tu prueba social."
+        },
+        {
+          "t": "Cuenta abierta",
+          "texto": "El dolor se vuelve un número que el cliente rehace en la calculadora."
+        },
+        {
+          "t": "Mantenimiento ≠ mejora",
+          "texto": "Y cuenta con una rotación de dos a tres meses."
+        }
+      ]
+    }
+  ]
+}
